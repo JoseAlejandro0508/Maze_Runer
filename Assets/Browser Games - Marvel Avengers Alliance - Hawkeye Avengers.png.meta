@@ -1,0 +1,3341 @@
+fileFormatVersion: 2
+guid: 13f1ed7339c340141b03233a47c72923
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4236076659176087865
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_0
+  - first:
+      213: -8403404000100847406
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_1
+  - first:
+      213: -4375794687233734371
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_2
+  - first:
+      213: -141167218312197828
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_3
+  - first:
+      213: 7364653476441297368
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_4
+  - first:
+      213: 415543427698523540
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_5
+  - first:
+      213: -6669210456394101437
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_6
+  - first:
+      213: 4507171876266461226
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_7
+  - first:
+      213: -3327933595449232386
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_8
+  - first:
+      213: 6448906186927499477
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_9
+  - first:
+      213: -1758113169179389534
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_10
+  - first:
+      213: 4868922705544068366
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_11
+  - first:
+      213: 9012041753720988674
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_12
+  - first:
+      213: 8214166573738496053
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_13
+  - first:
+      213: 5384383974004334997
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_14
+  - first:
+      213: 675576322054911256
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_15
+  - first:
+      213: -2877011484646125270
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_16
+  - first:
+      213: 2770237436680555782
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_17
+  - first:
+      213: -4277239842893543843
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_18
+  - first:
+      213: 1447094145010928692
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_19
+  - first:
+      213: 1142580766477543068
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_20
+  - first:
+      213: -204397319106560925
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_21
+  - first:
+      213: 7057441216418776236
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_22
+  - first:
+      213: -3349514697126030652
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_23
+  - first:
+      213: -3200614456225389871
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_24
+  - first:
+      213: 887204588781455266
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_25
+  - first:
+      213: -4715791876170636036
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_26
+  - first:
+      213: 8850083704697375979
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_27
+  - first:
+      213: -1903891551706502706
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_28
+  - first:
+      213: -7786932129711201412
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_29
+  - first:
+      213: 4046660440348919066
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_30
+  - first:
+      213: -1209567992814229670
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_31
+  - first:
+      213: 199843821539285431
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_32
+  - first:
+      213: 7118177668374710995
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_33
+  - first:
+      213: 1304148207955557383
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_34
+  - first:
+      213: -8329021544795823498
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_35
+  - first:
+      213: 6046115863733394917
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_36
+  - first:
+      213: 1198004743924760648
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_37
+  - first:
+      213: 289584918158555859
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_38
+  - first:
+      213: 1328926261406113143
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_39
+  - first:
+      213: 2977476564318396833
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_40
+  - first:
+      213: 6709935591237548
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_41
+  - first:
+      213: 8532005684899893042
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_42
+  - first:
+      213: -1456302680807706976
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_43
+  - first:
+      213: 8382160987326089553
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_44
+  - first:
+      213: 1695233835223431738
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_45
+  - first:
+      213: 1444102358621360605
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_46
+  - first:
+      213: -1727641429855875359
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_47
+  - first:
+      213: -4463189695340765275
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_48
+  - first:
+      213: -7441111285874760804
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_49
+  - first:
+      213: 5959106298815840661
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_50
+  - first:
+      213: -2323558953277300997
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_51
+  - first:
+      213: -488731019920960612
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_52
+  - first:
+      213: 5152997897035911516
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_53
+  - first:
+      213: -5864763453155639638
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_54
+  - first:
+      213: -3141060487445128374
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_55
+  - first:
+      213: -8150080893830790131
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_56
+  - first:
+      213: 4668243838624973077
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_57
+  - first:
+      213: -5679640495635776779
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_58
+  - first:
+      213: 6106098723361143973
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_59
+  - first:
+      213: 7827270595378393410
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_60
+  - first:
+      213: 3804725194985369067
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_61
+  - first:
+      213: 5767877483197782204
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_62
+  - first:
+      213: 5604422343730612542
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_63
+  - first:
+      213: 3760360873041361235
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_64
+  - first:
+      213: -6744649497683299984
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_65
+  - first:
+      213: 4645245452567391206
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_66
+  - first:
+      213: -7825261426315886748
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_67
+  - first:
+      213: -5878529979676222684
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_68
+  - first:
+      213: -26084181624861799
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_69
+  - first:
+      213: 5278637687089971247
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_70
+  - first:
+      213: -2934786470861557832
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_71
+  - first:
+      213: -7305152286695968899
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_72
+  - first:
+      213: -1540170774638586234
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_73
+  - first:
+      213: 4611554479944966613
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_74
+  - first:
+      213: -5229023136956284471
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_75
+  - first:
+      213: -6918862404411082612
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_76
+  - first:
+      213: 276240914068714477
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_77
+  - first:
+      213: 6358083673261902598
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_78
+  - first:
+      213: 4532133003364235974
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_79
+  - first:
+      213: -4613096312618212689
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_80
+  - first:
+      213: -292063866330721358
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_81
+  - first:
+      213: -4949782261559333818
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_82
+  - first:
+      213: -6359486916956288452
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_83
+  - first:
+      213: 7628238190443184649
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_84
+  - first:
+      213: 1679903449924337267
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_85
+  - first:
+      213: 3150929709256847182
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_86
+  - first:
+      213: 7930423836496554336
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_87
+  - first:
+      213: 8407087786061469212
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_88
+  - first:
+      213: -2244203888392317056
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_89
+  - first:
+      213: 6461246000323953738
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_90
+  - first:
+      213: 1511395814880088260
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_91
+  - first:
+      213: 7535018659379767319
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_92
+  - first:
+      213: -7687367959105748941
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_93
+  - first:
+      213: 4917717341750165030
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_94
+  - first:
+      213: -2709559237750895942
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_95
+  - first:
+      213: 3100788381889230001
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_96
+  - first:
+      213: -388066277048312774
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_97
+  - first:
+      213: 3700690233194754817
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_98
+  - first:
+      213: 2066701834008166573
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_99
+  - first:
+      213: -3984824152585426580
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_100
+  - first:
+      213: -6118535549507726502
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_101
+  - first:
+      213: 7473792983222038346
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_102
+  - first:
+      213: -6347897855103354104
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_103
+  - first:
+      213: 276189426422995424
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_104
+  - first:
+      213: 5991694488514436338
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_105
+  - first:
+      213: 1092636470106956864
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_106
+  - first:
+      213: -4725422441434725862
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_107
+  - first:
+      213: 8121661813926850501
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_108
+  - first:
+      213: -5737742627839012613
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_109
+  - first:
+      213: -203992705492274066
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_110
+  - first:
+      213: -5303570440230090286
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_111
+  - first:
+      213: -2025077323910702294
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_112
+  - first:
+      213: -6971338717964567438
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_113
+  - first:
+      213: -5056147261447771225
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_114
+  - first:
+      213: -3408986651895448321
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_115
+  - first:
+      213: 4396838448780820738
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_116
+  - first:
+      213: -374958175824205027
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_117
+  - first:
+      213: 2460424920749785690
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_118
+  - first:
+      213: 5268594044051161141
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_119
+  - first:
+      213: -7923629470547049855
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_120
+  - first:
+      213: 3175004345695052168
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_121
+  - first:
+      213: 2957441314796938338
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_122
+  - first:
+      213: -3473238393013558745
+    second: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_123
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 524
+        width: 176
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931a38f174199ca30800000000000000
+      internalID: 4236076659176087865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 628
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d074e5c59c116b80800000000000000
+      internalID: -8403404000100847406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 603
+        width: 71
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1944697aed0643c0800000000000000
+      internalID: -4375794687233734371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 559
+        width: 114
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c394292b9297a0ef0800000000000000
+      internalID: -141167218312197828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 499
+        width: 177
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d111253151843660800000000000000
+      internalID: 7364653476441297368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 499
+        width: 173
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49df7bcbb8e44c500800000000000000
+      internalID: 415543427698523540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 499
+        width: 174
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d0f46cc643273a0800000000000000
+      internalID: -6669210456394101437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_7
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 499
+        width: 181
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a284e7201f0bc8e30800000000000000
+      internalID: 4507171876266461226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_8
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 499
+        width: 181
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3f82fe60ec0d1d0800000000000000
+      internalID: -3327933595449232386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 515
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8e1ad520e1f7950800000000000000
+      internalID: 6448906186927499477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 555
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a15024336de997e0800000000000000
+      internalID: -1758113169179389534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 413
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0db9ce6763e19340800000000000000
+      internalID: 4868922705544068366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 471
+        width: 114
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20427872a34311d70800000000000000
+      internalID: 9012041753720988674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 286
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53012917af49ef170800000000000000
+      internalID: 8214166573738496053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_14
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 286
+        width: 188
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591a5d852bc29ba40800000000000000
+      internalID: 5384383974004334997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_15
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 286
+        width: 250
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8157fb6e511206900800000000000000
+      internalID: 675576322054911256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_16
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 278
+        width: 165
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21d2fa3c4dc218d0800000000000000
+      internalID: -2877011484646125270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_17
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 430
+        width: 145
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d45d4754cd17620800000000000000
+      internalID: 2770237436680555782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 339
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56ce21560134a4c0800000000000000
+      internalID: -4277239842893543843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 350
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c8ce5357c151410800000000000000
+      internalID: 1447094145010928692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 345
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96661947234bdf00800000000000000
+      internalID: 1142580766477543068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 345
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c7c91a8b5d92df0800000000000000
+      internalID: -204397319106560925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_22
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 345
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca487d7f46111f160800000000000000
+      internalID: 7057441216418776236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_23
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 345
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c25ad321222481d0800000000000000
+      internalID: -3349514697126030652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_24
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 382
+        width: 145
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2a4b11c122593d0800000000000000
+      internalID: -3200614456225389871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 226
+        width: 51
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a74a657fdbff4c00800000000000000
+      internalID: 887204588781455266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 224
+        width: 199
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf42d2226442e8eb0800000000000000
+      internalID: -4715791876170636036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_27
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 227
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becc5fa5d30d1da70800000000000000
+      internalID: 8850083704697375979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 226
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9aaa198b40495e0800000000000000
+      internalID: -1903891551706502706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_29
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 222
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73ec762c724fe390800000000000000
+      internalID: -7786932129711201412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_30
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 47
+        width: 172
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a158f99fa30a82830800000000000000
+      internalID: 4046660440348919066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_31
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 47
+        width: 175
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5720a0b150c63fe0800000000000000
+      internalID: -1209567992814229670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_32
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 3
+        width: 595
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9d76995ecf5c200800000000000000
+      internalID: 199843821539285431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_33
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7
+        width: 87
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dac79b20e8d8c260800000000000000
+      internalID: 7118177668374710995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_34
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c37ada2e3491210800000000000000
+      internalID: 1304148207955557383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_35
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 172
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672aed7b80f596c80800000000000000
+      internalID: -8329021544795823498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 172
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eddea8285e18e350800000000000000
+      internalID: 6046115863733394917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 172
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8404ed0a7fa20a010800000000000000
+      internalID: 1198004743924760648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 172
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dab623e2ffc40400800000000000000
+      internalID: 289584918158555859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_39
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 153
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d9ccfc46b417210800000000000000
+      internalID: 1328926261406113143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_40
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 172
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1af3fe82f125920800000000000000
+      internalID: 2977476564318396833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7a16f96a6d71000800000000000000
+      internalID: 6709935591237548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_42
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 172
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f421647f5c76670800000000000000
+      internalID: 8532005684899893042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 172
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aee1097d6c2acbe0800000000000000
+      internalID: -1456302680807706976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_44
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 172
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15985b3e10b635470800000000000000
+      internalID: 8382160987326089553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_45
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 172
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a37bff03ea68710800000000000000
+      internalID: 1695233835223431738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_46
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 169
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd11ee8a17b7a0410800000000000000
+      internalID: 1444102358621360605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_47
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 172
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee4132e54f2608e0800000000000000
+      internalID: -1727641429855875359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_48
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 172
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af970c7e909f02c0800000000000000
+      internalID: -4463189695340765275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_49
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 172
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93e84fc5bcdbb890800000000000000
+      internalID: -7441111285874760804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_50
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59106b72b9ff2b250800000000000000
+      internalID: 5959106298815840661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_51
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 153
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe5a37517f01cfd0800000000000000
+      internalID: -2323558953277300997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_52
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 153
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9395ee0abda739f0800000000000000
+      internalID: -488731019920960612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_53
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 153
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51192d1940238740800000000000000
+      internalID: 5152997897035911516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_54
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 153
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaef6f256bc2c9ea0800000000000000
+      internalID: -5864763453155639638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_55
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 153
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b51d3f026b864d0800000000000000
+      internalID: -3141060487445128374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_56
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 153
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d048488ab9815ee80800000000000000
+      internalID: -8150080893830790131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_57
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 153
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511c52ea90fe8c040800000000000000
+      internalID: 4668243838624973077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_58
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 153
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fab4bdaf0ddd21b0800000000000000
+      internalID: -5679640495635776779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_59
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 153
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac3869ff683db450800000000000000
+      internalID: 6106098723361143973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_60
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 150
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241b366c22d00ac60800000000000000
+      internalID: 7827270595378393410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_61
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 153
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bede41318691dc430800000000000000
+      internalID: 3804725194985369067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_62
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 153
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb85afde20e9b0050800000000000000
+      internalID: 5767877483197782204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_63
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 153
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3943599d68e6cd40800000000000000
+      internalID: 5604422343730612542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_64
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 153
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35978e07a4c7f2430800000000000000
+      internalID: 3760360873041361235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_65
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 153
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071f11c34013662a0800000000000000
+      internalID: -6744649497683299984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_66
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 153
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb27c6a02a377040800000000000000
+      internalID: 4645245452567391206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_67
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 153
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fffd95136176390800000000000000
+      internalID: -7825261426315886748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_68
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 153
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b1ae711244b6ea0800000000000000
+      internalID: -5878529979676222684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_69
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 134
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b4ef3339453aff0800000000000000
+      internalID: -26084181624861799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_70
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 134
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20ccfc420d714940800000000000000
+      internalID: 5278637687089971247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_71
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 132
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfaca0014b8547d0800000000000000
+      internalID: -2934786470861557832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 134
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7faa5913b2ee9a90800000000000000
+      internalID: -7305152286695968899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_73
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 134
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6869a3437d630aae0800000000000000
+      internalID: -1540170774638586234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_74
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 134
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d12b7fcd588fff30800000000000000
+      internalID: 4611554479944966613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_75
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 131
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c10c675927ce67b0800000000000000
+      internalID: -5229023136956284471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_76
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 134
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88b5470d434bff90800000000000000
+      internalID: -6918862404411082612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_77
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 134
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3be73d5a765d300800000000000000
+      internalID: 276240914068714477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_78
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 134
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b8cfc0a637c3850800000000000000
+      internalID: 6358083673261902598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_79
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 134
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca795c44fe55ee30800000000000000
+      internalID: 4532133003364235974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_80
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 134
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa22abb485dfaffb0800000000000000
+      internalID: -4613096312618212689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_81
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 134
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b351a3067162fbf0800000000000000
+      internalID: -292063866330721358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_82
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 134
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ce9381247de4bb0800000000000000
+      internalID: -4949782261559333818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 134
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a8311d7509eb7a0800000000000000
+      internalID: -6359486916956288452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_84
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 63
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9024f63d732fcd960800000000000000
+      internalID: 7628238190443184649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 60
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e71b58947305710800000000000000
+      internalID: 1679903449924337267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_86
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4faa7050e95abb20800000000000000
+      internalID: 3150929709256847182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069eaac46768e0e60800000000000000
+      internalID: 7930423836496554336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_88
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 63
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1618bb7cc9fba470800000000000000
+      internalID: 8407087786061469212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_89
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 63
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08753dc247cfad0e0800000000000000
+      internalID: -2244203888392317056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_90
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 60
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4409bf0105faa950800000000000000
+      internalID: 6461246000323953738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_91
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 42
+        width: 127
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c090f46c7e89f410800000000000000
+      internalID: 1511395814880088260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_92
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 45
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71865486c83c19860800000000000000
+      internalID: 7535018659379767319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_93
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 45
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33048c3129bf05590800000000000000
+      internalID: -7687367959105748941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_94
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 45
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62efbccfddd3f3440800000000000000
+      internalID: 4917717341750165030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_95
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 45
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abacaf7aa36b56ad0800000000000000
+      internalID: -2709559237750895942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_96
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b47a2aca96380b20800000000000000
+      internalID: 3100788381889230001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_97
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 29
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c1a3fe6cf4d9af0800000000000000
+      internalID: -388066277048312774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_98
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103b455f82e7b5330800000000000000
+      internalID: 3700690233194754817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_99
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da084b04e566eac10800000000000000
+      internalID: 2066701834008166573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_100
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 26
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69afb4bb8f03b8c0800000000000000
+      internalID: -3984824152585426580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_101
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 29
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a531ef9c558961ba0800000000000000
+      internalID: -6118535549507726502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_102
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fa1c1de1f38b760800000000000000
+      internalID: 7473792983222038346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_103
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 29
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb91c888cb7e7a0800000000000000
+      internalID: -6347897855103354104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_104
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 27
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e959ace1d835d300800000000000000
+      internalID: 276189426422995424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_105
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 26
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc91965466c62350800000000000000
+      internalID: 5991694488514436338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 29
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ac5d9413d92f00800000000000000
+      internalID: 1092636470106956864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 29
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12cf9c635deb6eb0800000000000000
+      internalID: -4725422441434725862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_108
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 29
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfe6fca360f5b070800000000000000
+      internalID: 8121661813926850501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_109
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf01a07da717f50b0800000000000000
+      internalID: -5737742627839012613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_110
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 29
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64bc5417b54b2df0800000000000000
+      internalID: -203992705492274066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_111
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 10
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9c2dcb8cee566b0800000000000000
+      internalID: -5303570440230090286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_112
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b9a9937ea75e3e0800000000000000
+      internalID: -2025077323910702294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_113
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c7bca2f54d04f90800000000000000
+      internalID: -6971338717964567438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_114
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab6755bad4f4d9b0800000000000000
+      internalID: -5056147261447771225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_115
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc39b1a3b8d0b0d0800000000000000
+      internalID: -3408986651895448321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_116
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 10
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2014c521645b40d30800000000000000
+      internalID: 4396838448780820738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_117
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bae549681ebcaf0800000000000000
+      internalID: -374958175824205027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_118
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a524fc5fd6f252220800000000000000
+      internalID: 2460424920749785690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_119
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530886d6e5ecd1940800000000000000
+      internalID: 5268594044051161141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_120
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 13
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1820a3c4afc990290800000000000000
+      internalID: -7923629470547049855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_121
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881a97961a1ef0c20800000000000000
+      internalID: 3175004345695052168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_122
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 13
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2642984e431fa0920800000000000000
+      internalID: 2957441314796938338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_123
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 13
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722ad2465149ccfc0800000000000000
+      internalID: -3473238393013558745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_0: 4236076659176087865
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_1: -8403404000100847406
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_10: -1758113169179389534
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_100: -3984824152585426580
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_101: -6118535549507726502
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_102: 7473792983222038346
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_103: -6347897855103354104
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_104: 276189426422995424
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_105: 5991694488514436338
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_106: 1092636470106956864
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_107: -4725422441434725862
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_108: 8121661813926850501
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_109: -5737742627839012613
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_11: 4868922705544068366
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_110: -203992705492274066
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_111: -5303570440230090286
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_112: -2025077323910702294
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_113: -6971338717964567438
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_114: -5056147261447771225
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_115: -3408986651895448321
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_116: 4396838448780820738
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_117: -374958175824205027
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_118: 2460424920749785690
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_119: 5268594044051161141
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_12: 9012041753720988674
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_120: -7923629470547049855
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_121: 3175004345695052168
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_122: 2957441314796938338
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_123: -3473238393013558745
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_13: 8214166573738496053
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_14: 5384383974004334997
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_15: 675576322054911256
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_16: -2877011484646125270
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_17: 2770237436680555782
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_18: -4277239842893543843
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_19: 1447094145010928692
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_2: -4375794687233734371
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_20: 1142580766477543068
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_21: -204397319106560925
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_22: 7057441216418776236
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_23: -3349514697126030652
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_24: -3200614456225389871
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_25: 887204588781455266
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_26: -4715791876170636036
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_27: 8850083704697375979
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_28: -1903891551706502706
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_29: -7786932129711201412
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_3: -141167218312197828
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_30: 4046660440348919066
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_31: -1209567992814229670
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_32: 199843821539285431
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_33: 7118177668374710995
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_34: 1304148207955557383
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_35: -8329021544795823498
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_36: 6046115863733394917
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_37: 1198004743924760648
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_38: 289584918158555859
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_39: 1328926261406113143
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_4: 7364653476441297368
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_40: 2977476564318396833
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_41: 6709935591237548
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_42: 8532005684899893042
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_43: -1456302680807706976
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_44: 8382160987326089553
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_45: 1695233835223431738
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_46: 1444102358621360605
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_47: -1727641429855875359
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_48: -4463189695340765275
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_49: -7441111285874760804
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_5: 415543427698523540
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_50: 5959106298815840661
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_51: -2323558953277300997
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_52: -488731019920960612
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_53: 5152997897035911516
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_54: -5864763453155639638
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_55: -3141060487445128374
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_56: -8150080893830790131
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_57: 4668243838624973077
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_58: -5679640495635776779
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_59: 6106098723361143973
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_6: -6669210456394101437
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_60: 7827270595378393410
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_61: 3804725194985369067
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_62: 5767877483197782204
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_63: 5604422343730612542
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_64: 3760360873041361235
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_65: -6744649497683299984
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_66: 4645245452567391206
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_67: -7825261426315886748
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_68: -5878529979676222684
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_69: -26084181624861799
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_7: 4507171876266461226
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_70: 5278637687089971247
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_71: -2934786470861557832
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_72: -7305152286695968899
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_73: -1540170774638586234
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_74: 4611554479944966613
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_75: -5229023136956284471
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_76: -6918862404411082612
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_77: 276240914068714477
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_78: 6358083673261902598
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_79: 4532133003364235974
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_8: -3327933595449232386
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_80: -4613096312618212689
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_81: -292063866330721358
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_82: -4949782261559333818
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_83: -6359486916956288452
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_84: 7628238190443184649
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_85: 1679903449924337267
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_86: 3150929709256847182
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_87: 7930423836496554336
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_88: 8407087786061469212
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_89: -2244203888392317056
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_9: 6448906186927499477
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_90: 6461246000323953738
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_91: 1511395814880088260
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_92: 7535018659379767319
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_93: -7687367959105748941
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_94: 4917717341750165030
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_95: -2709559237750895942
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_96: 3100788381889230001
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_97: -388066277048312774
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_98: 3700690233194754817
+      Browser Games - Marvel Avengers Alliance - Hawkeye Avengers_99: 2066701834008166573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

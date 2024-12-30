@@ -1,0 +1,3939 @@
+fileFormatVersion: 2
+guid: bd05e6b6a7e4fce4aa403a5e6fe5f191
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8939748443024619048
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_0
+  - first:
+      213: 8701226712755528084
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_1
+  - first:
+      213: 3755409269713348583
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_2
+  - first:
+      213: -4313122834819073079
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_3
+  - first:
+      213: 8270837539913042976
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_4
+  - first:
+      213: -502937079479275852
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_5
+  - first:
+      213: -3067464524303085642
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_6
+  - first:
+      213: -7391164490197242821
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_7
+  - first:
+      213: 688088811689377374
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_8
+  - first:
+      213: 2750121320237392604
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_9
+  - first:
+      213: -1778071628509263401
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_10
+  - first:
+      213: 4087346288247307420
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_11
+  - first:
+      213: -3751734075409759653
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_12
+  - first:
+      213: 8190972129170926259
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_13
+  - first:
+      213: 7781453423665663913
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_14
+  - first:
+      213: -3911138302424946339
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_15
+  - first:
+      213: -372186665382921053
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_16
+  - first:
+      213: 2250082284472721727
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_17
+  - first:
+      213: 7886938877778976950
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_18
+  - first:
+      213: -4082721635826496020
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_19
+  - first:
+      213: 4234716228035143714
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_20
+  - first:
+      213: -5332860058506419905
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_21
+  - first:
+      213: -672165498614350662
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_22
+  - first:
+      213: -1732889608252264864
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_23
+  - first:
+      213: 7739805265024371872
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_24
+  - first:
+      213: -2280065346951019435
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_25
+  - first:
+      213: -8291932287791356032
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_26
+  - first:
+      213: 6496089352034126040
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_27
+  - first:
+      213: -5222014997302850845
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_28
+  - first:
+      213: -6783148021705418785
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_29
+  - first:
+      213: -53857221548256163
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_30
+  - first:
+      213: -8847580006123032253
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_31
+  - first:
+      213: -3401809074330915631
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_32
+  - first:
+      213: 8007359000458542734
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_33
+  - first:
+      213: -284067744380963760
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_34
+  - first:
+      213: 3461488759701660690
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_35
+  - first:
+      213: 37157447758355193
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_36
+  - first:
+      213: -2921405072670203509
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_37
+  - first:
+      213: -1958438904170102859
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_38
+  - first:
+      213: 3856331628195107295
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_39
+  - first:
+      213: -5885217037554488938
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_40
+  - first:
+      213: 6258868710648102692
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_41
+  - first:
+      213: 742291567202663080
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_42
+  - first:
+      213: 4681539626978019543
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_43
+  - first:
+      213: 7332357025945523035
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_44
+  - first:
+      213: -8156000925193318228
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_45
+  - first:
+      213: 5617791265363276166
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_46
+  - first:
+      213: 7125220499082159017
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_47
+  - first:
+      213: 1578730306750185196
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_48
+  - first:
+      213: -3051229454642254450
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_49
+  - first:
+      213: 7761757284415036254
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_50
+  - first:
+      213: 4077804552539744292
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_51
+  - first:
+      213: -1621180565984519003
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_52
+  - first:
+      213: -6745340464077040692
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_53
+  - first:
+      213: -7208062320927161909
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_54
+  - first:
+      213: 1233259906838344551
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_55
+  - first:
+      213: 7094001841898795866
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_56
+  - first:
+      213: -3870260179508717723
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_57
+  - first:
+      213: 3485154951760434154
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_58
+  - first:
+      213: 6650871493887388016
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_59
+  - first:
+      213: 5997445312689650058
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_60
+  - first:
+      213: -8916647450961850100
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_61
+  - first:
+      213: 6056811964566954628
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_62
+  - first:
+      213: 6351471950810070583
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_63
+  - first:
+      213: 1908187767648481995
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_64
+  - first:
+      213: -4312083646305295237
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_65
+  - first:
+      213: 7049307530124093962
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_66
+  - first:
+      213: 7790483545034692656
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_67
+  - first:
+      213: 2059887795403981813
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_68
+  - first:
+      213: -286000499783043632
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_69
+  - first:
+      213: 8397103007732287433
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_70
+  - first:
+      213: -3867893187167047085
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_71
+  - first:
+      213: -4264033322718430868
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_72
+  - first:
+      213: -4492088758442224701
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_73
+  - first:
+      213: 5712764091166676034
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_74
+  - first:
+      213: 3024846153896948247
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_75
+  - first:
+      213: -3276264934326747356
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_76
+  - first:
+      213: 6927873299575422990
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_77
+  - first:
+      213: 9165874146971743796
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_78
+  - first:
+      213: 2757159286136607826
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_79
+  - first:
+      213: -2422078911416298250
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_80
+  - first:
+      213: 7011136406690862763
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_81
+  - first:
+      213: 1717850020280883288
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_82
+  - first:
+      213: -8917826601542072575
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_83
+  - first:
+      213: -6437579952508546084
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_84
+  - first:
+      213: 201653352977297488
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_85
+  - first:
+      213: 3426866240445962033
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_86
+  - first:
+      213: 5977252489362282327
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_87
+  - first:
+      213: 7180995765181704427
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_88
+  - first:
+      213: -4984916615735932409
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_89
+  - first:
+      213: -5826860153550584945
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_90
+  - first:
+      213: 6581135194744819594
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_91
+  - first:
+      213: 3463443375674791855
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_92
+  - first:
+      213: 5953368697101787554
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_93
+  - first:
+      213: 9144165036846956645
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_94
+  - first:
+      213: 5173920866877989680
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_95
+  - first:
+      213: 7982218541284685557
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_96
+  - first:
+      213: 4127732276804800377
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_97
+  - first:
+      213: 5183469246296976495
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_98
+  - first:
+      213: 8654331643594974802
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_99
+  - first:
+      213: -4456239242038849970
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_100
+  - first:
+      213: 8305873647999440793
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_101
+  - first:
+      213: -1900902188404299578
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_102
+  - first:
+      213: 4191055902384689232
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_103
+  - first:
+      213: -2045373594833083647
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_104
+  - first:
+      213: 6931983086477611578
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_105
+  - first:
+      213: 2858415839468517640
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_106
+  - first:
+      213: -6589166557994313756
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_107
+  - first:
+      213: -7761391437866038871
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_108
+  - first:
+      213: 6307120179586637909
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_109
+  - first:
+      213: -8259938966948758191
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_110
+  - first:
+      213: 8667532373056436732
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_111
+  - first:
+      213: 2398345315713324087
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_112
+  - first:
+      213: 4717029119317954567
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_113
+  - first:
+      213: -3532451771350293888
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_114
+  - first:
+      213: -122446486470177164
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_115
+  - first:
+      213: -2342091956417861827
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_116
+  - first:
+      213: -2638049007983934710
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_117
+  - first:
+      213: -3572612342008734602
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_118
+  - first:
+      213: -4295163823982147051
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_119
+  - first:
+      213: -6654841298693547918
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_120
+  - first:
+      213: 5413692681846462151
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_121
+  - first:
+      213: -4965048948990246898
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_122
+  - first:
+      213: -8403953864724416792
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_123
+  - first:
+      213: 5117434330309685354
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_124
+  - first:
+      213: -5830664564009362884
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_125
+  - first:
+      213: 1947305213974456420
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_126
+  - first:
+      213: 8934685819593174218
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_127
+  - first:
+      213: 8489811289322166402
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_128
+  - first:
+      213: -7899659088216044528
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_129
+  - first:
+      213: 3632187632412536952
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_130
+  - first:
+      213: -4634879621969994885
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_131
+  - first:
+      213: -6288884318865977271
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_132
+  - first:
+      213: -2598860681602240724
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_133
+  - first:
+      213: 9181615906480026797
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_134
+  - first:
+      213: 1775031510587666055
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_135
+  - first:
+      213: 7383100826747477588
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_136
+  - first:
+      213: -8745811590148233074
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_137
+  - first:
+      213: -6759669038208100753
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_138
+  - first:
+      213: 5826575887706846812
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_139
+  - first:
+      213: 4375669441281246926
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_140
+  - first:
+      213: 6180084593417870808
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_141
+  - first:
+      213: -4504911698972258386
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_142
+  - first:
+      213: 7795177174752612448
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_143
+  - first:
+      213: 8643499052634736311
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_144
+  - first:
+      213: -6638282799050834677
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_145
+  - first:
+      213: 6788227278665663403
+    second: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 662
+        width: 130
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d98a28e722afe380800000000000000
+      internalID: -8939748443024619048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 768
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491eeeb1897f0c870800000000000000
+      internalID: 8701226712755528084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 846
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7297375d4ed1430800000000000000
+      internalID: 3755409269713348583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_3
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 616
+        width: 126
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbbbf532a5b424c0800000000000000
+      internalID: -4313122834819073079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 822
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c8b79fbeae7c270800000000000000
+      internalID: 8270837539913042976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 824
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bee34114653509f0800000000000000
+      internalID: -502937079479275852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 785
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf4dcb644d2e65d0800000000000000
+      internalID: -3067464524303085642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 603
+        width: 137
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cef456e0f4d6990800000000000000
+      internalID: -7391164490197242821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_8
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 784
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e7aaae0259c8900800000000000000
+      internalID: 688088811689377374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 775
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd26afd15c46a2620800000000000000
+      internalID: 2750121320237392604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 785
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9418546450357e0800000000000000
+      internalID: -1778071628509263401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 603
+        width: 232
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cfdf02bcb29b830800000000000000
+      internalID: 4087346288247307420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_12
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 605
+        width: 141
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5209776cb92febc0800000000000000
+      internalID: -3751734075409759653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_13
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 603
+        width: 238
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baab5cf0cd2ca170800000000000000
+      internalID: 8190972129170926259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_14
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 728
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afc6d139a64dfb60800000000000000
+      internalID: 7781453423665663913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_15
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 703
+        width: 144
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d596980af68d8b9c0800000000000000
+      internalID: -3911138302424946339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_16
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 721
+        width: 146
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acb6b3233ab5daf0800000000000000
+      internalID: -372186665382921053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 754
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3165619ae5e93f10800000000000000
+      internalID: 2250082284472721727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 732
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0eb3f5f19047d60800000000000000
+      internalID: 7886938877778976950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_19
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 708
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced82cbad424757c0800000000000000
+      internalID: -4082721635826496020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 639
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228ed9019fbb4ca30800000000000000
+      internalID: 4234716228035143714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 667
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f312bdf0800edf5b0800000000000000
+      internalID: -5332860058506419905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_22
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 693
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc71d05a0dfba6f0800000000000000
+      internalID: -672165498614350662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 636
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e6821251a83f7e0800000000000000
+      internalID: -1732889608252264864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_24
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 668
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acc97c91ef496b60800000000000000
+      internalID: 7739805265024371872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 578
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5548e42b5a49b50e0800000000000000
+      internalID: -2280065346951019435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 615
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087aa9c44832dec80800000000000000
+      internalID: -8291932287791356032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 335
+        width: 131
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8013119deb62a50800000000000000
+      internalID: 6496089352034126040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 330
+        width: 107
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea4002070da787b0800000000000000
+      internalID: -5222014997302850845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_29
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 330
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7da5b10da6dd1a0800000000000000
+      internalID: -6783148021705418785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 330
+        width: 130
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54d6017429a04ff0800000000000000
+      internalID: -53857221548256163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_31
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 330
+        width: 136
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34130356cd4173580800000000000000
+      internalID: -8847580006123032253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_32
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 330
+        width: 238
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc2ec2aba85ac0d0800000000000000
+      internalID: -3401809074330915631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_33
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 332
+        width: 145
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ebb5b069adf1f60800000000000000
+      internalID: 8007359000458542734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_34
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 334
+        width: 141
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054b60c34e9ce0cf0800000000000000
+      internalID: -284067744380963760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_35
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 332
+        width: 378
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214660cefada90030800000000000000
+      internalID: 3461488759701660690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 201
+        width: 202
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa956a7082048000800000000000000
+      internalID: 37157447758355193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_37
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 303
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81e77e80951577d0800000000000000
+      internalID: -2921405072670203509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_38
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 295
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfb2a2613a32d4e0800000000000000
+      internalID: -1958438904170102859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_39
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 295
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd15ca22f21748530800000000000000
+      internalID: 3856331628195107295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_40
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699ec7a1942835ea0800000000000000
+      internalID: -5885217037554488938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_41
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fbcf17ee7fbd650800000000000000
+      internalID: 6258868710648102692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_42
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 295
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaf1ee5f362d4a00800000000000000
+      internalID: 742291567202663080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_43
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d880f3ac7b28f040800000000000000
+      internalID: 4681539626978019543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_44
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5392d9ddd3c1c560800000000000000
+      internalID: 7332357025945523035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_45
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 292
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca05812fe5010de80800000000000000
+      internalID: -8156000925193318228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_46
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 295
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681354a346766fd40800000000000000
+      internalID: 5617791265363276166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_47
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 295
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3af1afa4ed1e260800000000000000
+      internalID: 7125220499082159017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_48
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceefcf979d6c8e510800000000000000
+      internalID: 1578730306750185196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_49
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8de6d32afad7a5d0800000000000000
+      internalID: -3051229454642254450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_50
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 292
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bdb5a602d47bb60800000000000000
+      internalID: 7761757284415036254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_51
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4282a99a2a5479830800000000000000
+      internalID: 4077804552539744292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_52
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 295
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acd9b75dd86089e0800000000000000
+      internalID: -1621180565984519003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_53
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 295
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc39e95169cb362a0800000000000000
+      internalID: -6745340464077040692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_54
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 292
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc142425281d7fb90800000000000000
+      internalID: -7208062320927161909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 228
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763b4d6e95b6d1110800000000000000
+      internalID: 1233259906838344551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_56
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 215
+        width: 224
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53385ee615f27260800000000000000
+      internalID: 7094001841898795866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_57
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 222
+        width: 460
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5671b0c4fd21a4ac0800000000000000
+      internalID: -3870260179508717723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_58
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 276
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3dfd6a6f1cd5030800000000000000
+      internalID: 3485154951760434154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_59
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 276
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079ede7c264ac4c50800000000000000
+      internalID: 6650871493887388016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_60
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 276
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89b2be6cb43b3350800000000000000
+      internalID: 5997445312689650058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_61
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 276
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d602c264b14480800000000000000
+      internalID: -8916647450961850100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_62
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 276
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4826953346e1e0450800000000000000
+      internalID: 6056811964566954628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_63
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 276
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e34e47616f42850800000000000000
+      internalID: 6351471950810070583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_64
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 276
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2fe672aae3b7a10800000000000000
+      internalID: 1908187767648481995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_65
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 276
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74a33425c66824c0800000000000000
+      internalID: -4312083646305295237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_66
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 276
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a688d89db24d160800000000000000
+      internalID: 7049307530124093962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_67
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 273
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038915a228b5d1c60800000000000000
+      internalID: 7790483545034692656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_68
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 276
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f387324901369c10800000000000000
+      internalID: 2059887795403981813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_69
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 276
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5f8dc8f0ce70cf0800000000000000
+      internalID: -286000499783043632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_70
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 276
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c74f3e12b0888470800000000000000
+      internalID: 8397103007732287433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_71
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 276
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35231c5a3ab725ac0800000000000000
+      internalID: -3867893187167047085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_72
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 276
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6970f8e84c13d4c0800000000000000
+      internalID: -4264033322718430868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_73
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 276
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c396850315e8a1c0800000000000000
+      internalID: -4492088758442224701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_74
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 276
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244d8936ca0d74f40800000000000000
+      internalID: 5712764091166676034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_75
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 276
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712fb37fc896af920800000000000000
+      internalID: 3024846153896948247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_76
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 236
+        width: 190
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb26f866e5882d0800000000000000
+      internalID: -3276264934326747356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_77
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 244
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e004b1e7f00c42060800000000000000
+      internalID: 6927873299575422990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_78
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 257
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436ff2a49f9b33f70800000000000000
+      internalID: 9165874146971743796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_79
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 257
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254975f33c5634620800000000000000
+      internalID: 2757159286136607826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_80
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 255
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41113101c036ed0800000000000000
+      internalID: -2422078911416298250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_81
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 257
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba61e905a6f8c4160800000000000000
+      internalID: 7011136406690862763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_82
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 257
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8585d3ced7707d710800000000000000
+      internalID: 1717850020280883288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_83
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 257
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1074e8e54f38d3480800000000000000
+      internalID: -8917826601542072575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_84
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 254
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd35d85142f19a6a0800000000000000
+      internalID: -6437579952508546084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_85
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 257
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0507af7f7aa6cc200800000000000000
+      internalID: 201653352977297488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_86
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 257
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1375f8a70bcae8f20800000000000000
+      internalID: 3426866240445962033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_87
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 257
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7571241687773f250800000000000000
+      internalID: 5977252489362282327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_88
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 257
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be86d351a9508a360800000000000000
+      internalID: 7180995765181704427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_89
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 257
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a0e1ccfb402dab0800000000000000
+      internalID: -4984916615735932409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_90
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 257
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f834db7ff85d22fa0800000000000000
+      internalID: -5826860153550584945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_91
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 257
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f069d5793e45b50800000000000000
+      internalID: 6581135194744819594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_92
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 257
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa796ca666f901030800000000000000
+      internalID: 3463443375674791855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_93
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 4
+        width: 194
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1aea7a94d9e9250800000000000000
+      internalID: 5953368697101787554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_94
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 8
+        width: 195
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5604fc437a996ee70800000000000000
+      internalID: 9144165036846956645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 8
+        width: 202
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0336e36ad957dc740800000000000000
+      internalID: 5173920866877989680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_96
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 4
+        width: 202
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f67fc0c87986ce60800000000000000
+      internalID: 7982218541284685557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_97
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 9
+        width: 191
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f4dd6d2a6a84930800000000000000
+      internalID: 4127732276804800377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_98
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 4
+        width: 188
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c61b9f0d16fe740800000000000000
+      internalID: 5183469246296976495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_99
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 164
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256a6e8f6cc5a1870800000000000000
+      internalID: 8654331643594974802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_100
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 170
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e4e1005024822c0800000000000000
+      internalID: -4456239242038849970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_101
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1
+        width: 87
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997d8429314644370800000000000000
+      internalID: 8305873647999440793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 79
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c82663f783ae95e0800000000000000
+      internalID: -1900902188404299578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_103
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 95
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0509177532f992a30800000000000000
+      internalID: 4191055902384689232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_104
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 95
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103a2076d8f5d93e0800000000000000
+      internalID: -2045373594833083647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_105
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 95
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a329382d3e9533060800000000000000
+      internalID: 6931983086477611578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_106
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 95
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809fedbbf022ba720800000000000000
+      internalID: 2858415839468517640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_107
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 54
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e79dd82de39e84a0800000000000000
+      internalID: -6589166557994313756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_108
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 52
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a98c3fdb9ff94490800000000000000
+      internalID: -7761391437866038871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_109
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 52
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550a5f30364678750800000000000000
+      internalID: 6307120179586637909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_110
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 54
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dbc98c54dce5d80800000000000000
+      internalID: -8259938966948758191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_111
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 54
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf93a3f45c2494870800000000000000
+      internalID: 8667532373056436732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_112
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 54
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73490df8b52a84120800000000000000
+      internalID: 2398345315713324087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_113
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 51
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700de1cfdf0467140800000000000000
+      internalID: 4717029119317954567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_114
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 33
+        width: 124
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082677664d53afec0800000000000000
+      internalID: -3532451771350293888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_115
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e43fdb19bfc4ef0800000000000000
+      internalID: -122446486470177164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_116
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37e96a46c73f7fd0800000000000000
+      internalID: -2342091956417861827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_117
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 36
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03cb0b7764c36bd0800000000000000
+      internalID: -2638049007983934710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_118
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 36
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c9462e0088b6ec0800000000000000
+      internalID: -3572612342008734602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_119
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a8f6342438464c0800000000000000
+      internalID: -4295163823982147051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_120
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 20
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27895c2091145a3a0800000000000000
+      internalID: -6654841298693547918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_121
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 20
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c61798afcc412b40800000000000000
+      internalID: 5413692681846462151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_122
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00820f694a981bb0800000000000000
+      internalID: -4965048948990246898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_123
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 17
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e674507c782f5b80800000000000000
+      internalID: -8403953864724416792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_124
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 20
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a607f7bf867c40740800000000000000
+      internalID: 5117434330309685354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_125
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a93c1a871551fa0800000000000000
+      internalID: -5830664564009362884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_126
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a63c56c7360b10800000000000000
+      internalID: 1947305213974456420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_127
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 18
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc22983a616efb70800000000000000
+      internalID: 8934685819593174218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_128
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 17
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288162ef26ed1d570800000000000000
+      internalID: 8489811289322166402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_129
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 20
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c4238d9e5ce5290800000000000000
+      internalID: -7899659088216044528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_130
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 20
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8703483586f186230800000000000000
+      internalID: 3632187632412536952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_131
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b18cb5a899dafb0800000000000000
+      internalID: -4634879621969994885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_132
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940187c280569b8a0800000000000000
+      internalID: -6288884318865977271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_133
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f6e5cbafdfeebd0800000000000000
+      internalID: -2598860681602240724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_134
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da471d94507ab6f70800000000000000
+      internalID: 9181615906480026797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_135
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ee3bd11cd22a810800000000000000
+      internalID: 1775031510587666055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_136
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e1d27a51b067660800000000000000
+      internalID: 7383100826747477588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_137
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8868b032b2a0a680800000000000000
+      internalID: -8745811590148233074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_138
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f665662f2d4d032a0800000000000000
+      internalID: -6759669038208100753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_139
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c567f9b36e72cd050800000000000000
+      internalID: 5826575887706846812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_140
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6c91e6c2089bc30800000000000000
+      internalID: 4375669441281246926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_141
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd5988b13214c550800000000000000
+      internalID: 6180084593417870808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_142
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafc1468da65b71c0800000000000000
+      internalID: -4504911698972258386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_143
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 4
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060dc5ef6580e2c60800000000000000
+      internalID: 7795177174752612448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_144
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b608b8d790e3f770800000000000000
+      internalID: 8643499052634736311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_145
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 4
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d3df327f410e3a0800000000000000
+      internalID: -6638282799050834677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Iron Man Avengers_146
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 4
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3cb7f8eb0a43e50800000000000000
+      internalID: 6788227278665663403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_0: -8939748443024619048
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_1: 8701226712755528084
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_10: -1778071628509263401
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_100: -4456239242038849970
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_101: 8305873647999440793
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_102: -1900902188404299578
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_103: 4191055902384689232
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_104: -2045373594833083647
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_105: 6931983086477611578
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_106: 2858415839468517640
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_107: -6589166557994313756
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_108: -7761391437866038871
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_109: 6307120179586637909
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_11: 4087346288247307420
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_110: -8259938966948758191
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_111: 8667532373056436732
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_112: 2398345315713324087
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_113: 4717029119317954567
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_114: -3532451771350293888
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_115: -122446486470177164
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_116: -2342091956417861827
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_117: -2638049007983934710
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_118: -3572612342008734602
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_119: -4295163823982147051
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_12: -3751734075409759653
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_120: -6654841298693547918
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_121: 5413692681846462151
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_122: -4965048948990246898
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_123: -8403953864724416792
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_124: 5117434330309685354
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_125: -5830664564009362884
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_126: 1947305213974456420
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_127: 8934685819593174218
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_128: 8489811289322166402
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_129: -7899659088216044528
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_13: 8190972129170926259
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_130: 3632187632412536952
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_131: -4634879621969994885
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_132: -6288884318865977271
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_133: -2598860681602240724
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_134: 9181615906480026797
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_135: 1775031510587666055
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_136: 7383100826747477588
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_137: -8745811590148233074
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_138: -6759669038208100753
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_139: 5826575887706846812
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_14: 7781453423665663913
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_140: 4375669441281246926
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_141: 6180084593417870808
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_142: -4504911698972258386
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_143: 7795177174752612448
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_144: 8643499052634736311
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_145: -6638282799050834677
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_146: 6788227278665663403
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_15: -3911138302424946339
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_16: -372186665382921053
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_17: 2250082284472721727
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_18: 7886938877778976950
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_19: -4082721635826496020
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_2: 3755409269713348583
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_20: 4234716228035143714
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_21: -5332860058506419905
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_22: -672165498614350662
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_23: -1732889608252264864
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_24: 7739805265024371872
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_25: -2280065346951019435
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_26: -8291932287791356032
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_27: 6496089352034126040
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_28: -5222014997302850845
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_29: -6783148021705418785
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_3: -4313122834819073079
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_30: -53857221548256163
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_31: -8847580006123032253
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_32: -3401809074330915631
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_33: 8007359000458542734
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_34: -284067744380963760
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_35: 3461488759701660690
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_36: 37157447758355193
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_37: -2921405072670203509
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_38: -1958438904170102859
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_39: 3856331628195107295
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_4: 8270837539913042976
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_40: -5885217037554488938
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_41: 6258868710648102692
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_42: 742291567202663080
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_43: 4681539626978019543
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_44: 7332357025945523035
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_45: -8156000925193318228
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_46: 5617791265363276166
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_47: 7125220499082159017
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_48: 1578730306750185196
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_49: -3051229454642254450
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_5: -502937079479275852
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_50: 7761757284415036254
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_51: 4077804552539744292
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_52: -1621180565984519003
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_53: -6745340464077040692
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_54: -7208062320927161909
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_55: 1233259906838344551
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_56: 7094001841898795866
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_57: -3870260179508717723
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_58: 3485154951760434154
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_59: 6650871493887388016
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_6: -3067464524303085642
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_60: 5997445312689650058
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_61: -8916647450961850100
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_62: 6056811964566954628
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_63: 6351471950810070583
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_64: 1908187767648481995
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_65: -4312083646305295237
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_66: 7049307530124093962
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_67: 7790483545034692656
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_68: 2059887795403981813
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_69: -286000499783043632
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_7: -7391164490197242821
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_70: 8397103007732287433
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_71: -3867893187167047085
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_72: -4264033322718430868
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_73: -4492088758442224701
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_74: 5712764091166676034
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_75: 3024846153896948247
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_76: -3276264934326747356
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_77: 6927873299575422990
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_78: 9165874146971743796
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_79: 2757159286136607826
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_8: 688088811689377374
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_80: -2422078911416298250
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_81: 7011136406690862763
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_82: 1717850020280883288
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_83: -8917826601542072575
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_84: -6437579952508546084
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_85: 201653352977297488
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_86: 3426866240445962033
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_87: 5977252489362282327
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_88: 7180995765181704427
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_89: -4984916615735932409
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_9: 2750121320237392604
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_90: -5826860153550584945
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_91: 6581135194744819594
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_92: 3463443375674791855
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_93: 5953368697101787554
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_94: 9144165036846956645
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_95: 5173920866877989680
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_96: 7982218541284685557
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_97: 4127732276804800377
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_98: 5183469246296976495
+      Browser Games - Marvel Avengers Alliance - Iron Man Avengers_99: 8654331643594974802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3497 @@
+fileFormatVersion: 2
+guid: 0d484ffc410816447ade3d7d20b03130
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 309826301081563368
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_0
+  - first:
+      213: -4847448213777086477
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_1
+  - first:
+      213: -2817122571130072821
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_2
+  - first:
+      213: 9046690016397698674
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_3
+  - first:
+      213: -131043694657058709
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_4
+  - first:
+      213: 6668841826215002721
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_5
+  - first:
+      213: -7824006301843156293
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_6
+  - first:
+      213: -7679654519665728556
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_7
+  - first:
+      213: 6134957926924712641
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_8
+  - first:
+      213: 3693423993120258000
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_9
+  - first:
+      213: -124925835815451587
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_10
+  - first:
+      213: 7781423993540930499
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_11
+  - first:
+      213: 5824972209410279901
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_12
+  - first:
+      213: -6843792140123128725
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_13
+  - first:
+      213: -2452676836684139751
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_14
+  - first:
+      213: -3476818617373194347
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_15
+  - first:
+      213: -3553190423014186522
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_16
+  - first:
+      213: -788761244860237898
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_17
+  - first:
+      213: 5856267635819226125
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_18
+  - first:
+      213: -3140992278274912920
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_19
+  - first:
+      213: 1304586929947263440
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_20
+  - first:
+      213: -2471923789064607662
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_21
+  - first:
+      213: -6726114160375779955
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_22
+  - first:
+      213: -4129094602682059225
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_23
+  - first:
+      213: -8384110524983887986
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_24
+  - first:
+      213: -5701601576915562284
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_25
+  - first:
+      213: -1914677405155426057
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_26
+  - first:
+      213: -4597161071185646798
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_27
+  - first:
+      213: 8106135565161460292
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_28
+  - first:
+      213: -39028782702353950
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_29
+  - first:
+      213: -6298946755797488476
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_30
+  - first:
+      213: -2257589175931220924
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_31
+  - first:
+      213: 2417012214345478615
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_32
+  - first:
+      213: -8103647889013634807
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_33
+  - first:
+      213: 912970728158803098
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_34
+  - first:
+      213: -6923455630312742712
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_35
+  - first:
+      213: 6154110766473960535
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_36
+  - first:
+      213: -4925005433151089583
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_37
+  - first:
+      213: 9219709309232943805
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_38
+  - first:
+      213: -3385241185262422707
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_39
+  - first:
+      213: -1703807009402043775
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_40
+  - first:
+      213: -5692129859135007469
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_41
+  - first:
+      213: -3385647743121197487
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_42
+  - first:
+      213: 3294428299509656389
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_43
+  - first:
+      213: -5167033271622492162
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_44
+  - first:
+      213: 8519601631810719897
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_45
+  - first:
+      213: 4156651520007960079
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_46
+  - first:
+      213: -8945916088506517773
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_47
+  - first:
+      213: 8665979150276348876
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_48
+  - first:
+      213: 2153260357020291129
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_49
+  - first:
+      213: 6458895442994668850
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_50
+  - first:
+      213: -6780173225701239527
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_51
+  - first:
+      213: -1111234190162778162
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_52
+  - first:
+      213: 4836042593915087850
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_53
+  - first:
+      213: -2706315643715575730
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_54
+  - first:
+      213: -1386049829912856678
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_55
+  - first:
+      213: 31940952133078487
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_56
+  - first:
+      213: -1457429465225558806
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_57
+  - first:
+      213: 3940257173241800756
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_58
+  - first:
+      213: -5949794850144515057
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_59
+  - first:
+      213: 5094559997608534713
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_60
+  - first:
+      213: 2327751537193744277
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_61
+  - first:
+      213: -3667998638874146502
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_62
+  - first:
+      213: -4884974172046858631
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_63
+  - first:
+      213: 1316069323012642838
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_64
+  - first:
+      213: -7596658345225251616
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_65
+  - first:
+      213: -3631716027607433285
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_66
+  - first:
+      213: 2202375529620842638
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_67
+  - first:
+      213: -2601588062250029692
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_68
+  - first:
+      213: 3610125344892035043
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_69
+  - first:
+      213: -5055859460234157242
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_70
+  - first:
+      213: 2835300706606511001
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_71
+  - first:
+      213: -7404247511976624434
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_72
+  - first:
+      213: -3064343291975018589
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_73
+  - first:
+      213: 1269609897795020039
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_74
+  - first:
+      213: -1321830527548652284
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_75
+  - first:
+      213: 2989042962310710995
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_76
+  - first:
+      213: -370781540608319966
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_77
+  - first:
+      213: -2743276192756416519
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_78
+  - first:
+      213: -6579652228440328475
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_79
+  - first:
+      213: -5426406471110764925
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_80
+  - first:
+      213: 512107940626728984
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_81
+  - first:
+      213: 4200893993397147335
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_82
+  - first:
+      213: -1440126117062402498
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_83
+  - first:
+      213: -8080919010444656635
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_84
+  - first:
+      213: 2853598303616068611
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_85
+  - first:
+      213: 5621468098896949735
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_86
+  - first:
+      213: -7722217632977604330
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_87
+  - first:
+      213: -8775528922434757470
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_88
+  - first:
+      213: 7905247858009345962
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_89
+  - first:
+      213: -3273908528327106360
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_90
+  - first:
+      213: 403956207285600264
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_91
+  - first:
+      213: -7392820875209359820
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_92
+  - first:
+      213: -8777216609878101383
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_93
+  - first:
+      213: -7911094793784546674
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_94
+  - first:
+      213: -6522840494729221621
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_95
+  - first:
+      213: -4590659843376211716
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_96
+  - first:
+      213: -9146992217493532694
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_97
+  - first:
+      213: 319648263722756914
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_98
+  - first:
+      213: -5083710960406764596
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_99
+  - first:
+      213: -2606421886942319179
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_100
+  - first:
+      213: 5278258801682812055
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_101
+  - first:
+      213: -3788080019216290696
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_102
+  - first:
+      213: -136605855922927052
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_103
+  - first:
+      213: -4003094272504332987
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_104
+  - first:
+      213: 8843499964545368418
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_105
+  - first:
+      213: -124282797515996331
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_106
+  - first:
+      213: 4005524139441868547
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_107
+  - first:
+      213: -6526685260657722666
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_108
+  - first:
+      213: -95593318838775500
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_109
+  - first:
+      213: -7728158767981205865
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_110
+  - first:
+      213: 5021980092267545970
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_111
+  - first:
+      213: -1702525079560931450
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_112
+  - first:
+      213: -996660160537243843
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_113
+  - first:
+      213: 6529887054316633597
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_114
+  - first:
+      213: -1968597198567147934
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_115
+  - first:
+      213: 3310684581031916287
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_116
+  - first:
+      213: -3454506930785682833
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_117
+  - first:
+      213: -3905038489289727343
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_118
+  - first:
+      213: -6743359990868879238
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_119
+  - first:
+      213: -2462367897969720439
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_120
+  - first:
+      213: 2147107934684103501
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_121
+  - first:
+      213: -1861483266593057350
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_122
+  - first:
+      213: 5814691078637134483
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_123
+  - first:
+      213: 3579613473148797265
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_124
+  - first:
+      213: -4107004166930048556
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_125
+  - first:
+      213: -5688800341357464855
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_126
+  - first:
+      213: -5228615468748001341
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_127
+  - first:
+      213: 5630318765781230053
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_128
+  - first:
+      213: 1809793204783021696
+    second: Browser Games - Marvel Avengers Alliance - Thor Avengers_129
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 270
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 624
+        width: 198
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e03a0a1169bc4400800000000000000
+      internalID: 309826301081563368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 823
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f707be48876abcb0800000000000000
+      internalID: -4847448213777086477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_2
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 810
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b019e0382f197e8d0800000000000000
+      internalID: -2817122571130072821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 772
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276257473ac4c8d70800000000000000
+      internalID: 9046690016397698674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 808
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6849e934707e2ef0800000000000000
+      internalID: -131043694657058709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 808
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16200d2de4c7c8c50800000000000000
+      internalID: 6668841826215002721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_6
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 586
+        width: 232
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2983ac8bb8b6390800000000000000
+      internalID: -7824006301843156293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_7
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 586
+        width: 236
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3e99527e26c6590800000000000000
+      internalID: -7679654519665728556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_8
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 586
+        width: 248
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca705aeabfb32550800000000000000
+      internalID: 6134957926924712641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_9
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 586
+        width: 282
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d776da9d8da14330800000000000000
+      internalID: 3693423993120258000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_10
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 586
+        width: 277
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3483fc3d9c244ef0800000000000000
+      internalID: -124925835815451587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 651
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb65b5f4eb2dfb60800000000000000
+      internalID: 7781423993540930499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 722
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd90c68cc5576d050800000000000000
+      internalID: 5824972209410279901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 714
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cb95bfe47f501a0800000000000000
+      internalID: -6843792140123128725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_14
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 586
+        width: 292
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913fc90796756fdd0800000000000000
+      internalID: -2452676836684139751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 550
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597810373ebdfbfc0800000000000000
+      internalID: -3476818617373194347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 658
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e16be8c22880bec0800000000000000
+      internalID: -3553190423014186522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 562
+        width: 61
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7b28ba3d1cd05f0800000000000000
+      internalID: -788761244860237898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 595
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d042f9e0364a54150800000000000000
+      internalID: 5856267635819226125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 595
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86dcd232a24f864d0800000000000000
+      internalID: -3140992278274912920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 595
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1cf1a96e2da1210800000000000000
+      internalID: 1304586929947263440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 595
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25867f02966f1bdd0800000000000000
+      internalID: -2471923789064607662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 576
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8da310ceca08a2a0800000000000000
+      internalID: -6726114160375779955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_23
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 595
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7263723f55282b6c0800000000000000
+      internalID: -4129094602682059225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 595
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87b8b006e7a5ab80800000000000000
+      internalID: -8384110524983887986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 595
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0142df297dfd0b0800000000000000
+      internalID: -5701601576915562284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 595
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f08e3e5b03bd65e0800000000000000
+      internalID: -1914677405155426057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 592
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba9b0dc5a9330c0800000000000000
+      internalID: -4597161071185646798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 595
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442fb9e2957ce7070800000000000000
+      internalID: 8106135565161460292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 595
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1a2076787557ff0800000000000000
+      internalID: -39028782702353950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_30
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 595
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac67918c45a598a0800000000000000
+      internalID: -6298946755797488476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 592
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c4adf0b9e6ba0e0800000000000000
+      internalID: -2257589175931220924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_32
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 539
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1b7d59dc3fa8120800000000000000
+      internalID: 2417012214345478615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 576
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9098f7e0e2f0a8f80800000000000000
+      internalID: -8103647889013634807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a943c364a068bac00800000000000000
+      internalID: 912970728158803098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 576
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e70949c1faef90800000000000000
+      internalID: -6923455630312742712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c5610e22bc76550800000000000000
+      internalID: 6154110766473960535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154192007add6abb0800000000000000
+      internalID: -4925005433151089583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_38
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 576
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db21135c4ccf2ff70800000000000000
+      internalID: 9219709309232943805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 576
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d453969e3153501d0800000000000000
+      internalID: -3385241185262422707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18245c65d8cda58e0800000000000000
+      internalID: -1703807009402043775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_41
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3151dd22d0e7101b0800000000000000
+      internalID: -5692129859135007469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 573
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15678a8c053c301d0800000000000000
+      internalID: -3385647743121197487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_43
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b6442751928bd20800000000000000
+      internalID: 3294428299509656389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff11569d920b48b0800000000000000
+      internalID: -5167033271622492162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 576
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9909aeb9b84bb3670800000000000000
+      internalID: 8519601631810719897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 576
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f067929d8846fa930800000000000000
+      internalID: 4156651520007960079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_47
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 576
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6fd1a07b8b9d380800000000000000
+      internalID: -8945916088506517773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_48
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbc9237f1eb34870800000000000000
+      internalID: 8665979150276348876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_49
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 576
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9301021e2eae1ed10800000000000000
+      internalID: 2153260357020291129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_50
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23526194f2b92a950800000000000000
+      internalID: 6458895442994668850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 557
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9159676cf5cf7e1a0800000000000000
+      internalID: -6780173225701239527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_52
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 557
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec72411446a1490f0800000000000000
+      internalID: -1111234190162778162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_53
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 555
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeba7f0ed131d1340800000000000000
+      internalID: 4836042593915087850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_54
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 557
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40204eb24c317ad0800000000000000
+      internalID: -2706315643715575730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_55
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 557
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97bd07f503c3cce0800000000000000
+      internalID: -1386049829912856678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 557
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd0ea1702a717000800000000000000
+      internalID: 31940952133078487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 554
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae40b088f9b26cbe0800000000000000
+      internalID: -1457429465225558806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_58
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 557
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43823cec50b9ea630800000000000000
+      internalID: 3940257173241800756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_59
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 557
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c00be6b151e6da0800000000000000
+      internalID: -5949794850144515057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_60
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 557
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22f50635383b640800000000000000
+      internalID: 5094559997608534713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_61
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 557
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5977dcba0b5dd4020800000000000000
+      internalID: 2327751537193744277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_62
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 557
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a394a4dfba6a81dc0800000000000000
+      internalID: -3667998638874146502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_63
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 557
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976603a4fd5153cb0800000000000000
+      internalID: -4884974172046858631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_64
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 557
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61815f1931e934210800000000000000
+      internalID: 1316069323012642838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 557
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e497dcdb7f339690800000000000000
+      internalID: -7596658345225251616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_66
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 337
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfbd59b38d899dc0800000000000000
+      internalID: -3631716027607433285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_67
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 301
+        width: 236
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88201120e8609e10800000000000000
+      internalID: 2202375529620842638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_68
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 301
+        width: 243
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da0b1f07d45ebd0800000000000000
+      internalID: -2601588062250029692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_69
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 301
+        width: 238
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9ce8bfddb91230800000000000000
+      internalID: 3610125344892035043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_70
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 301
+        width: 201
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643e176ab9af5d9b0800000000000000
+      internalID: -5055859460234157242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_71
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 301
+        width: 200
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993f1b878f2095720800000000000000
+      internalID: 2835300706606511001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_72
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 301
+        width: 314
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece30930e14de3990800000000000000
+      internalID: -7404247511976624434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_73
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 301
+        width: 243
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a75af3f2044975d0800000000000000
+      internalID: -3064343291975018589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_74
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 301
+        width: 249
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7056461b97f8e9110800000000000000
+      internalID: 1269609897795020039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_75
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 177
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4050238732ae7ade0800000000000000
+      internalID: -1321830527548652284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_76
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1
+        width: 175
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d649e2dcb63b7920800000000000000
+      internalID: 2989042962310710995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_77
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1
+        width: 177
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ed4ce3728badaf0800000000000000
+      internalID: -370781540608319966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_78
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1
+        width: 181
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffb7f156dcede9d0800000000000000
+      internalID: -2743276192756416519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_79
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1
+        width: 178
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6f432a82160b4a0800000000000000
+      internalID: -6579652228440328475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_80
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1
+        width: 176
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386df8a901881b4b0800000000000000
+      internalID: -5426406471110764925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_81
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1
+        width: 178
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81886bf657f5b1700800000000000000
+      internalID: 512107940626728984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_82
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 7
+        width: 641
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6528764d29c4a30800000000000000
+      internalID: 4200893993397147335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_83
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 202
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e9bb83de4a30ce0800000000000000
+      internalID: -1440126117062402498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_84
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 202
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500cebb79fecadf80800000000000000
+      internalID: -8080919010444656635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_85
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 203
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c61b2c9840a9720800000000000000
+      internalID: 2853598303616068611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_86
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 203
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e171feb377730e40800000000000000
+      internalID: 5621468098896949735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_87
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 109
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611bc141afb25d490800000000000000
+      internalID: -7722217632977604330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_88
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 118
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac1c1690fe073680800000000000000
+      internalID: -8775528922434757470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_89
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 1
+        width: 87
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf80160b0515bd60800000000000000
+      internalID: 7905247858009345962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_90
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 54
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e0f51a8db092d0800000000000000
+      internalID: -3273908528327106360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_91
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 52
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8008210c7042b9500800000000000000
+      internalID: 403956207285600264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_92
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 52
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ebd05359c676990800000000000000
+      internalID: -7392820875209359820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_93
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 54
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972be8b3fff013680800000000000000
+      internalID: -8777216609878101383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_94
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 54
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa7082335263290800000000000000
+      internalID: -7911094793784546674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_95
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 54
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aa12921273a75a0800000000000000
+      internalID: -6522840494729221621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_96
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 51
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf819eed133ba40c0800000000000000
+      internalID: -4590659843376211716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_97
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 33
+        width: 124
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef09018a0b5f0180800000000000000
+      internalID: -9146992217493532694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_98
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23be34cf66e9f6400800000000000000
+      internalID: 319648263722756914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_99
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3e130f0d70379b0800000000000000
+      internalID: -5083710960406764596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_100
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 36
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdeffd6a1124dbd0800000000000000
+      internalID: -2606421886942319179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_101
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 36
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c02ea2a64204940800000000000000
+      internalID: 5278258801682812055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_102
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cabd9ea490e6bc0800000000000000
+      internalID: -3788080019216290696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_103
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 20
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ac973a2bdaa1ef0800000000000000
+      internalID: -136605855922927052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_104
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 20
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d7afce7f62278c0800000000000000
+      internalID: -4003094272504332987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_105
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26108e5ec5c6aba70800000000000000
+      internalID: 8843499964545368418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_106
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 17
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5530e524475764ef0800000000000000
+      internalID: -124282797515996331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_107
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 20
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f4fae8bfa769730800000000000000
+      internalID: 4005524139441868547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_108
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daf7b5d55e8c65a0800000000000000
+      internalID: -6526685260657722666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_109
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431d6bb02626caef0800000000000000
+      internalID: -95593318838775500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_110
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 18
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796e8aacb8010c490800000000000000
+      internalID: -7728158767981205865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_111
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 17
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275c0bc4948a1b540800000000000000
+      internalID: 5021980092267545970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_112
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 20
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687b393e57a6f58e0800000000000000
+      internalID: -1702525079560931450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_113
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 20
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fc4615dd62b22f0800000000000000
+      internalID: -996660160537243843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_114
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdf6f7dda1de9a50800000000000000
+      internalID: 6529887054316633597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_115
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266739927432ea4e0800000000000000
+      internalID: -1968597198567147934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_116
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff235cfe51ae1fd20800000000000000
+      internalID: 3310684581031916287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_117
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6af46ccf302f00d0800000000000000
+      internalID: -3454506930785682833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_118
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19268ab0f248ec9c0800000000000000
+      internalID: -3905038489289727343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_119
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78ddafe0d5ca62a0800000000000000
+      internalID: -6743359990868879238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_120
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98380376179e3ddd0800000000000000
+      internalID: -2462367897969720439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_121
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43c44d6a4f0ccd10800000000000000
+      internalID: 2147107934684103501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_122
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab51363e4deaa26e0800000000000000
+      internalID: -1861483266593057350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_123
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392accc7abee1b050800000000000000
+      internalID: 5814691078637134483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_124
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1518c3cfc775da130800000000000000
+      internalID: 3579613473148797265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_125
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9d513587df007c0800000000000000
+      internalID: -4107004166930048556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_126
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 4
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e27447ea325d01b0800000000000000
+      internalID: -5688800341357464855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_127
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa92efee93077b0800000000000000
+      internalID: -5228615468748001341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_128
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 4
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e12b963619e22e40800000000000000
+      internalID: 5630318765781230053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Thor Avengers_129
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 4
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ef100c45dad1910800000000000000
+      internalID: 1809793204783021696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_0: 309826301081563368
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_1: -4847448213777086477
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_10: -124925835815451587
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_100: -2606421886942319179
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_101: 5278258801682812055
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_102: -3788080019216290696
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_103: -136605855922927052
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_104: -4003094272504332987
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_105: 8843499964545368418
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_106: -124282797515996331
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_107: 4005524139441868547
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_108: -6526685260657722666
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_109: -95593318838775500
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_11: 7781423993540930499
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_110: -7728158767981205865
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_111: 5021980092267545970
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_112: -1702525079560931450
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_113: -996660160537243843
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_114: 6529887054316633597
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_115: -1968597198567147934
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_116: 3310684581031916287
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_117: -3454506930785682833
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_118: -3905038489289727343
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_119: -6743359990868879238
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_12: 5824972209410279901
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_120: -2462367897969720439
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_121: 2147107934684103501
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_122: -1861483266593057350
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_123: 5814691078637134483
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_124: 3579613473148797265
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_125: -4107004166930048556
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_126: -5688800341357464855
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_127: -5228615468748001341
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_128: 5630318765781230053
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_129: 1809793204783021696
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_13: -6843792140123128725
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_14: -2452676836684139751
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_15: -3476818617373194347
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_16: -3553190423014186522
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_17: -788761244860237898
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_18: 5856267635819226125
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_19: -3140992278274912920
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_2: -2817122571130072821
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_20: 1304586929947263440
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_21: -2471923789064607662
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_22: -6726114160375779955
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_23: -4129094602682059225
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_24: -8384110524983887986
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_25: -5701601576915562284
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_26: -1914677405155426057
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_27: -4597161071185646798
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_28: 8106135565161460292
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_29: -39028782702353950
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_3: 9046690016397698674
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_30: -6298946755797488476
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_31: -2257589175931220924
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_32: 2417012214345478615
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_33: -8103647889013634807
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_34: 912970728158803098
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_35: -6923455630312742712
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_36: 6154110766473960535
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_37: -4925005433151089583
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_38: 9219709309232943805
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_39: -3385241185262422707
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_4: -131043694657058709
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_40: -1703807009402043775
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_41: -5692129859135007469
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_42: -3385647743121197487
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_43: 3294428299509656389
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_44: -5167033271622492162
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_45: 8519601631810719897
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_46: 4156651520007960079
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_47: -8945916088506517773
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_48: 8665979150276348876
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_49: 2153260357020291129
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_5: 6668841826215002721
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_50: 6458895442994668850
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_51: -6780173225701239527
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_52: -1111234190162778162
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_53: 4836042593915087850
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_54: -2706315643715575730
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_55: -1386049829912856678
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_56: 31940952133078487
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_57: -1457429465225558806
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_58: 3940257173241800756
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_59: -5949794850144515057
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_6: -7824006301843156293
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_60: 5094559997608534713
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_61: 2327751537193744277
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_62: -3667998638874146502
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_63: -4884974172046858631
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_64: 1316069323012642838
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_65: -7596658345225251616
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_66: -3631716027607433285
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_67: 2202375529620842638
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_68: -2601588062250029692
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_69: 3610125344892035043
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_7: -7679654519665728556
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_70: -5055859460234157242
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_71: 2835300706606511001
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_72: -7404247511976624434
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_73: -3064343291975018589
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_74: 1269609897795020039
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_75: -1321830527548652284
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_76: 2989042962310710995
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_77: -370781540608319966
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_78: -2743276192756416519
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_79: -6579652228440328475
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_8: 6134957926924712641
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_80: -5426406471110764925
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_81: 512107940626728984
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_82: 4200893993397147335
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_83: -1440126117062402498
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_84: -8080919010444656635
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_85: 2853598303616068611
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_86: 5621468098896949735
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_87: -7722217632977604330
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_88: -8775528922434757470
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_89: 7905247858009345962
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_9: 3693423993120258000
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_90: -3273908528327106360
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_91: 403956207285600264
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_92: -7392820875209359820
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_93: -8777216609878101383
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_94: -7911094793784546674
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_95: -6522840494729221621
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_96: -4590659843376211716
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_97: -9146992217493532694
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_98: 319648263722756914
+      Browser Games - Marvel Avengers Alliance - Thor Avengers_99: -5083710960406764596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

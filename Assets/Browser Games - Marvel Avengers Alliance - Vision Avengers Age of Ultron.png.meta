@@ -1,0 +1,3549 @@
+fileFormatVersion: 2
+guid: 5cab2c3babb75a14c80e4aec1d93c527
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5688677424649693026
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_0
+  - first:
+      213: -7868493224278753
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_1
+  - first:
+      213: 1658783170311139942
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_2
+  - first:
+      213: 5683652617373270171
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_3
+  - first:
+      213: -7263304803025244706
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_4
+  - first:
+      213: 3620209533216200529
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_5
+  - first:
+      213: 2006624645697187685
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_6
+  - first:
+      213: 1738934621450328156
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_7
+  - first:
+      213: 6175232133458993340
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_8
+  - first:
+      213: 450636867773133378
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_9
+  - first:
+      213: -2736655143188375818
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_10
+  - first:
+      213: -3426794553104264295
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_11
+  - first:
+      213: -5972903973696707694
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_12
+  - first:
+      213: 2573741437057949885
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_13
+  - first:
+      213: 3495636605158645728
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_14
+  - first:
+      213: -1866493773693704854
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_15
+  - first:
+      213: -1872559531680490031
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_16
+  - first:
+      213: 8800583588994547934
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_17
+  - first:
+      213: -3037885461814664195
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_18
+  - first:
+      213: -5062539886534293370
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_19
+  - first:
+      213: -480718931660063748
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_20
+  - first:
+      213: -9156583249180451195
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_21
+  - first:
+      213: 1665986894536320480
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_22
+  - first:
+      213: 423382529915641177
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_23
+  - first:
+      213: 7527020763734323874
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_24
+  - first:
+      213: -3432321514391876287
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_25
+  - first:
+      213: -8092601339615329840
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_26
+  - first:
+      213: -354839202934112877
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_27
+  - first:
+      213: 8210983519642707375
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_28
+  - first:
+      213: -4099705691715768887
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_29
+  - first:
+      213: 3127417885420052889
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_30
+  - first:
+      213: -2789727461129689791
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_31
+  - first:
+      213: -3145875770197226789
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_32
+  - first:
+      213: 5263750271598981419
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_33
+  - first:
+      213: 8380741818581481459
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_34
+  - first:
+      213: -6458739123587245987
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_35
+  - first:
+      213: -1850947051300002499
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_36
+  - first:
+      213: 1383456438275088471
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_37
+  - first:
+      213: 7987240827597313792
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_38
+  - first:
+      213: -7755856894010550461
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_39
+  - first:
+      213: -5367828462119189000
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_40
+  - first:
+      213: -3491663380889536127
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_41
+  - first:
+      213: -7271425820979156376
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_42
+  - first:
+      213: 1568724486733685848
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_43
+  - first:
+      213: -2157553162849551183
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_44
+  - first:
+      213: -111208211956986871
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_45
+  - first:
+      213: 5475350598943792547
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_46
+  - first:
+      213: 666889580827822074
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_47
+  - first:
+      213: -6814717796473985641
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_48
+  - first:
+      213: 3948032807362727431
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_49
+  - first:
+      213: -8283352935100786712
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_50
+  - first:
+      213: -6890337761011049873
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_51
+  - first:
+      213: -2389232026288400961
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_52
+  - first:
+      213: -8763561064084620577
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_53
+  - first:
+      213: -1392021057245150183
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_54
+  - first:
+      213: 2858612283128353467
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_55
+  - first:
+      213: -8396933322410868571
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_56
+  - first:
+      213: -8055715916321717543
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_57
+  - first:
+      213: -4614012034898888220
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_58
+  - first:
+      213: 3265387953765709784
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_59
+  - first:
+      213: -6118714680500918193
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_60
+  - first:
+      213: -8890057635444478666
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_61
+  - first:
+      213: 6213725773584284991
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_62
+  - first:
+      213: -4320469021615370153
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_63
+  - first:
+      213: 4199310998280610598
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_64
+  - first:
+      213: 8082535346251273934
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_65
+  - first:
+      213: -6985717307253172599
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_66
+  - first:
+      213: -2567342247383777704
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_67
+  - first:
+      213: 647611613075793297
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_68
+  - first:
+      213: -2528335546485689861
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_69
+  - first:
+      213: 8494643294811966857
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_70
+  - first:
+      213: -3416171723607415520
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_71
+  - first:
+      213: -8515607273179143741
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_72
+  - first:
+      213: 6159350760871629635
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_73
+  - first:
+      213: -1905899251874201460
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_74
+  - first:
+      213: -2396786013853633186
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_75
+  - first:
+      213: 4533879362646291055
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_76
+  - first:
+      213: -5875987842638825035
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_77
+  - first:
+      213: 6535098278704946699
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_78
+  - first:
+      213: 2559048920202990986
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_79
+  - first:
+      213: 4353888706512983727
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_80
+  - first:
+      213: 2600738937354710970
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_81
+  - first:
+      213: 8088101889533938671
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_82
+  - first:
+      213: 6588327691694304230
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_83
+  - first:
+      213: -6861899322313388364
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_84
+  - first:
+      213: -7502642495024932048
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_85
+  - first:
+      213: 8252528621674032560
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_86
+  - first:
+      213: -5516986629584736354
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_87
+  - first:
+      213: 5526572675294958069
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_88
+  - first:
+      213: -1115722301109234542
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_89
+  - first:
+      213: -8066783221717687456
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_90
+  - first:
+      213: 5797867367875778184
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_91
+  - first:
+      213: -2851723104587216831
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_92
+  - first:
+      213: -8165304779818779199
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_93
+  - first:
+      213: -3025167100807916390
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_94
+  - first:
+      213: 8261480443961086638
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_95
+  - first:
+      213: -5265934049187615091
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_96
+  - first:
+      213: -7218652518544743821
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_97
+  - first:
+      213: 5824141000193443817
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_98
+  - first:
+      213: -1081186150932257234
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_99
+  - first:
+      213: 3150556083601769767
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_100
+  - first:
+      213: -8441139003641138050
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_101
+  - first:
+      213: -4658631452035614135
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_102
+  - first:
+      213: -7349477255417641997
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_103
+  - first:
+      213: -4831493854822732723
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_104
+  - first:
+      213: -1631568551298596526
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_105
+  - first:
+      213: -1397543426325370813
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_106
+  - first:
+      213: -5329387915637771929
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_107
+  - first:
+      213: 6771130759738990859
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_108
+  - first:
+      213: -1564164703237352163
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_109
+  - first:
+      213: -4147814702506208289
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_110
+  - first:
+      213: -6743493306057496410
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_111
+  - first:
+      213: 2082353946108341027
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_112
+  - first:
+      213: 5688189089940994011
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_113
+  - first:
+      213: 3631400474583157117
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_114
+  - first:
+      213: 8626085816958126752
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_115
+  - first:
+      213: -650203720778693249
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_116
+  - first:
+      213: 4699609464793348800
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_117
+  - first:
+      213: 8159754229249565667
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_118
+  - first:
+      213: -1092113843365117078
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_119
+  - first:
+      213: -41845019003667003
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_120
+  - first:
+      213: 7631077510531527374
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_121
+  - first:
+      213: -7039880615759303627
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_122
+  - first:
+      213: -1768514525684796365
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_123
+  - first:
+      213: 5481680763126361784
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_124
+  - first:
+      213: 4193612156661676715
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_125
+  - first:
+      213: -4014183129530811362
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_126
+  - first:
+      213: 3521313673463375123
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_127
+  - first:
+      213: 1936776212435306429
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_128
+  - first:
+      213: -3580445424080541004
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_129
+  - first:
+      213: -1263169753038761638
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_130
+  - first:
+      213: -3195907158129842565
+    second: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 780
+        width: 154
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26767025afd32fe40800000000000000
+      internalID: 5688677424649693026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 948
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f150378a5ab04eff0800000000000000
+      internalID: -7868493224278753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 705
+        width: 425
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662bac9318e250710800000000000000
+      internalID: 1658783170311139942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 796
+        width: 111
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90c04531f360ee40800000000000000
+      internalID: 5683652617373270171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 868
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddaa48a3ce833b90800000000000000
+      internalID: -7263304803025244706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 858
+        width: 74
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15795d7c3619d3230800000000000000
+      internalID: 3620209533216200529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_6
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 932
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f2354db76f8db10800000000000000
+      internalID: 2006624645697187685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_7
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 932
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58dc2f23dfe12810800000000000000
+      internalID: 1738934621450328156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_8
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 932
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0a66858e4d2b550800000000000000
+      internalID: 6175232133458993340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 932
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242ff4af7dbf04600800000000000000
+      internalID: 450636867773133378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_10
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 929
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6d28d85a2750ad0800000000000000
+      internalID: -2736655143188375818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_11
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 932
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9931af782849170d0800000000000000
+      internalID: -3426794553104264295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 932
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293e9425b7bfb1da0800000000000000
+      internalID: -5972903973696707694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_13
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 932
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0ea836334c7b320800000000000000
+      internalID: 2573741437057949885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_14
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 932
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef5552c8fef28030800000000000000
+      internalID: 3495636605158645728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_15
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 929
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65228b4dc1e816e0800000000000000
+      internalID: -1866493773693704854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_16
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 932
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd9965f6055306e0800000000000000
+      internalID: -1872559531680490031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_17
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 932
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0072e8524f12a70800000000000000
+      internalID: 8800583588994547934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_18
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 932
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3a634944347d5d0800000000000000
+      internalID: -3037885461814664195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_19
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 932
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68880e1bbce3eb9b0800000000000000
+      internalID: -5062539886534293370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_20
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 929
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbb899bda42459f0800000000000000
+      internalID: -480718931660063748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_21
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 932
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e9e4c6c084de080800000000000000
+      internalID: -9156583249180451195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_22
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 932
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e52b49f046ce1710800000000000000
+      internalID: 1665986894536320480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_23
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 932
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d5ab3fa2820e500800000000000000
+      internalID: 423382529915641177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_24
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 932
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2bf573189557860800000000000000
+      internalID: 7527020763734323874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_25
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 932
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dcdb394c1fd50d0800000000000000
+      internalID: -3432321514391876287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_26
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 932
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1c06345fd41bf80800000000000000
+      internalID: -8092601339615329840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_27
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 932
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dbabcff9b531bf0800000000000000
+      internalID: -354839202934112877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_28
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 932
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5e3e8e10643f170800000000000000
+      internalID: 8210983519642707375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_29
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 929
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd62a1056bea17c0800000000000000
+      internalID: -4099705691715768887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 845
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9916aac3ff1d66b20800000000000000
+      internalID: 3127417885420052889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_31
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 879
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145663b97a5e849d0800000000000000
+      internalID: -2789727461129689791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_32
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 915
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdac2e197aa9754d0800000000000000
+      internalID: -3145875770197226789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_33
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21f505cbf89c0940800000000000000
+      internalID: 5263750271598981419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_34
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 915
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f77fcae7406e4470800000000000000
+      internalID: 8380741818581481459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_35
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d581aa9acf2fd56a0800000000000000
+      internalID: -6458739123587245987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_36
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 915
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35e43da67d1056e0800000000000000
+      internalID: -1850947051300002499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_37
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 915
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7502d9dfc46033310800000000000000
+      internalID: 1383456438275088471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_38
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0075f68e63168de60800000000000000
+      internalID: 7987240827597313792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_39
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3479cb74f39ad5490800000000000000
+      internalID: -7755856894010550461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_40
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 915
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f587242474a185b0800000000000000
+      internalID: -5367828462119189000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_41
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 912
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189f6da97ae1b8fc0800000000000000
+      internalID: -3491663380889536127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_42
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a2fe1ddb4b61b90800000000000000
+      internalID: -7271425820979156376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_43
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 915
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854e736fb9a35c510800000000000000
+      internalID: 1568724486733685848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_44
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcf45064d4de02e0800000000000000
+      internalID: -2157553162849551183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_45
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 915
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c823e68b8e47ef0800000000000000
+      internalID: -111208211956986871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_46
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 915
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad54ce2c5a5cfb40800000000000000
+      internalID: 5475350598943792547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_47
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 915
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7c6a95a84414900800000000000000
+      internalID: 666889580827822074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_48
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795a2a025424d61a0800000000000000
+      internalID: -6814717796473985641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_49
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 915
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e8174bbea3ac630800000000000000
+      internalID: 3948032807362727431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_50
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 898
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7d022846e9b0d80800000000000000
+      internalID: -8283352935100786712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_51
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 898
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad97c105a9060a0800000000000000
+      internalID: -6890337761011049873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_52
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 896
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5d71b712eb7ded0800000000000000
+      internalID: -2389232026288400961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_53
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 898
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdabacfb4a3916680800000000000000
+      internalID: -8763561064084620577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_54
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 898
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140a03493c8eace0800000000000000
+      internalID: -1392021057245150183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_55
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 898
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb21f66d9b4dba720800000000000000
+      internalID: 2858612283128353467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_56
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 895
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a04f03d1a9187b80800000000000000
+      internalID: -8396933322410868571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_57
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 898
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d20f2c1e09543090800000000000000
+      internalID: -8055715916321717543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_58
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 898
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e97976108cb7ffb0800000000000000
+      internalID: -4614012034898888220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_59
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 898
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d77b0e0b0df05d20800000000000000
+      internalID: 3265387953765709784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_60
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 898
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4866ca9a65f51ba0800000000000000
+      internalID: -6118714680500918193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_61
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 898
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d259e9eab20a480800000000000000
+      internalID: -8890057635444478666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_62
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 898
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d3e2a5ba69b3650800000000000000
+      internalID: 6213725773584284991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_63
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 898
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750598fc05c9a04c0800000000000000
+      internalID: -4320469021615370153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_64
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 898
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62328e1aa13f64a30800000000000000
+      internalID: 4199310998280610598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_65
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 716
+        width: 65
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec698d5031fea2070800000000000000
+      internalID: 8082535346251273934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_66
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 838
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98650e7fe1fbd0f90800000000000000
+      internalID: -6985717307253172599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_67
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 776
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e36df04d7fe5cd0800000000000000
+      internalID: -2567342247383777704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_68
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 825
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195ecc5b457ccf800800000000000000
+      internalID: 647611613075793297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_69
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 825
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf13ab6573c89ecd0800000000000000
+      internalID: -2528335546485689861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_70
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 825
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dcbe0f11903e570800000000000000
+      internalID: 8494643294811966857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_71
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 825
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02565a2cae15790d0800000000000000
+      internalID: -3416171723607415520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_72
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 788
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1ac6b7d4c72d980800000000000000
+      internalID: -8515607273179143741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_73
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 769
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34319c422e86a7550800000000000000
+      internalID: 6159350760871629635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_74
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 769
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c800b527ab2ec85e0800000000000000
+      internalID: -1905899251874201460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_75
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 769
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5531a1b1d7ecbed0800000000000000
+      internalID: -2396786013853633186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_76
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 769
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62b10142439bee30800000000000000
+      internalID: 4533879362646291055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_77
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 690
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9bffe703c447ea0800000000000000
+      internalID: -5875987842638825035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_78
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 485
+        width: 119
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e9972924551ba50800000000000000
+      internalID: 6535098278704946699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_79
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 485
+        width: 132
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85db8b3f61938320800000000000000
+      internalID: 2559048920202990986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_80
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 485
+        width: 153
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa69a4fe5be1c6c30800000000000000
+      internalID: 4353888706512983727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_81
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 537
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfed82c84ea71420800000000000000
+      internalID: 2600738937354710970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_82
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 485
+        width: 137
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb06d0e0d5be3070800000000000000
+      internalID: 8088101889533938671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_83
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 521
+        width: 188
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebee4f01217e6b50800000000000000
+      internalID: 6588327691694304230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_84
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 521
+        width: 192
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be44091ce2a5c0a0800000000000000
+      internalID: -6861899322313388364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_85
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 521
+        width: 188
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bd947c66241e790800000000000000
+      internalID: -7502642495024932048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_86
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 485
+        width: 142
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdef91ce0fd68270800000000000000
+      internalID: 8252528621674032560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 266
+        width: 174
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fa50104e9bf63b0800000000000000
+      internalID: -5516986629584736354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_88
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 284
+        width: 247
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f11650319452bc40800000000000000
+      internalID: 5526572675294958069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_89
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 379
+        width: 175
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294176e7a782480f0800000000000000
+      internalID: -1115722301109234542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_90
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 284
+        width: 232
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063af6546670d0090800000000000000
+      internalID: -8066783221717687456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_91
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 284
+        width: 232
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886901517a9267050800000000000000
+      internalID: 5797867367875778184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_92
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 381
+        width: 95
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1480e4902f4ac68d0800000000000000
+      internalID: -2851723104587216831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_93
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 277
+        width: 126
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd3a1c70920fae80800000000000000
+      internalID: -8165304779818779199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_94
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 256
+        width: 87
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a945522cc827406d0800000000000000
+      internalID: -3025167100807916390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 310
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2132d41bca6a270800000000000000
+      internalID: 8261480443961086638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_96
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 273
+        width: 129
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ea983e1e4abe6b0800000000000000
+      internalID: -5265934049187615091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_97
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 309
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372692bc7c132db90800000000000000
+      internalID: -7218652518544743821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_98
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 307
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7815ec16183d050800000000000000
+      internalID: 5824141000193443817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_99
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 307
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e266c919ceadef0f0800000000000000
+      internalID: -1081186150932257234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_100
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 309
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7258700d01609bb20800000000000000
+      internalID: 3150556083601769767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_101
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 309
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74764c9ccc0bda80800000000000000
+      internalID: -8441139003641138050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_102
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 309
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a74f97067395fb0800000000000000
+      internalID: -4658631452035614135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_103
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 306
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3c40a1069610a90800000000000000
+      internalID: -7349477255417641997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_104
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 291
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ceec8ffe513fcb0800000000000000
+      internalID: -4831493854822732723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_105
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 275
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25106290c018b59e0800000000000000
+      internalID: -1631568551298596526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_106
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 275
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348a1b388adea9ce0800000000000000
+      internalID: -1397543426325370813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_107
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 272
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761b6225de53a06b0800000000000000
+      internalID: -5329387915637771929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_108
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 272
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01a6fd0d83e7fd50800000000000000
+      internalID: 6771130759738990859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_109
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 275
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15555d5d78fa4ae0800000000000000
+      internalID: -1564164703237352163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_110
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 122
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd399fe01800076c0800000000000000
+      internalID: -4147814702506208289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_111
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 256
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8e733119c4a62a0800000000000000
+      internalID: -6743493306057496410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_112
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bab6691e106ec10800000000000000
+      internalID: 2082353946108341027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_113
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd77f2907d180fe40800000000000000
+      internalID: 5688189089940994011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_114
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 259
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79c6bcdd73556230800000000000000
+      internalID: 3631400474583157117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_115
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa03d9f85306b770800000000000000
+      internalID: 8626085816958126752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_116
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 256
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75495f29230af6f0800000000000000
+      internalID: -650203720778693249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_117
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca321c98ed583140800000000000000
+      internalID: 4699609464793348800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_118
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e369e04d354d3170800000000000000
+      internalID: 8159754229249565667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_119
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638fe7ee3808d0f0800000000000000
+      internalID: -1092113843365117078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_120
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 259
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdbaaa4d265b6ff0800000000000000
+      internalID: -41845019003667003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_121
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec234bc809807e960800000000000000
+      internalID: 7631077510531527374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_122
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 259
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c228cf0e15d4e90800000000000000
+      internalID: -7039880615759303627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_123
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 259
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334707ca869f477e0800000000000000
+      internalID: -1768514525684796365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_124
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2
+        width: 141
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be2d326c97d21c40800000000000000
+      internalID: 5481680763126361784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_125
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 156
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa349ba904b23a30800000000000000
+      internalID: 4193612156661676715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_126
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c33f436b1ca48c0800000000000000
+      internalID: -4014183129530811362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_127
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 39
+        width: 175
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315a28911283ed030800000000000000
+      internalID: 3521313673463375123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_128
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 39
+        width: 183
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db702a724bfc0ea10800000000000000
+      internalID: 1936776212435306429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_129
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 121
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baa1085bd3bf4ec0800000000000000
+      internalID: -3580445424080541004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_130
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 39
+        width: 165
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a515b1b5dc1587ee0800000000000000
+      internalID: -1263169753038761638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_131
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 8
+        width: 155
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76ea805f5bd5a3d0800000000000000
+      internalID: -3195907158129842565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_0: 5688677424649693026
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_1: -7868493224278753
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_10: -2736655143188375818
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_100: 3150556083601769767
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_101: -8441139003641138050
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_102: -4658631452035614135
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_103: -7349477255417641997
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_104: -4831493854822732723
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_105: -1631568551298596526
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_106: -1397543426325370813
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_107: -5329387915637771929
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_108: 6771130759738990859
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_109: -1564164703237352163
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_11: -3426794553104264295
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_110: -4147814702506208289
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_111: -6743493306057496410
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_112: 2082353946108341027
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_113: 5688189089940994011
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_114: 3631400474583157117
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_115: 8626085816958126752
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_116: -650203720778693249
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_117: 4699609464793348800
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_118: 8159754229249565667
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_119: -1092113843365117078
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_12: -5972903973696707694
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_120: -41845019003667003
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_121: 7631077510531527374
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_122: -7039880615759303627
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_123: -1768514525684796365
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_124: 5481680763126361784
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_125: 4193612156661676715
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_126: -4014183129530811362
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_127: 3521313673463375123
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_128: 1936776212435306429
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_129: -3580445424080541004
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_13: 2573741437057949885
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_130: -1263169753038761638
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_131: -3195907158129842565
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_14: 3495636605158645728
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_15: -1866493773693704854
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_16: -1872559531680490031
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_17: 8800583588994547934
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_18: -3037885461814664195
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_19: -5062539886534293370
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_2: 1658783170311139942
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_20: -480718931660063748
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_21: -9156583249180451195
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_22: 1665986894536320480
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_23: 423382529915641177
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_24: 7527020763734323874
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_25: -3432321514391876287
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_26: -8092601339615329840
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_27: -354839202934112877
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_28: 8210983519642707375
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_29: -4099705691715768887
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_3: 5683652617373270171
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_30: 3127417885420052889
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_31: -2789727461129689791
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_32: -3145875770197226789
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_33: 5263750271598981419
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_34: 8380741818581481459
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_35: -6458739123587245987
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_36: -1850947051300002499
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_37: 1383456438275088471
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_38: 7987240827597313792
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_39: -7755856894010550461
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_4: -7263304803025244706
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_40: -5367828462119189000
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_41: -3491663380889536127
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_42: -7271425820979156376
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_43: 1568724486733685848
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_44: -2157553162849551183
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_45: -111208211956986871
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_46: 5475350598943792547
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_47: 666889580827822074
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_48: -6814717796473985641
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_49: 3948032807362727431
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_5: 3620209533216200529
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_50: -8283352935100786712
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_51: -6890337761011049873
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_52: -2389232026288400961
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_53: -8763561064084620577
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_54: -1392021057245150183
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_55: 2858612283128353467
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_56: -8396933322410868571
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_57: -8055715916321717543
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_58: -4614012034898888220
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_59: 3265387953765709784
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_6: 2006624645697187685
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_60: -6118714680500918193
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_61: -8890057635444478666
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_62: 6213725773584284991
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_63: -4320469021615370153
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_64: 4199310998280610598
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_65: 8082535346251273934
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_66: -6985717307253172599
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_67: -2567342247383777704
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_68: 647611613075793297
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_69: -2528335546485689861
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_7: 1738934621450328156
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_70: 8494643294811966857
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_71: -3416171723607415520
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_72: -8515607273179143741
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_73: 6159350760871629635
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_74: -1905899251874201460
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_75: -2396786013853633186
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_76: 4533879362646291055
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_77: -5875987842638825035
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_78: 6535098278704946699
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_79: 2559048920202990986
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_8: 6175232133458993340
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_80: 4353888706512983727
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_81: 2600738937354710970
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_82: 8088101889533938671
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_83: 6588327691694304230
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_84: -6861899322313388364
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_85: -7502642495024932048
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_86: 8252528621674032560
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_87: -5516986629584736354
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_88: 5526572675294958069
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_89: -1115722301109234542
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_9: 450636867773133378
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_90: -8066783221717687456
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_91: 5797867367875778184
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_92: -2851723104587216831
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_93: -8165304779818779199
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_94: -3025167100807916390
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_95: 8261480443961086638
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_96: -5265934049187615091
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_97: -7218652518544743821
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_98: 5824141000193443817
+      Browser Games - Marvel Avengers Alliance - Vision Avengers Age of Ultron_99: -1081186150932257234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
