@@ -603,6 +603,7 @@ MonoBehaviour:
   Hulk_CHP: {fileID: 3769633120538312049, guid: b481310aa60dffe4da1f3c1f7edfa32d, type: 3}
   HE_CHP: {fileID: 6405676137462409738, guid: dea89e3669de9b642b58e9a7077c42a1, type: 3}
   Vision_CHP: {fileID: 2515630434717120368, guid: 88b3d19f31145be41980813ea8e7b1b6, type: 3}
+  Posible_Mov: {fileID: 2052271337663417905, guid: 4cc5daed337d8c84e8f88c7417095e04, type: 3}
   wallPrefab: {fileID: 2927062531131272617, guid: 8632b2aba94b27d4e9c80a4e99a82f9a, type: 3}
   Display_player: {fileID: 1048999799}
   mainCamera: {fileID: 1030813084}
@@ -843,6 +844,7 @@ MonoBehaviour:
   Hulk_CHP: {fileID: 0}
   HE_CHP: {fileID: 0}
   Vision_CHP: {fileID: 0}
+  Posible_Mov: {fileID: 0}
   wallPrefab: {fileID: 0}
   Display_player: {fileID: 0}
   mainCamera: {fileID: 0}

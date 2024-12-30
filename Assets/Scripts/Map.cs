@@ -10,6 +10,7 @@ using UnityEngine.Rendering;
 using UnityEditor;
 using UnityEngine.Rendering.RenderGraphModule;
 using TMPro;
+using static UnityEngine.GraphicsBuffer;
 public class Player
 
 {
@@ -23,6 +24,7 @@ public class Player
     public GameObject texture;
     public GameObject instance;
     public GameObject checkpoint_texture;
+    public List<GameObject>posibles_movements=new List<GameObject>();
     public int health;
     public int speed;
     public int vision=1;
@@ -57,7 +59,8 @@ public class Player
 
     }
 
-    
+
+
 
 
 }
@@ -146,6 +149,7 @@ public class Map : MonoBehaviour
     public GameObject Hulk_CHP;
     public GameObject HE_CHP;
     public GameObject Vision_CHP;
+    public GameObject Posible_Mov;
     GameObject uiImageObj=null;
     public GameObject wallPrefab;
     public Transform Display_player;
@@ -177,22 +181,26 @@ public class Map : MonoBehaviour
     private static System.Random rand = new System.Random();
 
     private bool Block_move=false;
+    private bool New_Turn = true;
 
     public void Start()
     {
         Init_DBS();
 
         number_players = PlayerPrefs.GetInt("Number_of_Players", 1);
-        
+
         if (n % 2 == 0)
         {
             Debug.LogError("Las dimensiones deben ser impares.");
             return;
         }
-
         Init_Map();
 
+
+
+
     }
+
     public void Map_Fill()
     {
         for(int i = 0; i < laberinto.GetLength(0); i++)
@@ -414,9 +422,10 @@ public class Map : MonoBehaviour
     }
     public void Turn_Simulator()
     {
+
         int total_turns_ = total_turns;
         Player player_selected = Players[total_turns % number_players];
-
+        DisplayPosibleMovements(player_selected);
         DisplayPlayerPanel(player_selected);
         ChangePlayerVision(player_selected);
         if (!Block_move) Check_Move(player_selected);
@@ -427,9 +436,61 @@ public class Map : MonoBehaviour
         CheckNextTrun();
 
     }
+
+    public List<(int x,int y)>GetPosibleMovements(Player player_selected_)
+    {
+        List<(int x, int y)> possible_celds = new List<(int x, int y)>();
+        int pases = player_selected_.speed;
+        Vector3 player_actual_pos = player_selected_.GetActualPosition();
+      
+        int[,] player_distances = BFS(Mathf.RoundToInt(player_actual_pos.x - 0.5f), Mathf.RoundToInt(player_actual_pos.y - 0.5f));
+        for (int i = 0; i < player_distances.GetLength(0); i++)
+        {
+            for (int j = 0; j < player_distances.GetLength(1); j++)
+            {
+                if (player_distances[i, j] <= pases && player_distances[i, j] > 0 && laberinto[i,j]!="wall")
+                {
+                    possible_celds.Add((i, j));
+                }
+
+            }
+        }
+        return possible_celds;
+    }
+    public void DisplayPosibleMovements(Player player_selected_)
+    {
+
+        if (!New_Turn) return;
+        if (Block_move)
+        {
+            CleanPossibleMovements(player_selected_);
+            return;
+        }
+        List<(int, int)> possible_celds = GetPosibleMovements(player_selected_);
+        for (int i = 0; i < possible_celds.Count; i++)
+        {
+            (int x, int y) cord = possible_celds[i];
+            GameObject instance_mov = Instantiate(Posible_Mov, new Vector3(cord.x + 0.5f, cord.y + 0.5f, -2), Quaternion.identity);
+            Players[player_selected_.id].posibles_movements.Add(instance_mov);
+
+        }
+        New_Turn = false;
+    }
+
+    public void CleanPossibleMovements(Player player_selected_)
+    {
+
+        List<GameObject> posible_movements = player_selected_.posibles_movements;
+        for (int i = 0; i < posible_movements.Count; i++)
+        {
+            Destroy(posible_movements[i]);
+        }
+        player_selected_.posibles_movements.Clear();
+    }
+
     public void ChangePlayerVision(Player player_selected_)
     {
-        if (Block_move) return;
+     
         Vector3 player_pos = player_selected_.GetActualPosition();
         player_pos.z = -10f;
         // Mueve la cámara a la posición central
@@ -463,7 +524,7 @@ public class Map : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.N))
         {
             Block_move = false;
-
+            New_Turn = true;
             total_turns++;
 
             return;
@@ -491,7 +552,24 @@ public class Map : MonoBehaviour
     {
         Vector3 player_pos = player.instance.transform.position;
         Vector3 movement;
-        // Movimiento del jugador
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Obtener la posición del mouse en la pantalla
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            movement = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -2f);
+            Debug.Log("Clic en: " + Math.Floor(mousePosition.x) + " " + Math.Floor(mousePosition.y));
+            if (Move(movement, player))
+            {
+                //total_turns++;
+                Block_move = true;
+                CleanPossibleMovements(player);
+
+                return;
+            }
+            
+        }
+        /*Movimiento del jugador
         if (Input.GetKeyDown(KeyCode.W))
         {
             movement = new Vector3(player_pos.x, player_pos.y + 1, player_pos.z);
@@ -536,6 +614,7 @@ public class Map : MonoBehaviour
                 return;
             }
         }
+        */
 
 
 
@@ -543,13 +622,27 @@ public class Map : MonoBehaviour
 
     public bool Move(Vector3 target,Player player)
     {
-        // Calcula la nueva posición
+        /*Calcula la nueva posición
         if (laberinto[Mathf.RoundToInt(target.x - 0.5f), Mathf.RoundToInt(target.y - 0.5f)] == "path")
         {
             player.instance.transform.position = target;
             return true;
         }
+        
+        */
+        bool finded = false;
+        List<(int x, int y)> possible_movements = GetPosibleMovements(player);
+        for (int i = 0; i <possible_movements.Count; i++)
+        {
+            if (possible_movements[i] == (Math.Floor(target.x), Math.Floor(target.y)))finded=true;
+        }
+        if (finded)
+        {
+            player.instance.transform.position = target;
+            return true;
+        }
         return false;
+
 
     }
     public int[,] BFS(int x, int y)
@@ -568,8 +661,7 @@ public class Map : MonoBehaviour
                 mask[cord.Item1, cord.Item2] = true;
                 for (int i = 0; i < mov_horizontal.Length; i++)
                 {
-                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] == "path" +
-                        "")
+                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] == "path")
                     {
                         queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
                         Distance_matrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]]= Distance_matrix[cord.Item1, cord.Item2] + 1;
