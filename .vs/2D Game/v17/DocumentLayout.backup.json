@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alejandro\\Desktop\\2D Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\Map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|c:\\users\\alejandro\\desktop\\2d game\\assets\\scripts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\RoleSelectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RoleSelectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\RoleSelectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\RoleSelectController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\PlayerNumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerNumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\PlayerNumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\PlayerNumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Map.cs",
               "ToolTip": "C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\Map.cs",
               "RelativeToolTip": "Assets\\Scripts\\Map.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAKYBAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAgwK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T21:28:33.395Z",
               "EditorCaption": ""

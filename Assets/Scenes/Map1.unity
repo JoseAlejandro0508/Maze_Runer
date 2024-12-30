@@ -591,18 +591,18 @@ MonoBehaviour:
   Speed_indicator: {fileID: 555187822}
   Status_indicator: {fileID: 1963263644}
   Damage_indicator: {fileID: 1494542484}
-  CA_texture: {fileID: 0}
-  IM_texture: {fileID: 0}
-  Thor_texture: {fileID: 0}
-  Hulk_texture: {fileID: 0}
-  HE_texture: {fileID: 0}
-  Vision_texture: {fileID: 0}
-  CA_CHP: {fileID: 0}
-  IM_CHP: {fileID: 0}
-  Thor_CHP: {fileID: 0}
-  Hulk_CHP: {fileID: 0}
-  HE_CHP: {fileID: 0}
-  Vision_CHP: {fileID: 0}
+  CA_texture: {fileID: 546893961277979260, guid: 6f722a1509d8886498a0503d87dfe158, type: 3}
+  IM_texture: {fileID: 6746383311309341610, guid: 84be486d49b8de54697f858a251d1324, type: 3}
+  Thor_texture: {fileID: 59653666606324726, guid: c7745fa040dcca4458196665e22c1240, type: 3}
+  Hulk_texture: {fileID: 4669614505302129976, guid: 0b88fae9adc376d4e8042d465fdd0bb2, type: 3}
+  HE_texture: {fileID: 2873769013822645064, guid: ad6b1287f958f4642af5531a65c4a588, type: 3}
+  Vision_texture: {fileID: 2053577780705627271, guid: 99955d978aa1e8f42972cc9048f60c20, type: 3}
+  CA_CHP: {fileID: 7203693840815112117, guid: a95a8be8013b6d840bb0553e0103d24b, type: 3}
+  IM_CHP: {fileID: 8766729425582839131, guid: 873440743263ae34c942f85adf904d84, type: 3}
+  Thor_CHP: {fileID: 5701014835407221988, guid: 80962ae9f27379949ad552c8f35a5db5, type: 3}
+  Hulk_CHP: {fileID: 3769633120538312049, guid: b481310aa60dffe4da1f3c1f7edfa32d, type: 3}
+  HE_CHP: {fileID: 6405676137462409738, guid: dea89e3669de9b642b58e9a7077c42a1, type: 3}
+  Vision_CHP: {fileID: 2515630434717120368, guid: 88b3d19f31145be41980813ea8e7b1b6, type: 3}
   wallPrefab: {fileID: 2927062531131272617, guid: 8632b2aba94b27d4e9c80a4e99a82f9a, type: 3}
   Display_player: {fileID: 1048999799}
   mainCamera: {fileID: 1030813084}

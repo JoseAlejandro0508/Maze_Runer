@@ -49,7 +49,17 @@ public class Player
         speed = Players_DB_[role]["speed"];
 
     }
+    public Vector3 GetActualPosition()
+    {
+        Vector3 actual_position = instance.transform.position;
+        return actual_position;
+
+
+    }
+
     
+
+
 }
 
 
@@ -183,6 +193,17 @@ public class Map : MonoBehaviour
         Init_Map();
 
     }
+    public void Map_Fill()
+    {
+        for(int i = 0; i < laberinto.GetLength(0); i++)
+        {
+            for (int j = 0; j < laberinto.GetLength(1); j++)
+            {
+                laberinto[i,j] = "wall";
+            }
+        }
+        
+    }
     public void Init_DBS()
     {
         Textures["Capitan America"] = new Dictionary<string, GameObject>
@@ -264,7 +285,7 @@ public class Map : MonoBehaviour
     }
     public void Init_Map()
     {
-
+        Map_Fill();
         Generarate();
         Init_Players();
         
@@ -397,7 +418,7 @@ public class Map : MonoBehaviour
         Player player_selected = Players[total_turns % number_players];
 
         DisplayPlayerPanel(player_selected);
-
+        ChangePlayerVision(player_selected);
         if (!Block_move) Check_Move(player_selected);
 
 
@@ -406,6 +427,25 @@ public class Map : MonoBehaviour
         CheckNextTrun();
 
     }
+    public void ChangePlayerVision(Player player_selected_)
+    {
+        if (Block_move) return;
+        Vector3 player_pos = player_selected_.GetActualPosition();
+        player_pos.z = -10f;
+        // Mueve la cámara a la posición central
+        mainCamera.transform.position = player_pos;
+        // Ajusta la cámara para que el laberinto se vea completo
+        // Si estás usando una cámara ortográfica, ajusta el tamaño
+        if (mainCamera.orthographic)
+        {
+            float orthographic_size = n / 7;
+            mainCamera.orthographicSize = orthographic_size; // Ajusta el tamaño según el tamaño del laberinto
+        }
+
+
+
+    }
+
     public void DisplayPlayerPanel(Player player_selected_)
     {
         Title.text = $"{player_selected_.name}(P-{player_selected_.id})";
