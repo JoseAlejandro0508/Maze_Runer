@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grating_17-128x128_0: -4776431706716122522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Weave_02-128x128_0: -8033098792629558317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

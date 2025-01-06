@@ -11,6 +11,9 @@ using UnityEditor;
 using UnityEngine.Rendering.RenderGraphModule;
 using TMPro;
 using static UnityEngine.GraphicsBuffer;
+using System.Linq;
+
+
 public class Player
 
 {
@@ -25,13 +28,17 @@ public class Player
     public GameObject instance;
     public GameObject checkpoint_texture;
     public List<GameObject>posibles_movements=new List<GameObject>();
+    public List<GameObject>AreaTarget=new List<GameObject>();
     public int health;
     public int speed;
     public int vision=1;
     public int damage;
-    public string status = "good";
-
-
+    public int total_turns=0;
+    public string status="Good";
+    public Dictionary<string, Dictionary<string, int>> Players_DB;
+    public Dictionary<string,int>Status=new Dictionary<string,int>();
+    public Dictionary<string,(bool is_active,bool confirm_use ,int turn_off)>SkillsState=new Dictionary<string,(bool is_active,bool confirm_use,int turn_off)>();
+    public List<int>SkillTurns=new List<int>{0};
 
     public Player((int, int) seed_, int id_ = -1, string name_ = null, GameObject instance_ = null, int[,] distances_ = null,string role_=null)
     {
@@ -49,16 +56,109 @@ public class Player
         health = Players_DB_[role]["health"];
         damage = Players_DB_[role]["damage"];
         speed = Players_DB_[role]["speed"];
+        if(Players_DB==null)Players_DB=Players_DB_;
+        
 
     }
     public Vector3 GetActualPosition()
     {
         Vector3 actual_position = instance.transform.position;
         return actual_position;
+    }
+    public void CA_Skill(){
+        if(!SkillRefresh().is_avaliable)return;
+        SkillsState[role]=(true,true,total_turns+1);
+        Status["Protected"]=total_turns+1;
+        SkillTurns.Add(total_turns);
+        
+    }
+    public void IM_Skill(Player target){
+        if(!SkillRefresh().is_avaliable)return;
+        SkillsState[role]=(true,true,total_turns);
+        if(target.total_turns<total_turns){
+            target.Status["Paralized"]=total_turns+1;
+            return;
+        }
+        target.Status["Paralized"]=total_turns+2;
 
+        SkillTurns.Add(total_turns);
+    
+    }
+    public void HE_Skill(Player target){
+        if(!SkillRefresh().is_avaliable)return;
+        SkillsState[role]=(true,true,total_turns);
+        target.TakeDamage(damage);
+        SkillTurns.Add(total_turns);
+    
+    }
+    public void Thor_Skill(Dictionary<int, Player>Players){
 
+        if(!SkillRefresh().is_avaliable)return;
+        SkillsState[role]=(true,true,total_turns);
+        int radius=Players_DB[role]["radius"];
+        (float x,float y)ThorPosition=(GetActualPosition().x,GetActualPosition().y);
+        foreach (var target in  Players)
+        {
+            (float x,float y)TargetPosition=(target.Value.GetActualPosition().x,target.Value.GetActualPosition().y);
+            if(target.Key == id)continue;
+            if(Math.Abs(TargetPosition.x-ThorPosition.x) <=radius && Math.Abs(TargetPosition.y-ThorPosition.y) <=radius ){
+                target.Value.TakeDamage(damage);
+            }
+
+            
+        }
+
+        SkillTurns.Add(total_turns);
+    
     }
 
+
+    public (bool is_avaliable,int time_remaing)SkillRefresh()
+    {
+        if(total_turns-SkillTurns[SkillTurns.Count-1]>=Players_DB[role]["refresh_time"]){
+            return (true,0);
+        }
+        return (false,Players_DB[role]["refresh_time"]-(total_turns-SkillTurns[SkillTurns.Count-1]));
+    }
+    public bool IsActiveSkill(){
+
+        if(!SkillsState.ContainsKey(role)){
+            SkillsState[role]=(false,false,-1);
+            return false;
+        }
+        if(SkillsState[role].is_active){
+            if(SkillsState[role].confirm_use && SkillsState[role].turn_off<=total_turns){
+              SkillsState[role]=(false,false,-1);  
+            } 
+        }
+        if(!SkillsState[role].is_active)return false;
+        return true;
+    }
+    public void RefreshStatus(){
+        foreach(var status in Status){
+            if(status.Value<=total_turns){
+                Status.Remove(status.Key);
+                break;
+            } 
+        }
+    }
+ 
+
+    public bool TakeDamage(int damage)
+    {
+
+        if(role=="Capitan America" && IsActiveSkill())return true;
+        health-=damage;
+        if(health <=0){
+            instance.transform.position=new Vector3(seed.x+0.5f,seed.y+0.5f,-1);
+            GenerateStistics(Players_DB); 
+            Status.Clear();
+            return false;//Murio
+        }
+        
+        return true;//Sigue con vida
+
+    }
 
 
 
@@ -150,9 +250,14 @@ public class Map : MonoBehaviour
     public GameObject HE_CHP;
     public GameObject Vision_CHP;
     public GameObject Posible_Mov;
-    GameObject uiImageObj=null;
+    
+    public Image PlayerPreview;
+    public Image SkillPreview;
+    public TMP_Text SkillCount;
+    public TMP_Text PlayerTarget;
     public GameObject wallPrefab;
-    public Transform Display_player;
+    public GameObject AreaTexture;
+   
 
     private GameObject Player_view=null;
 
@@ -161,6 +266,7 @@ public class Map : MonoBehaviour
     static int n = 31;
     private int total_turns = 0;
     private int number_players;
+    private int IDPlayerTarget=-1;
     static List<((int x, int y), (int x, int y))> paths = new List<((int x, int y), (int x, int y))>();
     static Dictionary<int, (int, int)> Players_Seed = new Dictionary<int, (int, int)>    {
         {0,(1,1)},
@@ -182,7 +288,8 @@ public class Map : MonoBehaviour
 
     private bool Block_move=false;
     private bool New_Turn = true;
-
+    private bool firstEntrty=true;
+    private Player PlayerOnTurn;
     public void Start()
     {
         Init_DBS();
@@ -251,42 +358,43 @@ public class Map : MonoBehaviour
             { "health",5 },
             { "speed", 3},
             { "damage", 0},
-            { "referesh_time", 1},
+            { "refresh_time", 1},
         };
         Players_db["Iron Man"] = new Dictionary<string, int>
         {
             { "health",6 },
             { "speed", 3},
             { "damage", 0},
-            { "referesh_time", 2},
+            { "refresh_time", 2},
         };
         Players_db["Thor"] = new Dictionary<string, int>
         {
             { "health",7 },
             { "speed", 2},
             { "damage", 4},
-            { "referesh_time", 2},
+            { "refresh_time", 2},
+            { "radius", 3},
         };
         Players_db["Vision"] = new Dictionary<string, int>
         {
             { "health",7 },
             { "speed", 2},
             { "damage", 0},
-            { "referesh_time", 2},
+            { "refresh_time", 2},
         };
         Players_db["Hawk Eye"] = new Dictionary<string, int>
         {
             { "health",5 },
             { "speed", 3},
             { "damage", 3},
-            { "referesh_time", 3},
+            { "refresh_time", 3},
         };
         Players_db["Hulk"] = new Dictionary<string, int>
         {
             { "health",9 },
             { "speed", 1},
             { "damage", 5},
-            { "referesh_time", 1},
+            { "refresh_time", 1},
         };
 
 
@@ -316,27 +424,24 @@ public class Map : MonoBehaviour
     }
     public void SwitchPlayerPreview(int id)
     {
-        if(uiImageObj!=null) Destroy(uiImageObj);
 
-        uiImageObj = new GameObject("UIImage");
-        uiImageObj.transform.SetParent(Display_player.transform);
         GameObject orig_txt = Players[id].texture;
         // Añadir componente Image
-        Image uiImage = uiImageObj.AddComponent<Image>();
+      
         // Asignar el sprite del GameObject original al Image
         SpriteRenderer spriteRenderer = orig_txt.GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
         {
-            uiImage.sprite = spriteRenderer.sprite;
+            PlayerPreview.sprite = spriteRenderer.sprite;
         }
 
         // Ajustar 
-        RectTransform rectTransform = uiImage.GetComponent<RectTransform>();
-        rectTransform.sizeDelta = new Vector2(100, 100); // Ajustar dimensiones
-        rectTransform.localPosition = Vector3.zero; // Fijar posicion de manera relativa al objeto padre
+        //RectTransform rectTransform = PlayerPreview.GetComponent<RectTransform>();
+        //rectTransform.sizeDelta = new Vector2(100, 100); // Ajustar dimensiones
+        //rectTransform.localPosition = Vector3.zero; // Fijar posicion de manera relativa al objeto padre
 
     }
-
+// 
 
 
         public void Generarate()
@@ -422,19 +527,162 @@ public class Map : MonoBehaviour
     }
     public void Turn_Simulator()
     {
-
-        int total_turns_ = total_turns;
         Player player_selected = Players[total_turns % number_players];
-        DisplayPosibleMovements(player_selected);
-        DisplayPlayerPanel(player_selected);
-        ChangePlayerVision(player_selected);
-        if (!Block_move) Check_Move(player_selected);
+        PlayerOnTurn= Players[total_turns % number_players];
+        if(firstEntrty){
+            player_selected.total_turns++;
+            player_selected.IsActiveSkill();
+            player_selected.RefreshStatus();
+            if(!player_selected.Status.ContainsKey("Paralized")){
+                DisplayPosibleMovements(player_selected);
+            }
+            
+            DisplayPlayerPanel(player_selected);
+            ChangePlayerVision(player_selected);
+            firstEntrty = false;
+        }
 
 
-        if (total_turns_ != 0) SwitchPlayerPreview(player_selected.id);
-        if (total_turns_==0) SwitchPlayerPreview(player_selected.id);
+        if(!player_selected.Status.ContainsKey("Paralized")){
+                SkillsController(player_selected);
+                if (!Block_move) Check_Move(player_selected);
+        }
+        
+        
+        SwitchPlayerPreview(player_selected.id);
         CheckNextTrun();
 
+    }
+    public void DisplaySkillRefresh(Player player_selected){
+        int remaing=player_selected.SkillRefresh().time_remaing;
+        SkillCount.text=remaing.ToString();
+        SkillCount.color=Color.red;
+        if(remaing==0)SkillCount.color=Color.green;
+
+    }
+    public void SkillsController(Player player_selected){
+        DisplaySkillRefresh(player_selected);
+        if(!player_selected.SkillRefresh().is_avaliable)return;
+        SkillsInput(player_selected);
+
+    }
+    public void SkillsInput(Player player_selected){
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Obtener la posición del mouse en la pantalla
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            Vector3 fixedPosition = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -2f);
+            PlayerTargetSelection(fixedPosition,player_selected);
+
+        }
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+           
+            string role=player_selected.role;
+            switch (role)
+            {
+                
+                case "Iron Man":
+                    if(IDPlayerTarget==-1){
+                        CentrarCamara();
+                        break;
+                    }
+                    player_selected.IM_Skill(Players[IDPlayerTarget]);
+                    player_selected.IsActiveSkill();
+                    PlayerTarget.text="None";
+
+                    PlayerTarget.color=Color.white;
+                    ChangePlayerVision(player_selected);
+
+                    break;
+                case "Capitan America":
+
+                    player_selected.CA_Skill();
+          
+                    break;
+                case "Hawk Eye":
+                    if(IDPlayerTarget==-1){
+                        CentrarCamara();
+                        break;
+                    }
+                    player_selected.HE_Skill(Players[IDPlayerTarget]);
+                    player_selected.IsActiveSkill();
+                    PlayerTarget.text="None";
+                    PlayerTarget.color=Color.white;
+                    ChangePlayerVision(player_selected);
+          
+                    break;
+                case "Thor":
+                    if(PlayerOnTurn.AreaTarget.Count==0){
+                        DisplayArea();
+                        break;
+                    }
+
+                    player_selected.Thor_Skill(Players);
+                    player_selected.IsActiveSkill();
+                    CleanArea();
+                    break;
+            }
+            player_selected.RefreshStatus();
+            DisplayPlayerPanel(player_selected);
+            DisplaySkillRefresh(player_selected);
+
+            
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+
+            ChangePlayerVision(player_selected);
+        }
+
+    }
+    
+    public void PlayerTargetSelection(Vector3 Position,Player player_selected){
+        if(player_selected.role!="Iron Man" && player_selected.role!="Hawk Eye" && player_selected.role!="Hulk")return;
+        Debug.Log("Buscando target");
+        foreach(var player in Players){
+            if(player_selected.id==player.Key)continue;
+            if(player.Value.GetActualPosition().x==Position.x &&player.Value.GetActualPosition().y==Position.y){
+                IDPlayerTarget=player.Key;
+                Debug.Log("Target "+player.Key);
+                break;
+            }
+        }
+        if(IDPlayerTarget==-1)return;
+
+        
+        PlayerTarget.text=Players[IDPlayerTarget].role;
+        PlayerTarget.color=Color.red;
+        
+    }
+    public void DisplayArea(){
+        int radius=Players_db[PlayerOnTurn.role]["radius"];
+        if( PlayerOnTurn.AreaTarget.Count!=0)return;
+        (float x,float y)CenterPosition=(PlayerOnTurn.GetActualPosition().x,PlayerOnTurn.GetActualPosition().y);
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                (float x,float y)CeldCord= (i+0.5f,j+0.5f);
+                if(laberinto[i,j]=="wall")continue;
+                if(Math.Abs(CenterPosition.x-CeldCord.x)<=radius && Math.Abs(CenterPosition.y-CeldCord.y)<=radius){
+                    GameObject AreaCeld = Instantiate(AreaTexture, new Vector3(CeldCord.x, CeldCord.y, -2), Quaternion.identity);
+                    PlayerOnTurn.AreaTarget.Add(AreaCeld);
+                }
+
+            }
+
+        }
+    }
+    public void CleanArea()
+    {
+        List<GameObject> AreaCelds = PlayerOnTurn.AreaTarget;
+        for (int i = 0; i <AreaCelds.Count; i++)
+        {
+            Destroy(AreaCelds[i]);
+        }
+        PlayerOnTurn.AreaTarget.Clear();
     }
 
     public List<(int x,int y)>GetPosibleMovements(Player player_selected_)
@@ -515,7 +763,14 @@ public class Map : MonoBehaviour
         Health_indicator.text = $"{player_selected_.health}/{Players_db[player_selected_.role]["health"]}";
         Speed_indicator.text = $"{player_selected_.speed}/{Players_db[player_selected_.role]["speed"]}";
         Damage_indicator.text = $"{player_selected_.damage}/{Players_db[player_selected_.role]["damage"]}";
-        Status_indicator.text = player_selected_.status;
+        string status_text="Normal," ;
+        foreach(var status in player_selected_.Status){
+            if(status_text=="Normal,")status_text="";
+            status_text+=$"{status.Key},";
+        }
+        Status_indicator.text=status_text.Remove(status_text.Length-1);
+    
+
 
 
     }
@@ -526,7 +781,12 @@ public class Map : MonoBehaviour
             Block_move = false;
             New_Turn = true;
             total_turns++;
-
+            IDPlayerTarget=-1;
+            PlayerTarget.text="None";
+            CleanPossibleMovements(PlayerOnTurn);
+            CleanArea();
+            PlayerTarget.color=Color.white;
+            firstEntrty=true;
             return;
 
         }
@@ -558,6 +818,7 @@ public class Map : MonoBehaviour
             Vector3 mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             movement = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -2f);
+ 
             Debug.Log("Clic en: " + Math.Floor(mousePosition.x) + " " + Math.Floor(mousePosition.y));
             if (Move(movement, player))
             {
