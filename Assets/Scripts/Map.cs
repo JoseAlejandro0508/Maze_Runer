@@ -138,9 +138,10 @@ public class Player
 
     public (bool is_avaliable, int time_remaing) SkillRefresh()
     {
-         if (!SkillsState[role].confirm_use && SkillsState[role].is_active && SkillTurns[SkillTurns.Count - 1]==SkillsState[role].turn_off){
+        if (!SkillsState[role].confirm_use && SkillsState[role].is_active && SkillTurns[SkillTurns.Count - 1] == SkillsState[role].turn_off)
+        {
             return (true, 0);
-         }
+        }
         if (total_turns - SkillTurns[SkillTurns.Count - 1] >= Players_DB[role]["refresh_time"])
         {
             return (true, 0);
@@ -165,16 +166,54 @@ public class Player
         if (!SkillsState[role].is_active) return false;
         return true;
     }
+    public void RefreshStatistics(List<string> StatsRemoved)
+    {
+
+        foreach (string stat in StatsRemoved)
+        {
+            switch (stat)
+            {
+                case "LessVision":
+                    vision = Players_DB[role]["vision"];
+                    break;
+                case "MoreVision":
+                    vision = Players_DB[role]["vision"];
+                    break;
+                case "LimitedSpeed":
+                    speed = Players_DB[role]["speed"];
+                    break;
+                case "IncrementedSpeed":
+                    speed = Players_DB[role]["speed"];
+                    break;
+
+            }
+
+
+        }
+
+    }
     public void RefreshStatus()
     {
-        foreach (var status in Status)
+        List<string> StatsRemoved = new List<string>();
+        bool removed = true;
+        while (removed)
         {
-            if (status.Value <= total_turns)
+            removed = false;
+            foreach (var status in Status)
             {
-                Status.Remove(status.Key);
-                break;
+                if (status.Value <= total_turns)
+                {
+                    Status.Remove(status.Key);
+                    StatsRemoved.Add(status.Key);
+                    removed = true;
+                    break;
+                }
             }
-        }
+
+        };
+        RefreshStatistics(StatsRemoved);
+
+
     }
 
 
@@ -194,27 +233,47 @@ public class Player
         return true;//Sigue con vida
 
     }
-    public (int x,int y) GetPlayerLabCord(){
-        return ((int)GetActualPosition().x,(int)GetActualPosition().y);
+    public void AddHealth(int health_)
+    {
+
+
+        int player_maxhealth = Players_DB[role]["health"];
+        if (health_ >= player_maxhealth)
+        {
+            health = player_maxhealth;
+
+            return;
+        }
+        health += health_;
+
+
+
+    }
+    public (int x, int y) GetPlayerLabCord()
+    {
+        return ((int)GetActualPosition().x, (int)GetActualPosition().y);
     }
 
-    public void InitPlayerFog(int LabDim){
-        NotFog=new bool[LabDim,LabDim];
-        vision=LabDim/10;
+    public void InitPlayerFog(int LabDim)
+    {
+        NotFog = new bool[LabDim, LabDim];
+        vision = LabDim / 10;
+        Players_DB[role]["vision"] = vision;
 
     }
-    public void UpdatePlayerFog(){
+    public void UpdatePlayerFog()
+    {
         for (int i = 0; i < NotFog.GetLength(0); i++)
         {
             for (int j = 0; j < NotFog.GetLength(1); j++)
             {
-                
+
 
                 if (Math.Abs(GetPlayerLabCord().x - i) <= vision && Math.Abs(GetPlayerLabCord().y - j) <= vision)
                 {
                     //Debug.Log(GetPlayerLabCord().x);
                     //Debug.Log(GetPlayerLabCord().y);
-                    NotFog[i,j]=true;
+                    NotFog[i, j] = true;
                 }
 
             }
@@ -245,6 +304,84 @@ public class Role_Details
         vision = vision_;
 
     }
+
+
+}
+public class Traps
+{
+
+    public static void LessVision(Player Target)
+    {
+        if (Target.Status.ContainsKey("LessVision"))
+        {
+            Target.Status["LessVision"] += 4;
+            return;
+        }
+        Target.Status["LessVision"] = Target.total_turns + 4;
+        Target.vision -= 2;
+    }
+
+    public static void LowDamage(Player Target)
+    {
+        Target.TakeDamage(2);
+    }
+    public static void HightDamage(Player Target)
+    {
+        Target.TakeDamage(6);
+    }
+    public static void LimitedSpeed(Player Target)
+    {
+        if (Target.Status.ContainsKey("LimitedSpeed"))
+        {
+            Target.Status["LimitedSpeed"] += 3;
+            return;
+        }
+        Target.Status["LimitedSpeed"] = Target.total_turns + 3;
+        Target.speed = 1;
+    }
+
+    public static void Returned(Player Target)
+    {
+        Target.TakeDamage(10);
+    }
+
+
+}
+public class Rewards
+{
+
+    public static void MoreVision(Player Target)
+    {
+        if (Target.Status.ContainsKey("MoreVision"))
+        {
+            Target.Status["MoreVision"] += 4;
+            return;
+        }
+        Target.Status["MoreVision"] = Target.total_turns + 4;
+        Target.vision += 2;
+    }
+
+    public static void MoreLife(Player Target)
+    {
+        Target.AddHealth(3);
+    }
+
+    public static void MoreSpeed(Player Target)
+    {
+        if (Target.Status.ContainsKey("IncrementedSpeed"))
+        {
+            Target.Status["IncrementedSpeed"] += 3;
+            return;
+        }
+        Target.Status["IncrementedSpeed"] = Target.total_turns + 3;
+        Target.speed += 3;
+    }
+    public static void RestoreHealth(Player Target)
+    {
+        Target.AddHealth(10);
+    }
+
+
 
 
 }
@@ -329,12 +466,12 @@ public class Map : MonoBehaviour
     public Camera mainCamera;
 
     static int n = 31;
-    
 
-    private int trapsProb=5;
-    private int rewardsProb=3;
-    private string[] Traps={"T1","T2","T3","T4"};
-    private string[] Rewards={"R1","R2","R3","R4"};
+
+    private int trapsProb = 5;
+    private int rewardsProb = 3;
+    private string[] Traps = { "T1", "T2", "T3", "T4" };
+    private string[] Rewards = { "R1", "R2", "R3", "R4" };
     private int total_turns = 0;
     private int number_players;
     private int IDPlayerTarget = -1;
@@ -348,7 +485,7 @@ public class Map : MonoBehaviour
         {5,((n-1)/2,n-2)},
 
      };
-   
+
     Dictionary<string, Dictionary<string, int>> Players_db = new Dictionary<string, Dictionary<string, int>>();
 
     Dictionary<string, Dictionary<string, GameObject>> Textures = new Dictionary<string, Dictionary<string, GameObject>>();
@@ -474,40 +611,52 @@ public class Map : MonoBehaviour
 
 
     }
-    public bool GetProbability(int probability){
-        int probability_range =100/probability;
+    public bool GetProbability(int probability)
+    {
+        int probability_range = 100 / probability;
         int idx_probability = rand.Next(probability_range);
-        if(idx_probability==0){
+        if (idx_probability == 0)
+        {
             return true;
         }
         return false;
 
     }
-    public void GenerateTraps(){
-         
-        for(int i = 0; i < laberinto.GetLength(0); i++){
-            for(int j = 0; j < laberinto.GetLength(0); j++){
-                if(laberinto[i,j]=="wall")continue;
-                if(laberinto[i,j]=="path"){
-                    
-                    if(GetProbability(trapsProb)){
+    public void GenerateTraps()
+    {
+
+        for (int i = 0; i < laberinto.GetLength(0); i++)
+        {
+            for (int j = 0; j < laberinto.GetLength(0); j++)
+            {
+                if (laberinto[i, j] == "wall") continue;
+                if (laberinto[i, j] == "path")
+                {
+
+                    if (GetProbability(trapsProb))
+                    {
                         int aleatory_index = rand.Next(Traps.Length);
-                        laberinto[i,j]=Traps[aleatory_index];
+                        laberinto[i, j] = Traps[aleatory_index];
                     }
                 }
             }
         }
     }
-    public void GenerateRewards(){
-         
-        for(int i = 0; i < laberinto.GetLength(0); i++){
-            for(int j = 0; j < laberinto.GetLength(0); j++){
-                if(laberinto[i,j]=="wall")continue;
-                if(laberinto[i,j]=="path"){
-                    
-                    if(GetProbability(rewardsProb)){
+    public void GenerateRewards()
+    {
+
+        for (int i = 0; i < laberinto.GetLength(0); i++)
+        {
+            for (int j = 0; j < laberinto.GetLength(0); j++)
+            {
+                if (laberinto[i, j] == "wall") continue;
+                if (laberinto[i, j] == "path")
+                {
+
+                    if (GetProbability(rewardsProb))
+                    {
                         int aleatory_index = rand.Next(Rewards.Length);
-                        laberinto[i,j]=Rewards[aleatory_index];
+                        laberinto[i, j] = Rewards[aleatory_index];
                     }
                 }
             }
@@ -520,7 +669,7 @@ public class Map : MonoBehaviour
         GenerateTraps();
         GenerateRewards();
         Init_Players();
-        
+
         Imprimir();
         CentrarCamara();
 
@@ -532,7 +681,7 @@ public class Map : MonoBehaviour
             Players[i].instance = Instantiate(Players[i].texture, new Vector3(x + 0.5f, y + 0.5f, -1), Quaternion.identity);
             Players[i].InitPlayerFog(n);
             Players[i].UpdatePlayerFog();
-          
+
 
 
 
@@ -542,14 +691,17 @@ public class Map : MonoBehaviour
 
 
     }
-    public void UpdateFogState(Player player){
+    public void UpdateFogState(Player player)
+    {
         PlayerOnTurn.UpdatePlayerFog();
-        for(int i = 0; i < MapFog.GetLength(0);i++){
-            for(int j = 0; j < MapFog.GetLength(0);j++){
-              
-                Debug.Log($"{i} {j} {player.NotFog[i,j]}");
-               
-                MapFog[i,j].SetActive(!player.NotFog[i,j]);
+        for (int i = 0; i < MapFog.GetLength(0); i++)
+        {
+            for (int j = 0; j < MapFog.GetLength(0); j++)
+            {
+
+                Debug.Log($"{i} {j} {player.NotFog[i, j]}");
+
+                MapFog[i, j].SetActive(!player.NotFog[i, j]);
             }
 
         }
@@ -634,9 +786,9 @@ public class Map : MonoBehaviour
                 {
                     Instantiate(wallPrefab, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
                 }
-                MapFog[i,j]= Instantiate(fogTexture, new Vector3(i + 0.5f, j + 0.5f, 0), Quaternion.identity);
+                MapFog[i, j] = Instantiate(fogTexture, new Vector3(i + 0.5f, j + 0.5f, 0), Quaternion.identity);
 
-             
+
             }
         }
     }
@@ -720,7 +872,8 @@ public class Map : MonoBehaviour
         SkillsInput(player_selected);
 
     }
-    public void PlayerInput(){
+    public void PlayerInput()
+    {
         if (Input.GetKeyDown(KeyCode.M))
         {
 
@@ -750,7 +903,7 @@ public class Map : MonoBehaviour
                 DisplayPosibleMovements(PlayerOnTurn);
                 ChangePlayerVision(player_selected);
             }
-        
+
         }
         if (Input.GetKeyDown(KeyCode.H))
         {
@@ -956,8 +1109,8 @@ public class Map : MonoBehaviour
         for (int i = 0; i < Movements.Length; i++)
         {
             (int x, int y) FixedFinalPos = ((int)GhostPos.x + 2 * (Movements[i].x), (int)GhostPos.y + 2 * (Movements[i].y));
-            (int x,int y)FixedMiddlePos=((int)GhostPos.x+(Movements[i].x),(int)GhostPos.y+(Movements[i].y));
-            if (FixedFinalPos.x > 0 && FixedFinalPos.y > 0 && FixedFinalPos.x < n && FixedFinalPos.y < n && laberinto[FixedMiddlePos.x,FixedMiddlePos.y]=="wall")
+            (int x, int y) FixedMiddlePos = ((int)GhostPos.x + (Movements[i].x), (int)GhostPos.y + (Movements[i].y));
+            if (FixedFinalPos.x > 0 && FixedFinalPos.y > 0 && FixedFinalPos.x < n && FixedFinalPos.y < n && laberinto[FixedMiddlePos.x, FixedMiddlePos.y] == "wall")
             {
                 if (laberinto[FixedFinalPos.x, FixedFinalPos.y] == "wall") continue;
                 possible_celds.Add(FixedFinalPos);
@@ -997,7 +1150,7 @@ public class Map : MonoBehaviour
     public void ChangePlayerVision(Player player_selected_)
     {
 
-        
+
         Vector3 player_pos = player_selected_.GetActualPosition();
         player_pos.z = -10f;
         // Mueve la cámara a la posición central
@@ -1048,9 +1201,10 @@ public class Map : MonoBehaviour
             CleanPossibleMovements(PlayerOnTurn);
             CleanGhostMovements();
             CleanArea();
-            if(!PlayerOnTurn.SkillsState[PlayerOnTurn.role].confirm_use&&PlayerOnTurn.SkillsState[PlayerOnTurn.role].is_active){
-                PlayerOnTurn.SkillTurns.Remove(PlayerOnTurn.SkillTurns.Count-1);
-                PlayerOnTurn.SkillsState[PlayerOnTurn.role]=(false,false,-1);
+            if (!PlayerOnTurn.SkillsState[PlayerOnTurn.role].confirm_use && PlayerOnTurn.SkillsState[PlayerOnTurn.role].is_active)
+            {
+                PlayerOnTurn.SkillTurns.Remove(PlayerOnTurn.SkillTurns.Count - 1);
+                PlayerOnTurn.SkillsState[PlayerOnTurn.role] = (false, false, -1);
             }
             PlayerTarget.color = Color.white;
             firstEntrty = true;
@@ -1072,7 +1226,7 @@ public class Map : MonoBehaviour
             Players[i].texture = Textures[player_role]["Player"];
             Players[i].checkpoint_texture = Textures[player_role]["CHP"];
             Players[i].GenerateStistics(Players_db);
-            
+
 
         }
     }
@@ -1094,7 +1248,7 @@ public class Map : MonoBehaviour
                 Block_move = true;
                 CleanPossibleMovements(player);
                 ChangePlayerVision(player);
-                
+
 
                 return;
             }
