@@ -320,6 +320,8 @@ public class Map : MonoBehaviour
     public GameObject wallPrefab;
     public GameObject fogTexture;
     public GameObject AreaTexture;
+    public GameObject TrapTexture;
+    public GameObject RewardTexture;
 
 
     private GameObject Player_view = null;
@@ -327,6 +329,12 @@ public class Map : MonoBehaviour
     public Camera mainCamera;
 
     static int n = 31;
+    
+
+    private int trapsProb=5;
+    private int rewardsProb=3;
+    private string[] Traps={"T1","T2","T3","T4"};
+    private string[] Rewards={"R1","R2","R3","R4"};
     private int total_turns = 0;
     private int number_players;
     private int IDPlayerTarget = -1;
@@ -340,7 +348,7 @@ public class Map : MonoBehaviour
         {5,((n-1)/2,n-2)},
 
      };
-
+   
     Dictionary<string, Dictionary<string, int>> Players_db = new Dictionary<string, Dictionary<string, int>>();
 
     Dictionary<string, Dictionary<string, GameObject>> Textures = new Dictionary<string, Dictionary<string, GameObject>>();
@@ -466,12 +474,53 @@ public class Map : MonoBehaviour
 
 
     }
+    public bool GetProbability(int probability){
+        int probability_range =100/probability;
+        int idx_probability = rand.Next(probability_range);
+        if(idx_probability==0){
+            return true;
+        }
+        return false;
+
+    }
+    public void GenerateTraps(){
+         
+        for(int i = 0; i < laberinto.GetLength(0); i++){
+            for(int j = 0; j < laberinto.GetLength(0); j++){
+                if(laberinto[i,j]=="wall")continue;
+                if(laberinto[i,j]=="path"){
+                    
+                    if(GetProbability(trapsProb)){
+                        int aleatory_index = rand.Next(Traps.Length);
+                        laberinto[i,j]=Traps[aleatory_index];
+                    }
+                }
+            }
+        }
+    }
+    public void GenerateRewards(){
+         
+        for(int i = 0; i < laberinto.GetLength(0); i++){
+            for(int j = 0; j < laberinto.GetLength(0); j++){
+                if(laberinto[i,j]=="wall")continue;
+                if(laberinto[i,j]=="path"){
+                    
+                    if(GetProbability(rewardsProb)){
+                        int aleatory_index = rand.Next(Rewards.Length);
+                        laberinto[i,j]=Rewards[aleatory_index];
+                    }
+                }
+            }
+        }
+    }
     public void Init_Map()
     {
         Map_Fill();
         Generarate();
+        GenerateTraps();
+        GenerateRewards();
         Init_Players();
-
+        
         Imprimir();
         CentrarCamara();
 
@@ -573,6 +622,14 @@ public class Map : MonoBehaviour
 
             for (int j = 0; j < n; j++)
             {
+                if (laberinto[i, j].Contains("T"))
+                {
+                    Instantiate(TrapTexture, new Vector3(i + 0.5f, j + 0.5f, -3), Quaternion.identity);
+                }
+                if (laberinto[i, j].Contains("R"))
+                {
+                    Instantiate(RewardTexture, new Vector3(i + 0.5f, j + 0.5f, -3), Quaternion.identity);
+                }
                 if (laberinto[i, j] == "wall")
                 {
                     Instantiate(wallPrefab, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
@@ -957,9 +1014,7 @@ public class Map : MonoBehaviour
 
 
     }
-    public void GenerateTraps(){
-        
-    }
+
 
     public void DisplayPlayerPanel(Player player_selected_)
     {
@@ -1163,7 +1218,7 @@ public class Map : MonoBehaviour
                 mask[cord.Item1, cord.Item2] = true;
                 for (int i = 0; i < mov_horizontal.Length; i++)
                 {
-                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] == "path")
+                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] != "wall")
                     {
                         queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
                         Distance_matrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] = Distance_matrix[cord.Item1, cord.Item2] + 1;
