@@ -307,8 +307,32 @@ public class Role_Details
 
 
 }
-public class Traps
+public class TrapsClass
 {
+    public static void Controller(string TrapName, Player Target)
+    {
+        string Trap = TrapName.Replace("Trap_", "");
+        switch (Trap)
+        {
+            case "LessVision":
+                LessVision(Target);
+                break;
+            case "LowDamage":
+                LowDamage(Target);
+                break;
+            case "HightDamage":
+                HightDamage(Target);
+                break;
+            case "LimitedSpeed":
+                LimitedSpeed(Target);
+                break;
+            case "Returned":
+                Returned(Target);
+                break;
+
+        }
+
+    }
 
     public static void LessVision(Player Target)
     {
@@ -347,8 +371,29 @@ public class Traps
 
 
 }
-public class Rewards
+public class RewardsClass
 {
+    public static void Controller(string RewardName, Player Target)
+    {
+        string Reward = RewardName.Replace("Reward_", "");
+        switch (Reward)
+        {
+            case "MoreVision":
+                MoreVision(Target);
+                break;
+            case "MoreLife":
+                MoreLife(Target);
+                break;
+            case "IncrementedSpeed":
+                MoreSpeed(Target);
+                break;
+            case "RestoreHealth":
+                RestoreHealth(Target);
+                break;
+
+        }
+
+    }
 
     public static void MoreVision(Player Target)
     {
@@ -436,6 +481,7 @@ public class Map : MonoBehaviour
     public TMP_Text Speed_indicator;
     public TMP_Text Status_indicator;
     public TMP_Text Damage_indicator;
+    public TMP_Text Vision_indicator;
     public GameObject CA_texture;
     public GameObject IM_texture;
     public GameObject Thor_texture;
@@ -461,8 +507,6 @@ public class Map : MonoBehaviour
     public GameObject RewardTexture;
 
 
-    private GameObject Player_view = null;
-
     public Camera mainCamera;
 
     static int n = 31;
@@ -470,8 +514,21 @@ public class Map : MonoBehaviour
 
     private int trapsProb = 5;
     private int rewardsProb = 3;
-    private string[] Traps = { "T1", "T2", "T3", "T4" };
-    private string[] Rewards = { "R1", "R2", "R3", "R4" };
+
+    private string[] Traps = {
+            "Trap_LessVision",
+            "Trap_LowDamage",
+            "Trap_HightDamage",
+            "Trap_LimitedSpeed",
+            "Trap_Returned"
+
+     };
+    private string[] Rewards = {
+            "Reward_MoreVision",
+            "Reward_MoreLife",
+            "Reward_IncrementedSpeed",
+            "Reward_RestoreHealth"
+     };
     private int total_turns = 0;
     private int number_players;
     private int IDPlayerTarget = -1;
@@ -493,6 +550,7 @@ public class Map : MonoBehaviour
 
     string[,] laberinto = new string[n, n];
     GameObject[,] MapFog = new GameObject[n, n];
+    GameObject[,]  Traps_Rewards = new GameObject[n, n];
     private static System.Random rand = new System.Random();
 
     private bool Block_move = false;
@@ -629,7 +687,17 @@ public class Map : MonoBehaviour
         {
             for (int j = 0; j < laberinto.GetLength(0); j++)
             {
+                bool OnSeed=false;
+                foreach(var seed in Players_Seed){
+                    if(seed.Value==(i,j)){
+                        OnSeed=true;
+                        break;
+                    }
+                }
+                if(OnSeed)continue;
+                
                 if (laberinto[i, j] == "wall") continue;
+                
                 if (laberinto[i, j] == "path")
                 {
 
@@ -699,7 +767,7 @@ public class Map : MonoBehaviour
             for (int j = 0; j < MapFog.GetLength(0); j++)
             {
 
-                Debug.Log($"{i} {j} {player.NotFog[i, j]}");
+
 
                 MapFog[i, j].SetActive(!player.NotFog[i, j]);
             }
@@ -774,13 +842,13 @@ public class Map : MonoBehaviour
 
             for (int j = 0; j < n; j++)
             {
-                if (laberinto[i, j].Contains("T"))
+                if (laberinto[i, j].Contains("Trap_"))
                 {
-                    Instantiate(TrapTexture, new Vector3(i + 0.5f, j + 0.5f, -3), Quaternion.identity);
+                    Traps_Rewards[i,j]=Instantiate(TrapTexture, new Vector3(i + 0.5f, j + 0.5f, -3), Quaternion.identity);
                 }
-                if (laberinto[i, j].Contains("R"))
+                if (laberinto[i, j].Contains("Reward_"))
                 {
-                    Instantiate(RewardTexture, new Vector3(i + 0.5f, j + 0.5f, -3), Quaternion.identity);
+                    Traps_Rewards[i,j]=Instantiate(RewardTexture, new Vector3(i + 0.5f, j + 0.5f, -3), Quaternion.identity);
                 }
                 if (laberinto[i, j] == "wall")
                 {
@@ -846,8 +914,34 @@ public class Map : MonoBehaviour
 
 
         SwitchPlayerPreview(player_selected.id);
+        Traps_and_RewardsCheck();
         CheckNextTrun();
 
+    }
+    public void Traps_and_RewardsCheck(){
+        (int x,int y)PlayerLabCords=PlayerOnTurn.GetPlayerLabCord();
+        string CeldInfo=laberinto[PlayerLabCords.x,PlayerLabCords.y];
+        if(CeldInfo.Contains("Trap_")){
+            Debug.Log($"Trap finded {CeldInfo}");
+            TrapsClass.Controller(CeldInfo,PlayerOnTurn);
+            DisplayPlayerPanel(PlayerOnTurn);
+            ChangePlayerVision(PlayerOnTurn);
+            laberinto[PlayerLabCords.x,PlayerLabCords.y]="path";
+            Destroy(Traps_Rewards[PlayerLabCords.x,PlayerLabCords.y]);
+
+        }
+        if(CeldInfo.Contains("Reward_")){
+           
+            Debug.Log($"Reward finded {CeldInfo}");
+            RewardsClass.Controller(CeldInfo,PlayerOnTurn);
+            DisplayPlayerPanel(PlayerOnTurn);
+            ChangePlayerVision(PlayerOnTurn);
+            laberinto[PlayerLabCords.x,PlayerLabCords.y]="path";
+            Destroy(Traps_Rewards[PlayerLabCords.x,PlayerLabCords.y]);
+
+            
+        }
+        
     }
     public void DisplaySkillRefresh(Player player_selected)
     {
@@ -1177,6 +1271,7 @@ public class Map : MonoBehaviour
         Health_indicator.text = $"{player_selected_.health}/{Players_db[player_selected_.role]["health"]}";
         Speed_indicator.text = $"{player_selected_.speed}/{Players_db[player_selected_.role]["speed"]}";
         Damage_indicator.text = $"{player_selected_.damage}/{Players_db[player_selected_.role]["damage"]}";
+        Vision_indicator.text = $"{player_selected_.vision}/{Players_db[player_selected_.role]["vision"]}";
         string status_text = "Normal,";
         foreach (var status in player_selected_.Status)
         {
@@ -1241,14 +1336,15 @@ public class Map : MonoBehaviour
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             movement = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -2f);
 
-            Debug.Log("Clic en: " + Math.Floor(mousePosition.x) + " " + Math.Floor(mousePosition.y));
+            Debug.Log("Clic en: " + Math.Floor(mousePosition.x) + " " + Math.Floor(mousePosition.y)+" =>"+laberinto[(int)Math.Floor(mousePosition.x),(int) Math.Floor(mousePosition.y)]);
+
             if (Move(movement, player))
             {
                 //total_turns++;
                 Block_move = true;
                 CleanPossibleMovements(player);
                 ChangePlayerVision(player);
-
+                Debug.Log(PlayerOnTurn.GetPlayerLabCord());
 
                 return;
             }
@@ -1428,6 +1524,7 @@ public class Map : MonoBehaviour
         {
 
             Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
+            laberinto[Players[p].checkpoint.x, Players[p].checkpoint.y] = $"CHP_{Players[p].role}";
         }
 
     }
