@@ -562,7 +562,7 @@ TextureImporter:
         width: 143
         height: 191
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -585,7 +585,7 @@ TextureImporter:
         width: 25
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -608,7 +608,7 @@ TextureImporter:
         width: 74
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,7 +631,7 @@ TextureImporter:
         width: 43
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -654,7 +654,7 @@ TextureImporter:
         width: 47
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -677,7 +677,7 @@ TextureImporter:
         width: 53
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,7 +700,7 @@ TextureImporter:
         width: 66
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -723,7 +723,7 @@ TextureImporter:
         width: 154
         height: 183
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -746,7 +746,7 @@ TextureImporter:
         width: 152
         height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -769,7 +769,7 @@ TextureImporter:
         width: 180
         height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -792,7 +792,7 @@ TextureImporter:
         width: 172
         height: 159
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -815,7 +815,7 @@ TextureImporter:
         width: 136
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -838,7 +838,7 @@ TextureImporter:
         width: 52
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -861,7 +861,7 @@ TextureImporter:
         width: 52
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -884,7 +884,7 @@ TextureImporter:
         width: 52
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -907,7 +907,7 @@ TextureImporter:
         width: 52
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -930,7 +930,7 @@ TextureImporter:
         width: 63
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -953,7 +953,7 @@ TextureImporter:
         width: 42
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -976,7 +976,7 @@ TextureImporter:
         width: 69
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -991,742 +991,6 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_19
-      rect:
-        serializedVersion: 2
-        x: 1321
-        y: 557
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13cb93275dc85f2b0800000000000000
-      internalID: -5551376117291959247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_20
-      rect:
-        serializedVersion: 2
-        x: 1332
-        y: 557
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a39c5fca8e1588c0800000000000000
-      internalID: -3997755512688176217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_21
-      rect:
-        serializedVersion: 2
-        x: 1341
-        y: 554
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b644cf2346d307c0800000000000000
-      internalID: -4106202851179215182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_22
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 557
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f97103acd17065990800000000000000
-      internalID: -7397717513381865569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_23
-      rect:
-        serializedVersion: 2
-        x: 1357
-        y: 557
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62ca0a3fa6a580060800000000000000
-      internalID: 6919880242855193638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_24
-      rect:
-        serializedVersion: 2
-        x: 1370
-        y: 557
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37f02cc09b0801b50800000000000000
-      internalID: 6561886189350162291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_25
-      rect:
-        serializedVersion: 2
-        x: 1385
-        y: 557
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ece5bb2a0b33291d0800000000000000
-      internalID: -3345554739445408050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_26
-      rect:
-        serializedVersion: 2
-        x: 1396
-        y: 557
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8eac96847a1145570800000000000000
-      internalID: 8454401810653367016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_27
-      rect:
-        serializedVersion: 2
-        x: 1410
-        y: 557
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 963ac7110b76b34e0800000000000000
-      internalID: -2000891603530767511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_28
-      rect:
-        serializedVersion: 2
-        x: 1419
-        y: 557
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: daafd2c47b4a75580800000000000000
-      internalID: -8838414636527256915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_29
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 557
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94ac682992cd50970800000000000000
-      internalID: 8720618324582910537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_30
-      rect:
-        serializedVersion: 2
-        x: 1438
-        y: 557
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b2f28abdff1d0e380800000000000000
-      internalID: -8943917963125706965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_31
-      rect:
-        serializedVersion: 2
-        x: 1321
-        y: 537
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d570cc005b07484b0800000000000000
-      internalID: -5439098527251953827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_32
-      rect:
-        serializedVersion: 2
-        x: 1329
-        y: 540
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35d8079e316498e10800000000000000
-      internalID: 2200366944281988435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_33
-      rect:
-        serializedVersion: 2
-        x: 1340
-        y: 540
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7600f3283afb0b140800000000000000
-      internalID: 4733493917352132711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_34
-      rect:
-        serializedVersion: 2
-        x: 1349
-        y: 540
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44699998cfcbf5140800000000000000
-      internalID: 4710691528079152708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_35
-      rect:
-        serializedVersion: 2
-        x: 1358
-        y: 540
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ef6e5e65f1ea1660800000000000000
-      internalID: 7357441385498046438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_36
-      rect:
-        serializedVersion: 2
-        x: 1368
-        y: 537
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7526c753783d04440800000000000000
-      internalID: 4918163370759971415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_37
-      rect:
-        serializedVersion: 2
-        x: 1378
-        y: 540
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dae82fac98bc343d0800000000000000
-      internalID: -3223509115591291219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_38
-      rect:
-        serializedVersion: 2
-        x: 1387
-        y: 540
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acb19690ffc809960800000000000000
-      internalID: 7606734797631200202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_39
-      rect:
-        serializedVersion: 2
-        x: 1394
-        y: 540
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 489e7ce63f735c3a0800000000000000
-      internalID: -6645844156440123004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_40
-      rect:
-        serializedVersion: 2
-        x: 1413
-        y: 540
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1200ea98dcb7f9f20800000000000000
-      internalID: 3431597563788001313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_41
-      rect:
-        serializedVersion: 2
-        x: 1424
-        y: 537
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8008e6ed2a792e70800000000000000
-      internalID: 9090931660390137996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_42
-      rect:
-        serializedVersion: 2
-        x: 1434
-        y: 540
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 271e4760fa24fec50800000000000000
-      internalID: 6696644490418250098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_43
-      rect:
-        serializedVersion: 2
-        x: 1448
-        y: 540
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: deeebbf0a1002d290800000000000000
-      internalID: -7867225487129710867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_44
-      rect:
-        serializedVersion: 2
-        x: 1458
-        y: 540
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b985f4f64edbc8030800000000000000
-      internalID: 3498379799377696923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_45
-      rect:
-        serializedVersion: 2
-        x: 1469
-        y: 540
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d65e981b4367396c0800000000000000
-      internalID: -4137833663934372499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_46
-      rect:
-        serializedVersion: 2
-        x: 1480
-        y: 540
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0393caae1aadb6fe0800000000000000
-      internalID: -1194620887174989520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_47
-      rect:
-        serializedVersion: 2
-        x: 1490
-        y: 540
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9de3df871b3c7c720800000000000000
-      internalID: 2866474854851100377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_48
-      rect:
-        serializedVersion: 2
-        x: 1497
-        y: 540
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b6a872a7205add70800000000000000
-      internalID: 9068648930823677616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_49
-      rect:
-        serializedVersion: 2
-        x: 1507
-        y: 540
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35c206afc2507bfb0800000000000000
-      internalID: -4632228000989959085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_50
-      rect:
-        serializedVersion: 2
-        x: 1518
-        y: 537
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c675cab8aa9d54330800000000000000
-      internalID: 3694598395838355308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
         of Ultron_51
       rect:
         serializedVersion: 2
@@ -1735,7 +999,7 @@ TextureImporter:
         width: 153
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1750,765 +1014,6 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_52
-      rect:
-        serializedVersion: 2
-        x: 1321
-        y: 523
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb9da4c3e4590b200800000000000000
-      internalID: 193818947228457403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_53
-      rect:
-        serializedVersion: 2
-        x: 1332
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3edede8cc626f0b0800000000000000
-      internalID: -5695322018751259078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_54
-      rect:
-        serializedVersion: 2
-        x: 1340
-        y: 523
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdc5bfab195d26ce0800000000000000
-      internalID: -1413332511156904737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_55
-      rect:
-        serializedVersion: 2
-        x: 1346
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1656147c8c5736d00800000000000000
-      internalID: 964744250384278881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_56
-      rect:
-        serializedVersion: 2
-        x: 1354
-        y: 523
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a59d4851c1ae6b470800000000000000
-      internalID: 8410166760501991770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_57
-      rect:
-        serializedVersion: 2
-        x: 1375
-        y: 523
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f4fd81ca06687840800000000000000
-      internalID: 5222035964319102199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_58
-      rect:
-        serializedVersion: 2
-        x: 1386
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f289865b3bec4d20800000000000000
-      internalID: 3264242470024217336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_59
-      rect:
-        serializedVersion: 2
-        x: 1394
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 482c515d6b7a9fe60800000000000000
-      internalID: 7996607017073885828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_60
-      rect:
-        serializedVersion: 2
-        x: 1402
-        y: 523
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce7d4e9f1c03fc0c0800000000000000
-      internalID: -4553367088568936468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_61
-      rect:
-        serializedVersion: 2
-        x: 1411
-        y: 520
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ac6e57f7e9550e90800000000000000
-      internalID: -7060137988010906457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_62
-      rect:
-        serializedVersion: 2
-        x: 1420
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 47a4d3895bede80f0800000000000000
-      internalID: -1112707186389333388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_63
-      rect:
-        serializedVersion: 2
-        x: 1428
-        y: 523
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 643d258e163d28090800000000000000
-      internalID: -8033626367812512954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_64
-      rect:
-        serializedVersion: 2
-        x: 1434
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be2f3a942a831d810800000000000000
-      internalID: 1788272796714136299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_65
-      rect:
-        serializedVersion: 2
-        x: 1446
-        y: 523
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6deceab5edfacac90800000000000000
-      internalID: -7157152338242777386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_66
-      rect:
-        serializedVersion: 2
-        x: 1460
-        y: 523
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e78c895fe06fc0550800000000000000
-      internalID: 6128543737054808190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_67
-      rect:
-        serializedVersion: 2
-        x: 1474
-        y: 523
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6f6f450253da2700800000000000000
-      internalID: 516457456517214060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_68
-      rect:
-        serializedVersion: 2
-        x: 1483
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cdc34388f21df710800000000000000
-      internalID: 1728558690543586753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_69
-      rect:
-        serializedVersion: 2
-        x: 1490
-        y: 523
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fb449bc3127614d0800000000000000
-      internalID: -3164216258835756039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_70
-      rect:
-        serializedVersion: 2
-        x: 1321
-        y: 506
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bd4bf684bd87c2e0800000000000000
-      internalID: -2105558494274171467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_71
-      rect:
-        serializedVersion: 2
-        x: 1329
-        y: 506
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5dd8ba8e04db76050800000000000000
-      internalID: 5793807532114546133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_72
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 504
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80f13ee0370f825c0800000000000000
-      internalID: -4239874672207651064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_73
-      rect:
-        serializedVersion: 2
-        x: 1345
-        y: 506
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34d0c03fb5c1e9130800000000000000
-      internalID: 3575326335424007491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_74
-      rect:
-        serializedVersion: 2
-        x: 1355
-        y: 506
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 537be8c4c60862840800000000000000
-      internalID: 5198984022475061045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_75
-      rect:
-        serializedVersion: 2
-        x: 1364
-        y: 506
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91ea9e64d54a50b20800000000000000
-      internalID: 3100064639043087897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_76
-      rect:
-        serializedVersion: 2
-        x: 1377
-        y: 503
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 235ae1bd992d05c70800000000000000
-      internalID: 8957891217087964466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_77
-      rect:
-        serializedVersion: 2
-        x: 1386
-        y: 506
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45b7fbe26f3324060800000000000000
-      internalID: 6936163508543257428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_78
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 506
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8907b2445f7618600800000000000000
-      internalID: 468770139331588248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_79
-      rect:
-        serializedVersion: 2
-        x: 1401
-        y: 506
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67d890c2fb683e120800000000000000
-      internalID: 2441943578600639862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_80
-      rect:
-        serializedVersion: 2
-        x: 1409
-        y: 506
-        width: 18
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eeadc09e03f3adc20800000000000000
-      internalID: 3231965161892666094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_81
-      rect:
-        serializedVersion: 2
-        x: 1432
-        y: 506
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c319504b4fe9faf0800000000000000
-      internalID: -361995188545449022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_82
-      rect:
-        serializedVersion: 2
-        x: 1441
-        y: 506
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebdf224de30167a40800000000000000
-      internalID: 5365493868091604414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_83
-      rect:
-        serializedVersion: 2
-        x: 1451
-        y: 506
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcca31398e603a910800000000000000
-      internalID: 1847327868121754829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
-        of Ultron_84
-      rect:
-        serializedVersion: 2
-        x: 1459
-        y: 506
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5520bd998be397e90800000000000000
-      internalID: -7027516780958776747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Browser Games - Marvel Avengers Alliance - Captain America Avengers Age
         of Ultron_85
       rect:
         serializedVersion: 2
@@ -2517,7 +1022,7 @@ TextureImporter:
         width: 152
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2540,7 +1045,7 @@ TextureImporter:
         width: 161
         height: 183
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2563,7 +1068,7 @@ TextureImporter:
         width: 207
         height: 176
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2586,7 +1091,7 @@ TextureImporter:
         width: 211
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2609,7 +1114,7 @@ TextureImporter:
         width: 165
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2632,7 +1137,7 @@ TextureImporter:
         width: 169
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2655,7 +1160,7 @@ TextureImporter:
         width: 76
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2678,7 +1183,7 @@ TextureImporter:
         width: 77
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2701,7 +1206,7 @@ TextureImporter:
         width: 62
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2724,7 +1229,7 @@ TextureImporter:
         width: 59
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2747,7 +1252,7 @@ TextureImporter:
         width: 42
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2770,7 +1275,7 @@ TextureImporter:
         width: 63
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2793,7 +1298,7 @@ TextureImporter:
         width: 161
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2816,7 +1321,7 @@ TextureImporter:
         width: 179
         height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2839,7 +1344,7 @@ TextureImporter:
         width: 175
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2862,7 +1367,7 @@ TextureImporter:
         width: 499
         height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2885,7 +1390,7 @@ TextureImporter:
         width: 124
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2908,7 +1413,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2931,7 +1436,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2954,7 +1459,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2977,7 +1482,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3000,7 +1505,7 @@ TextureImporter:
         width: 87
         height: 177
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3023,7 +1528,7 @@ TextureImporter:
         width: 167
         height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3046,7 +1551,7 @@ TextureImporter:
         width: 170
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3069,7 +1574,7 @@ TextureImporter:
         width: 11
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3092,7 +1597,7 @@ TextureImporter:
         width: 6
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3115,7 +1620,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3138,7 +1643,7 @@ TextureImporter:
         width: 11
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3161,7 +1666,7 @@ TextureImporter:
         width: 12
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3178,7 +1683,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f029d9b877d9ef24983f51c3259df47c
     internalID: 0
     vertices: []
     indices: 
@@ -3206,6 +1711,7 @@ TextureImporter:
       Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_111: -5307230146969396851
       Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_112: 1365495405489818618
       Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_113: -897193535029435362
+      Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_114: 1230300823
       Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_12: 8995396149054838017
       Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_13: 4932021799201362273
       Browser Games - Marvel Avengers Alliance - Captain America Avengers Age of Ultron_14: 4492368605821513170
