@@ -13,7 +13,7 @@ using TMPro;
 using static UnityEngine.GraphicsBuffer;
 using System.Linq;
 using UnityEngine.SceneManagement;
-
+using System.Threading;
 
 
 public class Player
@@ -29,8 +29,8 @@ public class Player
     public GameObject texture;
     public GameObject texturePreviewSkill;
     public GameObject instance;
-    public GameObject OnTurnIndicatorInstance=null;
-    public GameObject TargetIndicatorInstance=null;
+    public GameObject OnTurnIndicatorInstance = null;
+    public GameObject TargetIndicatorInstance = null;
     public GameObject checkpoint_texture;
 
     public List<GameObject> posibles_movements = new List<GameObject>();
@@ -506,7 +506,16 @@ public class Map : MonoBehaviour
     public GameObject AreaTexture;
     public GameObject TrapTexture;
     public GameObject RewardTexture;
+    public GameObject Trap_LessVisionTexture;
+    public GameObject Trap_LowDamageTexture;
+    public GameObject Trap_HightDamageTexture;
+    public GameObject Trap_LimitedSpeedTexture;
+    public GameObject Trap_ReturnedTexture;
 
+    public GameObject Reward_MoreVision;
+    public GameObject Reward_MoreLife;
+    public GameObject Reward_IncrementedSpeed;
+    public GameObject Reward_RestoreHealth;
     public Camera mainCamera;
 
     static int n = 31;
@@ -517,10 +526,12 @@ public class Map : MonoBehaviour
             "Trap_LessVision",
             "Trap_LowDamage",
             "Trap_HightDamage",
-            "Trap_LimitedSpeed",
-            "Trap_Returned"
+           "Trap_LimitedSpeed",
+   //         "Trap_Returned"
 
      };
+    private Dictionary<string, GameObject> TrapsTextures = new Dictionary<string, GameObject>();
+    private Dictionary<string, GameObject> RewardsTextures = new Dictionary<string, GameObject>();
     private string[] Rewards = {
             "Reward_MoreVision",
             "Reward_MoreLife",
@@ -586,6 +597,19 @@ public class Map : MonoBehaviour
     }
     public void Init_DBS()
     {
+        TrapsTextures["Trap_LessVision"] = Trap_LessVisionTexture;
+        TrapsTextures["Trap_LowDamage"] = Trap_LowDamageTexture;
+        TrapsTextures["Trap_HightDamage"] = Trap_HightDamageTexture;
+        TrapsTextures["Trap_LimitedSpeed"] = Trap_LimitedSpeedTexture;
+        TrapsTextures["Trap_Returned"] = Trap_ReturnedTexture;
+
+        RewardsTextures["Reward_MoreVision"] = Reward_MoreVision;
+        RewardsTextures["Reward_MoreLife"] = Reward_MoreLife;
+        RewardsTextures["Reward_IncrementedSpeed"] = Reward_IncrementedSpeed;
+        RewardsTextures["Reward_RestoreHealth"] = Reward_RestoreHealth;
+
+
+
         Textures["Capitan America"] = new Dictionary<string, GameObject>
         {
             { "Player", CA_texture },
@@ -754,7 +778,7 @@ public class Map : MonoBehaviour
 
         Init_Players();
 
-        
+
         CentrarCamara();
 
         for (int i = 0; i < number_players; i++)
@@ -799,7 +823,7 @@ public class Map : MonoBehaviour
         GameObject PlayerTexture = Players[id].texture;
         SpriteRenderer spritePlayerRenderer = PlayerTexture.GetComponent<SpriteRenderer>();
         GameObject SkillTexture = Players[id].texturePreviewSkill;
-        SpriteRenderer spriteSkillRenderer =SkillTexture.GetComponent<SpriteRenderer>();
+        SpriteRenderer spriteSkillRenderer = SkillTexture.GetComponent<SpriteRenderer>();
 
         if (spritePlayerRenderer != null)
         {
@@ -859,12 +883,12 @@ public class Map : MonoBehaviour
                 if (laberinto[i, j].Contains("Trap_"))
                 {
 
-                    Traps_Rewards[i, j] = Instantiate(TrapTexture, new Vector3(i + 0.5f, j + 0.5f, -2), Quaternion.identity);
+                    Traps_Rewards[i, j] = Instantiate(TrapsTextures[laberinto[i, j]], new Vector3(i + 0.5f, j + 0.5f, -2), Quaternion.identity);
                     Traps_Rewards[i, j].SetActive(false);
                 }
                 if (laberinto[i, j].Contains("Reward_"))
                 {
-                    Traps_Rewards[i, j] = Instantiate(RewardTexture, new Vector3(i + 0.5f, j + 0.5f, -2), Quaternion.identity);
+                    Traps_Rewards[i, j] = Instantiate(RewardsTextures[laberinto[i, j]], new Vector3(i + 0.5f, j + 0.5f, -2), Quaternion.identity);
                 }
                 if (laberinto[i, j] == "wall")
                 {
@@ -928,7 +952,7 @@ public class Map : MonoBehaviour
         PlayerInput();
         if (!player_selected.Status.ContainsKey("Paralized"))
         {
-            
+
             if (!Block_move) Check_Move(player_selected);
             SkillsController(player_selected);
         }
@@ -974,15 +998,16 @@ public class Map : MonoBehaviour
         int remaing = player_selected.SkillRefresh().time_remaing;
         SkillCount.text = remaing.ToString();
         SkillCount.color = Color.red;
-        DisponibilitySkillFalse.enabled=true;
-        DisponibilitySkillTrue.enabled=false;
-        if (remaing == 0) {
+        DisponibilitySkillFalse.enabled = true;
+        DisponibilitySkillTrue.enabled = false;
+        if (remaing == 0)
+        {
             SkillCount.color = Color.green;
-            DisponibilitySkillFalse.enabled=false;
-            DisponibilitySkillTrue.enabled=true;
+            DisponibilitySkillFalse.enabled = false;
+            DisponibilitySkillTrue.enabled = true;
 
         }
-        
+
 
     }
     public void DisplayPlayerFog(Player player_selected)
@@ -1014,15 +1039,18 @@ public class Map : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
-            if(PlayerPanel.activeSelf){
+            if (PlayerPanel.activeSelf)
+            {
                 PlayerPanel.SetActive(false);
 
-            }else{
+            }
+            else
+            {
                 PlayerPanel.SetActive(true);
 
             }
 
-            
+
         }
 
     }
@@ -1061,7 +1089,7 @@ public class Map : MonoBehaviour
                     player_selected.IM_Skill(Players[IDPlayerTarget]);
                     player_selected.IsActiveSkill();
                     PlayerTarget.text = "None";
-                    if(PlayerOnTurn.TargetIndicatorInstance!=null)Destroy(PlayerOnTurn.TargetIndicatorInstance);
+                    if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
 
                     PlayerTarget.color = Color.white;
                     ChangePlayerVision(player_selected);
@@ -1149,8 +1177,8 @@ public class Map : MonoBehaviour
             {
                 IDPlayerTarget = player.Key;
                 Debug.Log("Target " + player.Key);
-                if(PlayerOnTurn.TargetIndicatorInstance!=null)Destroy(PlayerOnTurn.TargetIndicatorInstance);
-                PlayerOnTurn.TargetIndicatorInstance=Instantiate(TargetIndicatorTexture,new Vector3(Position.x,Position.y,-2),Quaternion.identity);
+                if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
+                PlayerOnTurn.TargetIndicatorInstance = Instantiate(TargetIndicatorTexture, new Vector3(Position.x, Position.y, -2), Quaternion.identity);
                 break;
             }
         }
@@ -1305,8 +1333,8 @@ public class Map : MonoBehaviour
             float orthographic_size = n / 7;
             mainCamera.orthographicSize = orthographic_size; // Ajusta el tamaño según el tamaño del laberinto
         }
-        if(PlayerOnTurn.OnTurnIndicatorInstance!=null)Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
-        PlayerOnTurn.OnTurnIndicatorInstance=Instantiate(OnTurnIndicatorTexture,new Vector3(PlayerOnTurn.GetActualPosition().x,PlayerOnTurn.GetActualPosition().y,-2),Quaternion.identity);
+        if (PlayerOnTurn.OnTurnIndicatorInstance != null) Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
+        PlayerOnTurn.OnTurnIndicatorInstance = Instantiate(OnTurnIndicatorTexture, new Vector3(PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y, -2), Quaternion.identity);
         UpdateFogState(player_selected_);
 
 
@@ -1320,26 +1348,26 @@ public class Map : MonoBehaviour
 
         Role.text = player_selected_.role;
         Health_indicator.text = $"{player_selected_.health}/{Players_db[player_selected_.role]["health"]}";
-        
-        Health_indicatorSlide.maxValue=Players_db[player_selected_.role]["health"];
-        Health_indicatorSlide.value=player_selected_.health;
-        Health_indicator.color=Color.black;
-        if(player_selected_.health>Players_db[player_selected_.role]["health"])Health_indicator.color=Color.yellow;
+
+        Health_indicatorSlide.maxValue = Players_db[player_selected_.role]["health"];
+        Health_indicatorSlide.value = player_selected_.health;
+        Health_indicator.color = Color.black;
+        if (player_selected_.health > Players_db[player_selected_.role]["health"]) Health_indicator.color = Color.yellow;
         Speed_indicator.text = $"{player_selected_.speed}/{Players_db[player_selected_.role]["speed"]}";
-        Speed_indicatorSlide.maxValue=Players_db[player_selected_.role]["speed"];
-        Speed_indicatorSlide.value=player_selected_.speed;
-        Speed_indicator.color=Color.black;
-        if(player_selected_.speed>Players_db[player_selected_.role]["speed"])Speed_indicator.color=Color.yellow;
+        Speed_indicatorSlide.maxValue = Players_db[player_selected_.role]["speed"];
+        Speed_indicatorSlide.value = player_selected_.speed;
+        Speed_indicator.color = Color.black;
+        if (player_selected_.speed > Players_db[player_selected_.role]["speed"]) Speed_indicator.color = Color.yellow;
         Damage_indicator.text = $"{player_selected_.damage}/{Players_db[player_selected_.role]["damage"]}";
-        Damage_indicatorSlide.maxValue=Players_db[player_selected_.role]["damage"];
-        Damage_indicatorSlide.value=player_selected_.damage;
-        Damage_indicator.color=Color.black;
-        if(player_selected_.damage>Players_db[player_selected_.role]["damage"])Damage_indicator.color=Color.yellow;
+        Damage_indicatorSlide.maxValue = Players_db[player_selected_.role]["damage"];
+        Damage_indicatorSlide.value = player_selected_.damage;
+        Damage_indicator.color = Color.black;
+        if (player_selected_.damage > Players_db[player_selected_.role]["damage"]) Damage_indicator.color = Color.yellow;
         Vision_indicator.text = $"{player_selected_.vision}/{Players_db[player_selected_.role]["vision"]}";
-        Vision_indicatorSlide.maxValue=Players_db[player_selected_.role]["vision"];
-        Vision_indicatorSlide.value=player_selected_.vision;
-        Vision_indicator.color=Color.black;
-        if(player_selected_.vision>Players_db[player_selected_.role]["vision"])Vision_indicator.color=Color.yellow;
+        Vision_indicatorSlide.maxValue = Players_db[player_selected_.role]["vision"];
+        Vision_indicatorSlide.value = player_selected_.vision;
+        Vision_indicator.color = Color.black;
+        if (player_selected_.vision > Players_db[player_selected_.role]["vision"]) Vision_indicator.color = Color.yellow;
         string status_text = "Normal,";
         foreach (var status in player_selected_.Status)
         {
@@ -1361,7 +1389,7 @@ public class Map : MonoBehaviour
             total_turns++;
             IDPlayerTarget = -1;
             PlayerTarget.text = "None";
-            if(PlayerOnTurn.TargetIndicatorInstance!=null)Destroy(PlayerOnTurn.TargetIndicatorInstance);
+            if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
             CleanPossibleMovements(PlayerOnTurn);
             CleanGhostMovements();
             CleanArea();
@@ -1370,7 +1398,7 @@ public class Map : MonoBehaviour
                 PlayerOnTurn.SkillTurns.Remove(PlayerOnTurn.SkillTurns.Count - 1);
                 PlayerOnTurn.SkillsState[PlayerOnTurn.role] = (false, false, -1);
             }
-            
+
             PlayerTarget.color = Color.white;
             firstEntrty = true;
             PlayerPanel.SetActive(true);
@@ -1423,7 +1451,7 @@ public class Map : MonoBehaviour
 
 
         }
-        
+
 
 
 
@@ -1447,13 +1475,47 @@ public class Map : MonoBehaviour
         }
         if (finded)
         {
-            player.instance.transform.position = target;
+            //player.instance.transform.position = target;
+            StartCoroutine(FluidMovement(target));
             return true;
         }
         return false;
 
-
     }
+
+
+
+    IEnumerator FluidMovement(Vector3 FinalTarget)
+    {
+
+        float speed = 0.1f;
+        List<(int x, int y)> MovementRoute = BFS_Whit_Route(PlayerOnTurn.GetPlayerLabCord().x, PlayerOnTurn.GetPlayerLabCord().y)[(int)FinalTarget.x, (int)FinalTarget.y];
+        foreach (var Labtarget in MovementRoute)
+        {
+            (float x,float y) target=(Labtarget.x+0.5f,Labtarget.y+0.5f);
+            while (Math.Abs(target.y - PlayerOnTurn.GetActualPosition().y) > speed || Math.Abs(target.x - PlayerOnTurn.GetActualPosition().x) > speed)
+            {
+                // PlayerOnTurn.instance.transform.position+=new Vector3(speed,0,0);
+                /*if (Math.Abs(target.x - PlayerOnTurn.GetActualPosition().x) > speed)
+                {
+                    PlayerOnTurn.instance.transform.position += new Vector3(speed, 0, 0);
+                    yield return new WaitForSeconds(0.1f);
+                    continue;
+                }
+
+                PlayerOnTurn.instance.transform.position += new Vector3(0, speed, 0);
+                */
+                PlayerOnTurn.instance.transform.position = Vector2.MoveTowards(PlayerOnTurn.instance.transform.position,new Vector2(target.x,target.y),speed);
+
+                yield return new WaitForSeconds(0.1f);
+            }
+
+        }
+
+        PlayerOnTurn.instance.transform.position =FinalTarget;
+    }
+
+
     public bool GhostMove(Vector3 target)
     {
         Player player = PlayerOnTurn;
@@ -1505,6 +1567,44 @@ public class Map : MonoBehaviour
             }
         }
         return Distance_matrix;
+
+    }
+    public List<(int, int y)>[,] BFS_Whit_Route(int x, int y)
+    {
+        bool[,] mask = new bool[n, n];
+        List<(int, int y)>[,] RoutesMatrix = new List<(int, int y)>[n, n];
+        Queue<(int, int)> queue = new Queue<(int, int)>();
+        int[] mov_horizontal = { 1, -1, 0, 0 };
+        int[] mov_vertical = { 0, 0, 1, -1 };
+        queue.Enqueue((x, y));
+        RoutesMatrix[x, y] = new List<(int, int y)>();
+        RoutesMatrix[x, y].Add((x, y));
+        while (queue.Count > 0)
+        {
+            var cord = queue.Dequeue();
+            if (!mask[cord.Item1, cord.Item2])
+            {
+                mask[cord.Item1, cord.Item2] = true;
+                for (int i = 0; i < mov_horizontal.Length; i++)
+                {
+                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] != "wall")
+                    {
+                        queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
+
+                        List<(int, int y)> NewRoute = new List<(int, int y)>();
+                        foreach (var item in RoutesMatrix[cord.Item1, cord.Item2])
+                        {
+                            NewRoute.Add(item);
+                        }
+                        NewRoute.Add((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
+
+                        RoutesMatrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] = NewRoute;
+
+                    }
+                }
+            }
+        }
+        return RoutesMatrix;
 
     }
 

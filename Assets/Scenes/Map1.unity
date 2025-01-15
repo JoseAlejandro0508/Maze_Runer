@@ -1972,6 +1972,15 @@ MonoBehaviour:
   AreaTexture: {fileID: 0}
   TrapTexture: {fileID: 0}
   RewardTexture: {fileID: 0}
+  Trap_LessVisionTexture: {fileID: 0}
+  Trap_LowDamageTexture: {fileID: 0}
+  Trap_HightDamageTexture: {fileID: 0}
+  Trap_LimitedSpeedTexture: {fileID: 0}
+  Trap_ReturnedTexture: {fileID: 0}
+  Reward_MoreVision: {fileID: 0}
+  Reward_MoreLife: {fileID: 0}
+  Reward_IncrementedSpeed: {fileID: 0}
+  Reward_RestoreHealth: {fileID: 0}
   mainCamera: {fileID: 0}
 --- !u!114 &1030813086
 MonoBehaviour:
@@ -4014,6 +4023,15 @@ MonoBehaviour:
   AreaTexture: {fileID: 9115908885203001682, guid: 2b299cdda0d5de745a9a4d37b829d116, type: 3}
   TrapTexture: {fileID: 6908797846105241605, guid: 12a62db9336d7a34db68b906e8d33d27, type: 3}
   RewardTexture: {fileID: 8641579190986952084, guid: b417666a21ecb4d4abd6435d0dbf7f3e, type: 3}
+  Trap_LessVisionTexture: {fileID: 6908797846105241605, guid: 12a62db9336d7a34db68b906e8d33d27, type: 3}
+  Trap_LowDamageTexture: {fileID: 6908797846105241605, guid: 12a62db9336d7a34db68b906e8d33d27, type: 3}
+  Trap_HightDamageTexture: {fileID: 6908797846105241605, guid: 12a62db9336d7a34db68b906e8d33d27, type: 3}
+  Trap_LimitedSpeedTexture: {fileID: 6908797846105241605, guid: 12a62db9336d7a34db68b906e8d33d27, type: 3}
+  Trap_ReturnedTexture: {fileID: 6908797846105241605, guid: 12a62db9336d7a34db68b906e8d33d27, type: 3}
+  Reward_MoreVision: {fileID: 8373621302708495345, guid: 2e8bbb352ff735944bc030f6ffb58387, type: 3}
+  Reward_MoreLife: {fileID: 6975172330712498839, guid: fff3c5f1e4d315244bb0729de909dbdf, type: 3}
+  Reward_IncrementedSpeed: {fileID: 2001975896484192181, guid: b17b5ddfcaca9634c8fb85ab55388095, type: 3}
+  Reward_RestoreHealth: {fileID: 7203095177019918, guid: 736134d97930c5745823bb46159c5cb1, type: 3}
   mainCamera: {fileID: 1030813084}
 --- !u!156049354 &1813616636
 Grid:
