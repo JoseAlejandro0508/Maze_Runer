@@ -265,6 +265,7 @@ public class Player
     {
         NotFog = new bool[LabDim, LabDim];
         vision = LabDim / 10;
+        vision = 3;
         Players_DB[role]["vision"] = vision;
 
     }
@@ -518,7 +519,7 @@ public class Map : MonoBehaviour
     public GameObject Reward_RestoreHealth;
     public Camera mainCamera;
 
-    static int n = 31;
+    static int n = 7;
 
     private int trapsProb = 5;
     private int rewardsProb = 3;
@@ -527,7 +528,7 @@ public class Map : MonoBehaviour
             "Trap_LowDamage",
             "Trap_HightDamage",
            "Trap_LimitedSpeed",
-   //         "Trap_Returned"
+            "Trap_Returned"
 
      };
     private Dictionary<string, GameObject> TrapsTextures = new Dictionary<string, GameObject>();
@@ -769,7 +770,7 @@ public class Map : MonoBehaviour
             return;
         }
         PlayerPrefs.SetInt($"Winner", PlayerOnTurn.id);
-        SceneManager.LoadScene("Winner");
+        SceneManager.LoadScene("WinnerScene");
     }
     public void Init_Map()
     {
@@ -1328,7 +1329,7 @@ public class Map : MonoBehaviour
         mainCamera.transform.position = player_pos;
         // Ajusta la cámara para que el laberinto se vea completo
         // Si estás usando una cámara ortográfica, ajusta el tamaño
-        if (mainCamera.orthographic)
+        if (mainCamera.orthographic && n > 9)
         {
             float orthographic_size = n / 7;
             mainCamera.orthographicSize = orthographic_size; // Ajusta el tamaño según el tamaño del laberinto
@@ -1390,6 +1391,7 @@ public class Map : MonoBehaviour
             IDPlayerTarget = -1;
             PlayerTarget.text = "None";
             if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
+            if (PlayerOnTurn.OnTurnIndicatorInstance != null) Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
             CleanPossibleMovements(PlayerOnTurn);
             CleanGhostMovements();
             CleanArea();
@@ -1475,8 +1477,8 @@ public class Map : MonoBehaviour
         }
         if (finded)
         {
-            //player.instance.transform.position = target;
-            StartCoroutine(FluidMovement(target));
+            player.instance.transform.position = target;
+            //StartCoroutine(FluidMovement(target));
             return true;
         }
         return false;
@@ -1488,11 +1490,11 @@ public class Map : MonoBehaviour
     IEnumerator FluidMovement(Vector3 FinalTarget)
     {
 
-        float speed = 0.1f;
+        float speed = 0.5f;
         List<(int x, int y)> MovementRoute = BFS_Whit_Route(PlayerOnTurn.GetPlayerLabCord().x, PlayerOnTurn.GetPlayerLabCord().y)[(int)FinalTarget.x, (int)FinalTarget.y];
         foreach (var Labtarget in MovementRoute)
         {
-            (float x,float y) target=(Labtarget.x+0.5f,Labtarget.y+0.5f);
+            (float x, float y) target = (Labtarget.x + 0.5f, Labtarget.y + 0.5f);
             while (Math.Abs(target.y - PlayerOnTurn.GetActualPosition().y) > speed || Math.Abs(target.x - PlayerOnTurn.GetActualPosition().x) > speed)
             {
                 // PlayerOnTurn.instance.transform.position+=new Vector3(speed,0,0);
@@ -1505,14 +1507,14 @@ public class Map : MonoBehaviour
 
                 PlayerOnTurn.instance.transform.position += new Vector3(0, speed, 0);
                 */
-                PlayerOnTurn.instance.transform.position = Vector2.MoveTowards(PlayerOnTurn.instance.transform.position,new Vector2(target.x,target.y),speed);
+                PlayerOnTurn.instance.transform.position = Vector2.MoveTowards(PlayerOnTurn.instance.transform.position, new Vector2(target.x, target.y), speed);
 
                 yield return new WaitForSeconds(0.1f);
             }
 
         }
 
-        PlayerOnTurn.instance.transform.position =FinalTarget;
+        PlayerOnTurn.instance.transform.position = FinalTarget;
     }
 
 
@@ -1608,7 +1610,7 @@ public class Map : MonoBehaviour
 
     }
 
-    public void Add_Checkpoints()
+    public void Add_CheckpointsNew()
     {
         (int dist, (int x, int y)) min_of_max_dist = Distances.GetMaxDistance(Players[0]);
         int min_of_max_dist_pla = 0;
@@ -1626,6 +1628,7 @@ public class Map : MonoBehaviour
         for (int p = 0; p < number_players; p++)
         {
             if (p == min_of_max_dist_pla) continue;
+
             List<(int dist, (int x, int y))> possibles_checkpoint = Distances.GetDistancesbyvalue(Players[p], min_of_max_dist.dist);
             (int dist, (int x, int y)) pl_checkpoint = possibles_checkpoint[0];
 
@@ -1634,7 +1637,23 @@ public class Map : MonoBehaviour
                 bool stop = true;
                 for (int pl = 0; pl < p; pl++)
                 {
-                    if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y) stop = false;
+                    if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y)
+                    {
+                        bool exist = false;
+                        foreach (var player in Players)
+                        {
+                            if (player.Value.id >= p) break;
+                            if (possibles_checkpoint[i].Item2.x == player.Value.checkpoint.x && possibles_checkpoint[i].Item2.y == player.Value.checkpoint.y)
+                            {
+                                exist = true;
+                            }
+                        }
+
+                        if (!exist) stop = false;
+
+
+                    }
+
                 }
                 if (stop)
                 {
@@ -1644,6 +1663,7 @@ public class Map : MonoBehaviour
 
 
             }
+
             Players[p].checkpoint = pl_checkpoint.Item2;
             //laberinto[pl_checkpoint.Item2.x, pl_checkpoint.Item2.y] = -1;
         }
@@ -1655,6 +1675,80 @@ public class Map : MonoBehaviour
         }
 
     }
+
+    public void Add_Checkpoints()
+    {
+        (int dist, (int x, int y)) min_of_max_dist = Distances.GetMaxDistance(Players[0]);
+        int min_of_max_dist_pla = 0;
+        for (int p = 0; p < number_players; p++)
+        {
+            (int dist, (int x, int y)) max_dist_player = Distances.GetMaxDistance(Players[p]);
+            if (max_dist_player.dist < min_of_max_dist.dist)
+            {
+                min_of_max_dist = max_dist_player;
+                min_of_max_dist_pla = p;
+            }
+        }
+        Players[min_of_max_dist_pla].checkpoint = min_of_max_dist.Item2;
+
+        for (int p = 0; p < number_players; p++)
+        {
+            if (p == min_of_max_dist_pla) continue;
+
+    
+            bool ValidCheckpoint = false;
+            int CHPDistance= min_of_max_dist.dist;
+            while (!ValidCheckpoint)
+            //Ejecutar hasta encontrar CHP valido
+            {
+                List<(int dist, (int x, int y))> possibles_checkpoint = Distances.GetDistancesbyvalue(Players[p], CHPDistance);
+                for (int i = 0; i < possibles_checkpoint.Count; i++)
+                //Chequeando cada posible CHP
+                {
+                    bool correct = true;
+
+                    for (int pl = 0; pl<number_players; pl++)
+                    //Chequeando si el CHP está en la semilla de algún otro jugador o coincide con su CHP
+                    {
+
+                        if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y)
+                        {
+                    
+                            correct = false;
+                        }
+                        if(pl<p && Players[pl].checkpoint.x== possibles_checkpoint[i].Item2.x && Players[pl].checkpoint.y== possibles_checkpoint[i].Item2.y )
+                        {
+                    
+                            correct = false;
+                        }
+
+                    }
+                    if (correct)
+                    {
+                        //Se enontro un CHP valido no coincidente ni enciam de un seed
+                        Players[p].checkpoint = possibles_checkpoint[i].Item2;
+                        ValidCheckpoint = true;
+                        break;
+                    }
+                    
+
+
+                }
+                CHPDistance--;
+
+
+            }
+
+        }
+        for (int p = 0; p < number_players; p++)
+        {
+
+            Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
+            laberinto[Players[p].checkpoint.x, Players[p].checkpoint.y] = $"CHP_{Players[p].role}";
+        }
+
+    }
+
 
 
 
