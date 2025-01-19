@@ -14,6 +14,7 @@ using static UnityEngine.GraphicsBuffer;
 using System.Linq;
 using UnityEngine.SceneManagement;
 using System.Threading;
+using UnityEngine.Rendering.Universal;
 
 
 public class Player
@@ -23,7 +24,7 @@ public class Player
     public int id;
     public string name;
     public (int x, int y) seed;
-    public (int x, int y) checkpoint;
+    public (int x, int y) checkpoint = (-1, -1);
     public int[,] distances;
     public string role;
     public GameObject texture;
@@ -34,7 +35,7 @@ public class Player
     public GameObject checkpoint_texture;
 
     public List<GameObject> posibles_movements = new List<GameObject>();
-    public bool[,] NotFog;
+    public (bool IsOff, int Radius)[,] NotFog;
     public List<GameObject> ghost_movements = new List<GameObject>();
     public List<GameObject> AreaTarget = new List<GameObject>();
     public int health;
@@ -247,11 +248,15 @@ public class Player
         int player_maxhealth = Players_DB[role]["health"];
         if (health_ >= player_maxhealth)
         {
-            health = player_maxhealth;
 
             return;
         }
         health += health_;
+        if (health_ >= player_maxhealth)
+        {
+            health = player_maxhealth;
+            return;
+        }
 
 
 
@@ -263,14 +268,24 @@ public class Player
 
     public void InitPlayerFog(int LabDim)
     {
-        NotFog = new bool[LabDim, LabDim];
+        NotFog = new (bool IsOff, int radius)[LabDim, LabDim];
         vision = LabDim / 10;
-        vision = 3;
+        vision = 4;
         Players_DB[role]["vision"] = vision;
+        for (int i = 0; i < NotFog.GetLength(0); i++)
+        {
+            for (int j = 0; j < NotFog.GetLength(0); j++)
+            {
+                NotFog[i, j] = (false, 0);
+            }
+
+        }
 
     }
     public void UpdatePlayerFog()
     {
+        NotFog[GetPlayerLabCord().x, GetPlayerLabCord().y] = (true, vision);
+        return;
         for (int i = 0; i < NotFog.GetLength(0); i++)
         {
             for (int j = 0; j < NotFog.GetLength(1); j++)
@@ -281,7 +296,7 @@ public class Player
                 {
                     //Debug.Log(GetPlayerLabCord().x);
                     //Debug.Log(GetPlayerLabCord().y);
-                    NotFog[i, j] = true;
+                    //NotFog[i, j] = true;
                 }
 
             }
@@ -395,7 +410,7 @@ public class RewardsClass
 
     public static void MoreLife(Player Target)
     {
-        Target.AddHealth(3);
+        Target.health += 3;
     }
 
     public static void MoreSpeed(Player Target)
@@ -518,11 +533,11 @@ public class Map : MonoBehaviour
     public GameObject Reward_IncrementedSpeed;
     public GameObject Reward_RestoreHealth;
     public Camera mainCamera;
+    private bool OnCameraMov=false;
+    private int n = 31;
 
-    static int n = 7;
-
-    private int trapsProb = 5;
-    private int rewardsProb = 3;
+    private int trapsProb;
+    private int rewardsProb;
     private string[] Traps = {
             "Trap_LessVision",
             "Trap_LowDamage",
@@ -543,32 +558,29 @@ public class Map : MonoBehaviour
     private int number_players;
     private int IDPlayerTarget = -1;
     static List<((int x, int y), (int x, int y))> paths = new List<((int x, int y), (int x, int y))>();
-    static Dictionary<int, (int, int)> Players_Seed = new Dictionary<int, (int, int)>    {
-        {0,(1,1)},
-        {1,(1,n-2)},
-        {2,(n-2,1)},
-        {3,(n-2,n-2)},
-        {4,((n-1)/2,1)},
-        {5,((n-1)/2,n-2)},
-
-     };
+    private Dictionary<int, (int, int)> Players_Seed;
 
     Dictionary<string, Dictionary<string, int>> Players_db = new Dictionary<string, Dictionary<string, int>>();
 
     Dictionary<string, Dictionary<string, GameObject>> Textures = new Dictionary<string, Dictionary<string, GameObject>>();
     Dictionary<int, Player> Players = new Dictionary<int, Player>();
 
-    string[,] laberinto = new string[n, n];
-    GameObject[,] MapFog = new GameObject[n, n];
-    GameObject[,] Traps_Rewards = new GameObject[n, n];
+    string[,] laberinto;
+    GameObject[,] MapFog;
+    GameObject[,] Traps_Rewards;
+    GameObject[,] Walls_Paths;
+    GameObject[,] Checkpoints;
     private static System.Random rand = new System.Random();
 
     private bool Block_move = false;
     private bool New_Turn = true;
     private bool firstEntrty = true;
+    private bool OnMapView = false;
     private Player PlayerOnTurn;
     public void Start()
     {
+
+
         Init_DBS();
 
         number_players = PlayerPrefs.GetInt("Number_of_Players", 1);
@@ -598,6 +610,23 @@ public class Map : MonoBehaviour
     }
     public void Init_DBS()
     {
+        n = PlayerPrefs.GetInt("MapSize", 31);
+        trapsProb = PlayerPrefs.GetInt("TrapsProbability");
+        rewardsProb = PlayerPrefs.GetInt("RewardsProbability");
+        Players_Seed = new Dictionary<int, (int, int)>    {
+        {0,(1,1)},
+        {1,(1,n-2)},
+        {2,(n-2,1)},
+        {3,(n-2,n-2)},
+        {4,((n-1)/2,1)},
+        {5,((n-1)/2,n-2)},
+
+     };
+        laberinto = new string[n, n];
+        MapFog = new GameObject[n, n];
+        Checkpoints = new GameObject[n, n];
+        Traps_Rewards = new GameObject[n, n];
+        Walls_Paths = new GameObject[n, n];
         TrapsTextures["Trap_LessVision"] = Trap_LessVisionTexture;
         TrapsTextures["Trap_LowDamage"] = Trap_LowDamageTexture;
         TrapsTextures["Trap_HightDamage"] = Trap_HightDamageTexture;
@@ -748,6 +777,16 @@ public class Map : MonoBehaviour
         {
             for (int j = 0; j < laberinto.GetLength(0); j++)
             {
+                bool OnSeed = false;
+                foreach (var seed in Players_Seed)
+                {
+                    if (seed.Value == (i, j))
+                    {
+                        OnSeed = true;
+                        break;
+                    }
+                }
+                if (OnSeed) continue;
                 if (laberinto[i, j] == "wall") continue;
                 if (laberinto[i, j] == "path")
                 {
@@ -810,10 +849,10 @@ public class Map : MonoBehaviour
         {
             for (int j = 0; j < MapFog.GetLength(0); j++)
             {
-
-
-
-                MapFog[i, j].SetActive(!player.NotFog[i, j]);
+                //MapFog[i, j].SetActive(!player.NotFog[i, j]);
+                if (laberinto[i, j] == "wall") continue;
+                Walls_Paths[i, j].GetComponent<Light2D>().enabled = player.NotFog[i, j].IsOff;
+                Walls_Paths[i, j].GetComponent<Light2D>().pointLightOuterRadius = player.NotFog[i, j].Radius;
             }
 
         }
@@ -893,11 +932,13 @@ public class Map : MonoBehaviour
                 }
                 if (laberinto[i, j] == "wall")
                 {
-                    Instantiate(wallPrefab, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
+                    Debug.Log("instantied");
+                    Walls_Paths[i, j] = Instantiate(wallPrefab, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
                 }
                 if (laberinto[i, j] != "wall")
                 {
-                    Instantiate(PathTexture, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
+
+                    Walls_Paths[i, j] = Instantiate(PathTexture, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
                 }
                 MapFog[i, j] = Instantiate(fogTexture, new Vector3(i + 0.5f, j + 0.5f, 0), Quaternion.identity);
 
@@ -933,20 +974,23 @@ public class Map : MonoBehaviour
     }
     public void Turn_Simulator()
     {
+        if(OnCameraMov)return;
         Player player_selected = Players[total_turns % number_players];
         PlayerOnTurn = Players[total_turns % number_players];
         if (firstEntrty)
         {
+
             player_selected.total_turns++;
             player_selected.IsActiveSkill();
             player_selected.RefreshStatus();
+            DisplayPlayerPanel(player_selected);
+            ChangePlayerVision(player_selected,3f);
             if (!player_selected.Status.ContainsKey("Paralized"))
             {
                 DisplayPosibleMovements(player_selected);
             }
 
-            DisplayPlayerPanel(player_selected);
-            ChangePlayerVision(player_selected);
+
             firstEntrty = false;
         }
 
@@ -956,6 +1000,10 @@ public class Map : MonoBehaviour
 
             if (!Block_move) Check_Move(player_selected);
             SkillsController(player_selected);
+        }
+        if (number_players == 1 && Block_move)
+        {
+            NextTurn();
         }
 
 
@@ -1030,14 +1078,18 @@ public class Map : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
-
-            CentrarCamara();
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-
+            if (!OnMapView)
+            {
+                CentrarCamara();
+                OnMapView = true;
+                return;
+            }
+            OnMapView = false;
             ChangePlayerVision(PlayerOnTurn);
+
+
         }
+
         if (Input.GetKeyDown(KeyCode.P))
         {
             if (PlayerPanel.activeSelf)
@@ -1118,6 +1170,7 @@ public class Map : MonoBehaviour
                     PlayerTarget.text = "None";
                     PlayerTarget.color = Color.white;
                     ChangePlayerVision(player_selected);
+                    if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
 
                     break;
                 case "Thor":
@@ -1130,6 +1183,7 @@ public class Map : MonoBehaviour
                     player_selected.Thor_Skill(Players);
                     player_selected.IsActiveSkill();
                     CleanArea();
+                    if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
                     break;
                 case "Hulk":
                     if (PlayerOnTurn.AreaTarget.Count == 0)
@@ -1139,6 +1193,7 @@ public class Map : MonoBehaviour
                     }
                     if (IDPlayerTarget == -1)
                     {
+                        CleanArea();
                         break;
                     }
                     player_selected.Hulk_Skill(Players[IDPlayerTarget]);
@@ -1146,6 +1201,7 @@ public class Map : MonoBehaviour
                     PlayerTarget.text = "None";
                     PlayerTarget.color = Color.white;
                     CleanArea();
+                    if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
                     break;
             }
             player_selected.RefreshStatus();
@@ -1234,7 +1290,20 @@ public class Map : MonoBehaviour
             {
                 if (player_distances[i, j] <= pases && player_distances[i, j] > 0 && laberinto[i, j] != "wall")
                 {
-                    possible_celds.Add((i, j));
+                    bool PlayerOnCeld = false;
+                    foreach (var player in Players)
+                    {
+                        if (player.Value.id == PlayerOnTurn.id) continue;
+                        if (player.Value.GetPlayerLabCord() == (i, j))
+                        {
+                            PlayerOnCeld = true;
+                            break;
+                        }
+
+
+                    }
+
+                    if (!PlayerOnCeld) possible_celds.Add((i, j));
                 }
 
             }
@@ -1319,27 +1388,50 @@ public class Map : MonoBehaviour
     }
 
 
-    public void ChangePlayerVision(Player player_selected_)
+    public void ChangePlayerVision(Player player_selected_,float speed=2f)
     {
 
 
         Vector3 player_pos = player_selected_.GetActualPosition();
         player_pos.z = -10f;
         // Mueve la cámara a la posición central
-        mainCamera.transform.position = player_pos;
+        
+        //mainCamera.transform.position = Vector2.Lerp(mainCamera.transform.position, player_pos, 1f);
         // Ajusta la cámara para que el laberinto se vea completo
         // Si estás usando una cámara ortográfica, ajusta el tamaño
         if (mainCamera.orthographic && n > 9)
         {
-            float orthographic_size = n / 7;
+            //float orthographic_size = n / 5;
+            float orthographic_size = 4f;
             mainCamera.orthographicSize = orthographic_size; // Ajusta el tamaño según el tamaño del laberinto
         }
         if (PlayerOnTurn.OnTurnIndicatorInstance != null) Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
         PlayerOnTurn.OnTurnIndicatorInstance = Instantiate(OnTurnIndicatorTexture, new Vector3(PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y, -2), Quaternion.identity);
         UpdateFogState(player_selected_);
+        Checkpoints[PlayerOnTurn.checkpoint.x, PlayerOnTurn.checkpoint.y].GetComponent<ParpadeoLuz>().Active = true;
+        StartCoroutine(FluidCamera(speed));
+
+
+    }
+    IEnumerator FluidCamera(float speed=1f)
+    {
+        OnCameraMov=true;
+        
+        
+
+        float epsilon=speed/10;
+        while (Math.Abs(mainCamera.transform.position.y - PlayerOnTurn.GetActualPosition().y) > epsilon || Math.Abs(mainCamera.transform.position.x - PlayerOnTurn.GetActualPosition().x) > epsilon)
+        {
+
+            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(PlayerOnTurn.GetActualPosition().x,PlayerOnTurn.GetActualPosition().y,-10), speed*Time.deltaTime);
+
+            yield return new WaitForSeconds(0.00005f);
+        }
 
 
 
+        mainCamera.transform.position = new Vector3(PlayerOnTurn.GetActualPosition().x,PlayerOnTurn.GetActualPosition().y,-10);
+        OnCameraMov=false;
     }
 
 
@@ -1385,28 +1477,33 @@ public class Map : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.N))
         {
-            Block_move = false;
-            New_Turn = true;
-            total_turns++;
-            IDPlayerTarget = -1;
-            PlayerTarget.text = "None";
-            if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
-            if (PlayerOnTurn.OnTurnIndicatorInstance != null) Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
-            CleanPossibleMovements(PlayerOnTurn);
-            CleanGhostMovements();
-            CleanArea();
-            if (!PlayerOnTurn.SkillsState[PlayerOnTurn.role].confirm_use && PlayerOnTurn.SkillsState[PlayerOnTurn.role].is_active)
-            {
-                PlayerOnTurn.SkillTurns.Remove(PlayerOnTurn.SkillTurns.Count - 1);
-                PlayerOnTurn.SkillsState[PlayerOnTurn.role] = (false, false, -1);
-            }
 
-            PlayerTarget.color = Color.white;
-            firstEntrty = true;
-            PlayerPanel.SetActive(true);
-            return;
-
+            NextTurn();
         }
+
+    }
+    public void NextTurn()
+    {
+        Block_move = false;
+        New_Turn = true;
+        total_turns++;
+        IDPlayerTarget = -1;
+        PlayerTarget.text = "None";
+        if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
+        if (PlayerOnTurn.OnTurnIndicatorInstance != null) Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
+        CleanPossibleMovements(PlayerOnTurn);
+        CleanGhostMovements();
+        CleanArea();
+        if (!PlayerOnTurn.SkillsState[PlayerOnTurn.role].confirm_use && PlayerOnTurn.SkillsState[PlayerOnTurn.role].is_active)
+        {
+            PlayerOnTurn.SkillTurns.Remove(PlayerOnTurn.SkillTurns.Count - 1);
+            PlayerOnTurn.SkillsState[PlayerOnTurn.role] = (false, false, -1);
+        }
+
+        PlayerTarget.color = Color.white;
+        firstEntrty = true;
+        PlayerPanel.SetActive(true);
+        Checkpoints[PlayerOnTurn.checkpoint.x, PlayerOnTurn.checkpoint.y].GetComponent<ParpadeoLuz>().Active = false;
 
     }
     public void Init_Players()
@@ -1446,6 +1543,7 @@ public class Map : MonoBehaviour
                 Block_move = true;
                 CleanPossibleMovements(player);
                 ChangePlayerVision(player);
+                CleanArea();
                 Debug.Log(PlayerOnTurn.GetPlayerLabCord());
 
                 return;
@@ -1689,15 +1787,15 @@ public class Map : MonoBehaviour
                 min_of_max_dist_pla = p;
             }
         }
-        Players[min_of_max_dist_pla].checkpoint = min_of_max_dist.Item2;
+        //Players[min_of_max_dist_pla].checkpoint = min_of_max_dist.Item2;
 
         for (int p = 0; p < number_players; p++)
         {
-            if (p == min_of_max_dist_pla) continue;
+            //if (p == min_of_max_dist_pla) continue;
 
-    
+
             bool ValidCheckpoint = false;
-            int CHPDistance= min_of_max_dist.dist;
+            int CHPDistance = min_of_max_dist.dist;
             while (!ValidCheckpoint)
             //Ejecutar hasta encontrar CHP valido
             {
@@ -1707,18 +1805,18 @@ public class Map : MonoBehaviour
                 {
                     bool correct = true;
 
-                    for (int pl = 0; pl<number_players; pl++)
+                    for (int pl = 0; pl < number_players; pl++)
                     //Chequeando si el CHP está en la semilla de algún otro jugador o coincide con su CHP
                     {
 
                         if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y)
                         {
-                    
+
                             correct = false;
                         }
-                        if(pl<p && Players[pl].checkpoint.x== possibles_checkpoint[i].Item2.x && Players[pl].checkpoint.y== possibles_checkpoint[i].Item2.y )
+                        if (Players[pl].checkpoint.x == possibles_checkpoint[i].Item2.x && Players[pl].checkpoint.y == possibles_checkpoint[i].Item2.y)
                         {
-                    
+
                             correct = false;
                         }
 
@@ -1730,7 +1828,7 @@ public class Map : MonoBehaviour
                         ValidCheckpoint = true;
                         break;
                     }
-                    
+
 
 
                 }
@@ -1743,7 +1841,7 @@ public class Map : MonoBehaviour
         for (int p = 0; p < number_players; p++)
         {
 
-            Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
+            Checkpoints[Players[p].checkpoint.x, Players[p].checkpoint.y] = Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
             laberinto[Players[p].checkpoint.x, Players[p].checkpoint.y] = $"CHP_{Players[p].role}";
         }
 

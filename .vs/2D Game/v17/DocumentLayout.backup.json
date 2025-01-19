@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Alejandro\\Desktop\\2D Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|c:\\users\\alejandro\\desktop\\2d game\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\assets\\scripts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\assets\\scripts\\winnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|c:\\users\\alejandro\\desktop\\2d game\\assets\\scripts\\winnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\assets\\scripts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\assets\\scripts\\roleselectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roleselectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\PlayerNumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BD99DA7-BD93-6366-344B-4F2C33A41684}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\PlayerNumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 323,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "RoleSelectController.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\RoleSelectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoleSelectController.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\RoleSelectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoleSelectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T22:50:37.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
@@ -46,8 +62,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:33:38.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T05:33:38.781Z"
             },
             {
               "$type": "Document",
@@ -57,13 +72,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\WinnerController.cs",
               "ToolTip": "C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\WinnerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\WinnerController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAUwE8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T08:27:17.071Z"
+              "WhenOpened": "2025-01-09T08:27:17.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\Alejandro\\Desktop\\2D Game\\Assets\\Scripts\\Map.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Map.cs",
@@ -71,7 +87,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Map.cs",
               "ViewState": "AgIAANYFAAAAAAAAAAAuwNwFAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T21:28:33.395Z"
+              "WhenOpened": "2024-12-28T21:28:33.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

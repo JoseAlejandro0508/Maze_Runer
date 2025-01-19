@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.Rendering;
 public class WinnerController : MonoBehaviour
 {
     private int Player_ID;
@@ -17,7 +18,7 @@ public class WinnerController : MonoBehaviour
     public Sprite IMBackground;
     public Sprite HulkBackground;
     public Sprite ThorBackground;
-    public Image BackgroundDisplay;
+    public GameObject BackgroundDisplay;
     Dictionary<string, Dictionary<string, Sprite>> Textures = new Dictionary<string, Dictionary<string, Sprite>>();
 
    
@@ -80,7 +81,7 @@ public class WinnerController : MonoBehaviour
     {
         Sprite BackgroundTexture = Textures[WinnerRole]["Background"];
     
-        BackgroundDisplay.sprite = BackgroundTexture;
+        BackgroundDisplay.GetComponent<Image>().sprite = BackgroundTexture;
 
     }
 

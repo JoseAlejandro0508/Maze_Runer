@@ -459,15 +459,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.77254903}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1645913232381443890, guid: 1f3109eff9a27e746ba7c3889a189ec9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1071,6 +1071,13 @@ MonoBehaviour:
   dropdown: {fileID: 1228947752}
   input_field: {fileID: 1155410985}
   confirm_button: {fileID: 459579004}
+  CABackground: {fileID: 3610794050387614870, guid: 20e6c95450c4c6441b89d384a6c4760b, type: 3}
+  VisionBackground: {fileID: -6109793656093283447, guid: 91971c84f5e174d49b255a21b8901853, type: 3}
+  HEBackground: {fileID: -5575329454330401667, guid: 16efcb38645a99640ba5726c9361ef34, type: 3}
+  IMBackground: {fileID: 6459676640537171692, guid: ae014d5ab40034246ba53fa3d5f95bda, type: 3}
+  HulkBackground: {fileID: -6098674333972680164, guid: 3ab80de2214dd4f48858d87f02f750cb, type: 3}
+  ThorBackground: {fileID: -6478120211718130704, guid: cf69e200556820a4190c9469c59afa7d, type: 3}
+  BackgroundDisplay: {fileID: 434023331}
 --- !u!114 &1028595926
 MonoBehaviour:
   m_ObjectHideFlags: 0

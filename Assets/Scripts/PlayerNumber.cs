@@ -9,10 +9,10 @@ public class PlayerNumber: MonoBehaviour
     void Start()
     {
    
-        // Asegúrate de que el Dropdown tenga al menos una opción
+        // Asegï¿½rate de que el Dropdown tenga al menos una opciï¿½n
         if (dropdown.options.Count > 0)
         {
-            // Obtener la opción seleccionada al inicio
+            // Obtener la opciï¿½n seleccionada al inicio
             string selected = dropdown.options[dropdown.value].text;
 
           
@@ -42,42 +42,43 @@ public class PlayerNumber: MonoBehaviour
 
         }
 
-        // Añadir listener para detectar cambios en la selección
+        // Aï¿½adir listener para detectar cambios en la selecciï¿½n
         dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
     }
 
     void OnDropdownValueChanged(int index)
     {
-        // Obtener la opción seleccionada
+        // Obtener la opciï¿½n seleccionada
         string selected = dropdown.options[index].text;
 
         switch (selected)
         {
             case "1 Player":
                 PlayerPrefs.SetInt("Number_of_Players", 1);
-                Debug.Log("Opción seleccionada: " + selected);
+                Debug.Log("Opciï¿½n seleccionada: " + selected);
                 break;
             case "2 Players":
                 PlayerPrefs.SetInt("Number_of_Players", 2);
-                Debug.Log("Opción seleccionada: " + selected);
+                Debug.Log("Opciï¿½n seleccionada: " + selected);
                 break;
             case "3 Players":
                 PlayerPrefs.SetInt("Number_of_Players", 3);
-                Debug.Log("Opción seleccionada: " + selected);
+                Debug.Log("Opciï¿½n seleccionada: " + selected);
                 break;
             case "4 Players":
                 PlayerPrefs.SetInt("Number_of_Players", 4);
-                Debug.Log("Opción seleccionada: " + selected);
+                Debug.Log("Opciï¿½n seleccionada: " + selected);
                 break;
             case "5 Players":
                 PlayerPrefs.SetInt("Number_of_Players", 5);
-                Debug.Log("Opción seleccionada: " + selected);
+                Debug.Log("Opciï¿½n seleccionada: " + selected);
                 break;
             case "6 Players":
                 PlayerPrefs.SetInt("Number_of_Players", 6);
-                Debug.Log("Opción seleccionada: " + selected);
+                Debug.Log("Opciï¿½n seleccionada: " + selected);
                 break;
         }
 
     }
+
 }

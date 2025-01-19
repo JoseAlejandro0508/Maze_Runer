@@ -16,9 +16,19 @@ public class RoleSelectController : MonoBehaviour
     public TMP_InputField input_field;
     public Button confirm_button;
 
+    public Sprite CABackground;
+    public Sprite VisionBackground;
+    public Sprite HEBackground;
+    public Sprite IMBackground;
+    public Sprite HulkBackground;
+    public Sprite ThorBackground;
+    public GameObject BackgroundDisplay;
+    Dictionary<string, Dictionary<string, Sprite>> Textures = new Dictionary<string, Dictionary<string, Sprite>>();
+
            
     void Start()
     {
+        InitDbs();
         for (int i = 0; i < 6; i++)
         {
             PlayerPrefs.SetString($"PlayerRole_{i}", null);
@@ -34,6 +44,7 @@ public class RoleSelectController : MonoBehaviour
 
         RefreshDropdownOptions();
         dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
+        DisplayBackground();
     }
 
     // Update is called once per frame
@@ -43,7 +54,7 @@ public class RoleSelectController : MonoBehaviour
     }
     void RefreshDropdownOptions()
     {
-        // Busca y elimina la opción específica
+        // Busca y elimina la opciï¿½n especï¿½fica
         string role_sected;
 
         List<string> roles_selecteds = new List<string>();
@@ -55,7 +66,7 @@ public class RoleSelectController : MonoBehaviour
 
 
         }
-        // Busca y elimina la opción específica
+        // Busca y elimina la opciï¿½n especï¿½fica
         for (int i = dropdown.options.Count - 1; i >= 0; i--)
         {
             if (roles_selecteds.Contains(dropdown.options[i].text))
@@ -70,9 +81,10 @@ public class RoleSelectController : MonoBehaviour
     }
     void OnDropdownValueChanged(int index)
     {
-        // Obtener la opción seleccionada
+        // Obtener la opciï¿½n seleccionada
         string selected = dropdown.options[index].text;
         Debug.Log($"PlayerRole_{Player_ID}" + selected);
+        DisplayBackground();
 
       
     }
@@ -89,7 +101,7 @@ public class RoleSelectController : MonoBehaviour
         {
             Title.text = $"Select Player {Player_ID} Role";
 
-            Debug.Log("¡Botón clickeado!");
+            Debug.Log("ï¿½Botï¿½n clickeado!");
             RefreshDropdownOptions();
 
         }
@@ -99,6 +111,55 @@ public class RoleSelectController : MonoBehaviour
             SceneManager.LoadScene("Map1");
 
         }
+        DisplayBackground();
+
+    }
+   
+
+   
+
+    public void InitDbs()
+    {
+        Textures["Capitan America"] = new Dictionary<string, Sprite>
+        {
+            { "Background", CABackground },
+
+        };
+        Textures["Iron Man"] = new Dictionary<string, Sprite>
+        {
+            {  "Background", IMBackground },
+
+        };
+        Textures["Thor"] = new Dictionary<string, Sprite>
+        {
+            {  "Background", ThorBackground },
+
+        };
+        Textures["Vision"] = new Dictionary<string, Sprite>
+        {
+            {  "Background", VisionBackground },
+
+        };
+        Textures["Hawk Eye"] = new Dictionary<string, Sprite>
+        {
+            { "Background", HEBackground },
+
+        };
+        Textures["Hulk"] = new Dictionary<string, Sprite>
+        {
+            {  "Background",HulkBackground},
+
+        };
+
+
+    }
+
+    public void DisplayBackground()
+    {
+        string selected_role = dropdown.options[dropdown.value].text;
+        Sprite BackgroundTexture = Textures[selected_role]["Background"];
+    
+        BackgroundDisplay.GetComponent<Image>().sprite = BackgroundTexture;
 
     }
     
