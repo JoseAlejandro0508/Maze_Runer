@@ -368,7 +368,7 @@ public class TrapsClass
 
     public static void Returned(Player Target)
     {
-        Target.TakeDamage(10);
+        Target.TakeDamage(100);
     }
 
 
