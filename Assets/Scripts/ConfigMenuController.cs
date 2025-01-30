@@ -104,6 +104,10 @@ public class ConfigMenuController : MonoBehaviour
         PlayersNumber();
         ChangeScene("RolSelect");
     }
+    public void BackButton(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+    }
+
 
 
 }

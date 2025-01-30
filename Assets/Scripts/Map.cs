@@ -426,6 +426,14 @@ public class RewardsClass
     public static void RestoreHealth(Player Target)
     {
         Target.AddHealth(10);
+        if(Target.Status.ContainsKey("LimitedSpeed")){
+            Target.Status.Remove("LimitedSpeed");
+
+        }
+        if(Target.Status.ContainsKey("LessVision")){
+            Target.Status.Remove("LessVision");
+            
+        }
     }
 
 
@@ -477,6 +485,7 @@ public class Distances
 
 public class Map : MonoBehaviour
 {
+    public GameObject MenuController;
     public TMP_Text Title;
     public TMP_Text Role;
     public TMP_Text Health_indicator;
@@ -576,6 +585,7 @@ public class Map : MonoBehaviour
     private bool New_Turn = true;
     private bool firstEntrty = true;
     private bool OnMapView = false;
+    public bool OnMenu= false;
     private Player PlayerOnTurn;
     public void Start()
     {
@@ -611,6 +621,7 @@ public class Map : MonoBehaviour
     public void Init_DBS()
     {
         n = PlayerPrefs.GetInt("MapSize", 31);
+        n=7;
         trapsProb = PlayerPrefs.GetInt("TrapsProbability");
         rewardsProb = PlayerPrefs.GetInt("RewardsProbability");
         Players_Seed = new Dictionary<int, (int, int)>    {
@@ -967,6 +978,7 @@ public class Map : MonoBehaviour
     }
     public void Update()
     {
+        PlayerMenu();
         Turn_Simulator();
 
 
@@ -974,6 +986,8 @@ public class Map : MonoBehaviour
     }
     public void Turn_Simulator()
     {
+        
+        if(OnMenu)return;
         if(OnCameraMov)return;
         Player player_selected = Players[total_turns % number_players];
         PlayerOnTurn = Players[total_turns % number_players];
@@ -1074,8 +1088,16 @@ public class Map : MonoBehaviour
         SkillsInput(player_selected);
 
     }
+    public void PlayerMenu(){
+        if(Input.GetKeyDown(KeyCode.Escape)){
+
+            OnMenu=!OnMenu;
+            MenuController.SetActive(OnMenu);
+        }
+    }
     public void PlayerInput()
     {
+
         if (Input.GetKeyDown(KeyCode.M))
         {
             if (!OnMapView)
