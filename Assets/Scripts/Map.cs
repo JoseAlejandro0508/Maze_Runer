@@ -313,7 +313,7 @@ public class Player
     {
         //Controls Vision's ability, sets the status of his ability to true but leaves his confirmation false
         if (!SkillRefresh().is_avaliable) return;
-        if(IsActiveSkill())return;
+        if (IsActiveSkill()) return;
         SkillsState[role] = (true, false, total_turns);
         SkillTurns.Add(total_turns);
 
@@ -1721,7 +1721,7 @@ public class Map : MonoBehaviour
 
     }
 
-        public List<(int x, int y)> GetPosibleMovements(Player player_selected_)
+    public List<(int x, int y)> GetPosibleMovements(Player player_selected_)
     {
         //It is responsible for obtaining the possible moves that the player can make
         List<(int x, int y)> possible_celds = new List<(int x, int y)>();
@@ -1810,9 +1810,9 @@ public class Map : MonoBehaviour
     public void DisplayGhostMovements()
     {
         //It is responsible for showing Vision's possible movements on the screen
-       
+
         Player player_selected_ = PlayerOnTurn;
-        if(Players[player_selected_.id].ghost_movements.Count>0)return;
+        if (Players[player_selected_.id].ghost_movements.Count > 0) return;
         List<(int, int)> possible_celds = GetGhostMovements();
         for (int i = 0; i < possible_celds.Count; i++)
         {
