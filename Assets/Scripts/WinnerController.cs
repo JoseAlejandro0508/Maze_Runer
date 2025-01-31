@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.Rendering;
+using System.Collections;
 public class WinnerController : MonoBehaviour
 {
     private int Player_ID;
@@ -19,6 +20,7 @@ public class WinnerController : MonoBehaviour
     public Sprite HulkBackground;
     public Sprite ThorBackground;
     public GameObject BackgroundDisplay;
+    public GameObject WinnerMenu;
     Dictionary<string, Dictionary<string, Sprite>> Textures = new Dictionary<string, Dictionary<string, Sprite>>();
 
    
@@ -30,6 +32,7 @@ public class WinnerController : MonoBehaviour
         InitDbs();
         DisplayWinnerText();
         DisplayBackground();
+        CargarMenu();
 
     }
 
@@ -83,6 +86,16 @@ public class WinnerController : MonoBehaviour
     
         BackgroundDisplay.GetComponent<Image>().sprite = BackgroundTexture;
 
+    }
+    public void CargarMenu()
+    {
+        StartCoroutine(EsperarYcargarEscena());
+    }
+
+    private IEnumerator EsperarYcargarEscena()
+    {
+        yield return new WaitForSeconds(2f);
+        WinnerMenu.SetActive(true);
     }
 
 }

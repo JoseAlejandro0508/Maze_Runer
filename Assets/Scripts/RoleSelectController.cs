@@ -111,6 +111,7 @@ public class RoleSelectController : MonoBehaviour
             SceneManager.LoadScene("Map1");
 
         }
+        dropdown.value=0;
         DisplayBackground();
 
     }

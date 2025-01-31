@@ -7,60 +7,66 @@ using UnityEngine.SceneManagement;
 public class ConfigMenuController : MonoBehaviour
 {
     public GameObject AdvancedMenu;
+    public GameObject HelpMenu;
     public Slider TrapsProbability;
     public Slider RewardsProbability;
     public TMP_Text TrapsProbInd;
     public TMP_Text RewardsProbInd;
     public TMP_Dropdown MapSizeDrop;
-    public TMP_Dropdown PlayersNumDrop; 
+    public TMP_Dropdown PlayersNumDrop;
 
-    int[] MapSizes={15,23,31,35};
+    int[] MapSizes = { 15, 23, 31, 35 };
 
     void Start()
     {
         DefaultRewardTrapsProbability();
 
         DisplayIndicators();
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void AdvancedSettingsView(){
-       AdvancedMenu.SetActive(true);
 
     }
-    public void AdvancedApplySettings(){
+    public void AdvancedSettingsView()
+    {
+        AdvancedMenu.SetActive(true);
+
+    }
+    public void AdvancedApplySettings()
+    {
 
         AdvancedMenu.SetActive(false);
 
     }
-    public void SetRewardTrapsProbability(){
+    public void SetRewardTrapsProbability()
+    {
 
         PlayerPrefs.SetInt("TrapsProbability", (int)TrapsProbability.value);
         PlayerPrefs.SetInt("RewardsProbability", (int)RewardsProbability.value);
         DisplayIndicators();
 
     }
-    public void DisplayIndicators(){
-        TrapsProbInd.text=TrapsProbability.value.ToString();
-        RewardsProbInd.text=RewardsProbability.value.ToString();
+    public void DisplayIndicators()
+    {
+        TrapsProbInd.text = TrapsProbability.value.ToString();
+        RewardsProbInd.text = RewardsProbability.value.ToString();
     }
-    public void DefaultRewardTrapsProbability(){
+    public void DefaultRewardTrapsProbability()
+    {
 
-        TrapsProbability.value=10;
-        RewardsProbability.value=5;
+        TrapsProbability.value = 10;
+        RewardsProbability.value = 5;
         SetRewardTrapsProbability();
 
 
 
     }
     public void PlayersNumber()
-    {   
-        int index=PlayersNumDrop.value;
+    {
+        int index = PlayersNumDrop.value;
         // Obtener la opci�n seleccionada
         string selected = PlayersNumDrop.options[index].text;
 
@@ -98,14 +104,21 @@ public class ConfigMenuController : MonoBehaviour
         Debug.Log("Cambiando a la escena: " + sceneName);
         SceneManager.LoadScene(sceneName);
     }
-    public void ConfirmButton(){
+    public void ConfirmButton()
+    {
         int selected_size = MapSizes[MapSizeDrop.value];
         PlayerPrefs.SetInt("MapSize", selected_size);
         PlayersNumber();
         ChangeScene("RolSelect");
     }
-    public void BackButton(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+    public void BackButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+    public void Help()
+    {
+
+        HelpMenu.SetActive(!HelpMenu.activeSelf);
     }
 
 

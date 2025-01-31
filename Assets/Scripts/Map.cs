@@ -20,6 +20,7 @@ using UnityEngine.Rendering.Universal;
 public class Player
 
 {
+    //Es una clase que representara a cada jugador,aqui se encontrara la informacion en tiempo real de cada jugador ,asi como las funciones encargadas de ejecutar las habilidades
 
     public int id;
     public string name;
@@ -28,6 +29,8 @@ public class Player
     public int[,] distances;
     public string role;
     public GameObject texture;
+
+
     public GameObject texturePreviewSkill;
     public GameObject instance;
     public GameObject OnTurnIndicatorInstance = null;
@@ -285,23 +288,7 @@ public class Player
     public void UpdatePlayerFog()
     {
         NotFog[GetPlayerLabCord().x, GetPlayerLabCord().y] = (true, vision);
-        return;
-        for (int i = 0; i < NotFog.GetLength(0); i++)
-        {
-            for (int j = 0; j < NotFog.GetLength(1); j++)
-            {
 
-
-                if (Math.Abs(GetPlayerLabCord().x - i) <= vision && Math.Abs(GetPlayerLabCord().y - j) <= vision)
-                {
-                    //Debug.Log(GetPlayerLabCord().x);
-                    //Debug.Log(GetPlayerLabCord().y);
-                    //NotFog[i, j] = true;
-                }
-
-            }
-
-        }
     }
 
 
@@ -426,13 +413,15 @@ public class RewardsClass
     public static void RestoreHealth(Player Target)
     {
         Target.AddHealth(10);
-        if(Target.Status.ContainsKey("LimitedSpeed")){
+        if (Target.Status.ContainsKey("LimitedSpeed"))
+        {
             Target.Status.Remove("LimitedSpeed");
 
         }
-        if(Target.Status.ContainsKey("LessVision")){
+        if (Target.Status.ContainsKey("LessVision"))
+        {
             Target.Status.Remove("LessVision");
-            
+
         }
     }
 
@@ -485,6 +474,7 @@ public class Distances
 
 public class Map : MonoBehaviour
 {
+
     public GameObject MenuController;
     public TMP_Text Title;
     public TMP_Text Role;
@@ -542,7 +532,7 @@ public class Map : MonoBehaviour
     public GameObject Reward_IncrementedSpeed;
     public GameObject Reward_RestoreHealth;
     public Camera mainCamera;
-    private bool OnCameraMov=false;
+    private bool OnCameraMov = false;
     private int n = 31;
 
     private int trapsProb;
@@ -585,7 +575,7 @@ public class Map : MonoBehaviour
     private bool New_Turn = true;
     private bool firstEntrty = true;
     private bool OnMapView = false;
-    public bool OnMenu= false;
+    public bool OnMenu = false;
     private Player PlayerOnTurn;
     public void Start()
     {
@@ -609,6 +599,7 @@ public class Map : MonoBehaviour
 
     public void Map_Fill()
     {
+        //Fill all map matrix with wall
         for (int i = 0; i < laberinto.GetLength(0); i++)
         {
             for (int j = 0; j < laberinto.GetLength(1); j++)
@@ -620,8 +611,9 @@ public class Map : MonoBehaviour
     }
     public void Init_DBS()
     {
+        //Init all Game's Databases
         n = PlayerPrefs.GetInt("MapSize", 31);
-        n=7;
+        //n = 7;
         trapsProb = PlayerPrefs.GetInt("TrapsProbability");
         rewardsProb = PlayerPrefs.GetInt("RewardsProbability");
         Players_Seed = new Dictionary<int, (int, int)>    {
@@ -740,6 +732,7 @@ public class Map : MonoBehaviour
     }
     public bool GetProbability(int probability)
     {
+        //Generate a random number and check if it is 0, to simulate the probability
         int probability_range = 100 / probability;
         int idx_probability = rand.Next(probability_range);
         if (idx_probability == 0)
@@ -751,7 +744,7 @@ public class Map : MonoBehaviour
     }
     public void GenerateTraps()
     {
-
+        //Generate the traps on the map, using the configured probability, check that the position to add the trap is valid
         for (int i = 0; i < laberinto.GetLength(0); i++)
         {
             for (int j = 0; j < laberinto.GetLength(0); j++)
@@ -783,6 +776,7 @@ public class Map : MonoBehaviour
     }
     public void GenerateRewards()
     {
+        //Generate the map compensations, using the configured probability, check that the position to add the trap is valid
 
         for (int i = 0; i < laberinto.GetLength(0); i++)
         {
@@ -813,6 +807,7 @@ public class Map : MonoBehaviour
     }
     public void CheckWinner()
     {
+        //Check if any player meets the condition of winner
         (int x, int y) PlayerLabCords = PlayerOnTurn.GetPlayerLabCord();
         string CeldInfo = laberinto[PlayerLabCords.x, PlayerLabCords.y];
         if ($"CHP_{PlayerOnTurn.role}" != CeldInfo)
@@ -821,9 +816,12 @@ public class Map : MonoBehaviour
         }
         PlayerPrefs.SetInt($"Winner", PlayerOnTurn.id);
         SceneManager.LoadScene("WinnerScene");
+
     }
     public void Init_Map()
     {
+        //Start the maze map
+
         Map_Fill();
         Generarate();
 
@@ -855,12 +853,14 @@ public class Map : MonoBehaviour
     }
     public void UpdateFogState(Player player)
     {
+        //It simulates the darkness of the labyrinth, illuminating those areas already visited by the player and leaving the others dark
+
         PlayerOnTurn.UpdatePlayerFog();
         for (int i = 0; i < MapFog.GetLength(0); i++)
         {
             for (int j = 0; j < MapFog.GetLength(0); j++)
             {
-                //MapFog[i, j].SetActive(!player.NotFog[i, j]);
+
                 if (laberinto[i, j] == "wall") continue;
                 Walls_Paths[i, j].GetComponent<Light2D>().enabled = player.NotFog[i, j].IsOff;
                 Walls_Paths[i, j].GetComponent<Light2D>().pointLightOuterRadius = player.NotFog[i, j].Radius;
@@ -870,6 +870,7 @@ public class Map : MonoBehaviour
     }
     public void SwitchPlayerPreview(int id)
     {
+        //Run the current player preview in the player panel
 
         GameObject PlayerTexture = Players[id].texture;
         SpriteRenderer spritePlayerRenderer = PlayerTexture.GetComponent<SpriteRenderer>();
@@ -887,28 +888,29 @@ public class Map : MonoBehaviour
 
     public void Generarate()
     {
+        //This is the algorithm in charge of the random generation of the maze
 
-        // Marcando camino en celda inicial impar
+        // Leading the way in an odd starting cell
         (int x, int y) cord = (1, 1);
         laberinto[cord.x, cord.y] = "path";
-        // Porcesa la celda inicial para determinar los posibles caminos contiguos
+        // Move the initial cell to determine possible contiguous paths
         Add_path(cord);
 
-        // Procesa las coordenadas en la lista hasta que se acaben
+        //Process the coordinates in the list until they run out
         while (paths.Count > 0)
         {
-            // Elige una cordenada al azar y la elimina de la lista
+            // Choose a random sort and remove it from the list
             int index = rand.Next(paths.Count);
             var (wall_cord, path_cord) = paths[index];
             paths.RemoveAt(index);
 
-            // Si la celda conectada no ha sido visitada
+            // If the connected cell has not been visited
             if (laberinto[path_cord.x, path_cord.y] == "wall")
             {
 
-                laberinto[wall_cord.x, wall_cord.y] = "path";// Elimina la pared entre las celdas
-                laberinto[path_cord.x, path_cord.y] = "path";// Marca la nueva celda como camino
-                Add_path(path_cord); // Añade los posibles caminos contiguos a la celda actual
+                laberinto[wall_cord.x, wall_cord.y] = "path";// Cleans the wall between the cells
+                laberinto[path_cord.x, path_cord.y] = "path";// Mark the new cell as a path
+                Add_path(path_cord); // Map the possible paths adjacent to the current cell
             }
         }
     }
@@ -917,15 +919,17 @@ public class Map : MonoBehaviour
     {
         int x = cord.x;
         int y = cord.y;
-        // Añade la celda que sera el posible proximo camino y una celda adyacente
-        if (x > 1) paths.Add(((x - 1, y), (x - 2, y))); // Arriba
-        if (x < n - 2) paths.Add(((x + 1, y), (x + 2, y))); // Abajo
-        if (y > 1) paths.Add(((x, y - 1), (x, y - 2))); // Izquierda
-        if (y < n - 2) paths.Add(((x, y + 1), (x, y + 2))); // Derecha
+        // Add the cell that will be the possible next path and an adjacent cell
+        if (x > 1) paths.Add(((x - 1, y), (x - 2, y))); // Up
+        if (x < n - 2) paths.Add(((x + 1, y), (x + 2, y))); // Down
+        if (y > 1) paths.Add(((x, y - 1), (x, y - 2))); // Left
+        if (y < n - 2) paths.Add(((x, y + 1), (x, y + 2))); // Right
     }
 
     public void Imprimir()
     {
+        //Generates the visual part of the labyrinth
+
         for (int i = 0; i < n; i++)
         {
 
@@ -959,21 +963,21 @@ public class Map : MonoBehaviour
     }
     public void CentrarCamara()
     {
-        // Calcula la posición central del laberinto
+        // Calculate the central position of the maze
         float x_camera = n / 2;
         float y_camera = n / 2;
         float z_camera = -10f;
         Vector3 centralPosition = new Vector3(x_camera, y_camera, z_camera); // -10 es la distancia Z para la cámara
 
-        // Mueve la cámara a la posición central
+        // Move the camera to the center position
         mainCamera.transform.position = centralPosition;
 
-        // Ajusta la cámara para que el laberinto se vea completo
-        // Si estás usando una cámara ortográfica, ajusta el tamaño
+        // Adjust the camera to make the maze look complete
+
         if (mainCamera.orthographic)
         {
             float orthographic_size = n / 2 + 2;
-            mainCamera.orthographicSize = orthographic_size; // Ajusta el tamaño según el tamaño del laberinto
+            mainCamera.orthographicSize = orthographic_size;
         }
     }
     public void Update()
@@ -986,9 +990,10 @@ public class Map : MonoBehaviour
     }
     public void Turn_Simulator()
     {
-        
-        if(OnMenu)return;
-        if(OnCameraMov)return;
+        //Takes care of all shift simulation logic
+
+        if (OnMenu) return;
+        if (OnCameraMov) return;
         Player player_selected = Players[total_turns % number_players];
         PlayerOnTurn = Players[total_turns % number_players];
         if (firstEntrty)
@@ -998,7 +1003,7 @@ public class Map : MonoBehaviour
             player_selected.IsActiveSkill();
             player_selected.RefreshStatus();
             DisplayPlayerPanel(player_selected);
-            ChangePlayerVision(player_selected,3f);
+            ChangePlayerVision(player_selected, 3f);
             if (!player_selected.Status.ContainsKey("Paralized"))
             {
                 DisplayPosibleMovements(player_selected);
@@ -1029,6 +1034,7 @@ public class Map : MonoBehaviour
     }
     public void Traps_and_RewardsCheck()
     {
+        //Check to see if the current player is on top of a trap or bounty
         (int x, int y) PlayerLabCords = PlayerOnTurn.GetPlayerLabCord();
         string CeldInfo = laberinto[PlayerLabCords.x, PlayerLabCords.y];
         if (CeldInfo.Contains("Trap_"))
@@ -1039,7 +1045,7 @@ public class Map : MonoBehaviour
             ChangePlayerVision(PlayerOnTurn);
             laberinto[PlayerLabCords.x, PlayerLabCords.y] = "path";
             Traps_Rewards[PlayerLabCords.x, PlayerLabCords.y].SetActive(true);
-            //Destroy(Traps_Rewards[PlayerLabCords.x, PlayerLabCords.y]);
+
 
         }
         if (CeldInfo.Contains("Reward_"))
@@ -1058,6 +1064,7 @@ public class Map : MonoBehaviour
     }
     public void DisplaySkillRefresh(Player player_selected)
     {
+        //It is responsible for reflecting the availability of the skill in the player panel
         int remaing = player_selected.SkillRefresh().time_remaing;
         SkillCount.text = remaing.ToString();
         SkillCount.color = Color.red;
@@ -1073,30 +1080,28 @@ public class Map : MonoBehaviour
 
 
     }
-    public void DisplayPlayerFog(Player player_selected)
-    {
-        int remaing = player_selected.SkillRefresh().time_remaing;
-        SkillCount.text = remaing.ToString();
-        SkillCount.color = Color.red;
-        if (remaing == 0) SkillCount.color = Color.green;
 
-    }
     public void SkillsController(Player player_selected)
     {
+        //Verify that the player has the skill available, in which case proceed with the logic of the skills
         DisplaySkillRefresh(player_selected);
         if (!player_selected.SkillRefresh().is_avaliable) return;
         SkillsInput(player_selected);
 
     }
-    public void PlayerMenu(){
-        if(Input.GetKeyDown(KeyCode.Escape)){
+    public void PlayerMenu()
+    {
+        //If player press Escape,pause the game and show the menu
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
 
-            OnMenu=!OnMenu;
+            OnMenu = !OnMenu;
             MenuController.SetActive(OnMenu);
         }
     }
     public void PlayerInput()
     {
+        //Check the player's input and execute de correspondent action
 
         if (Input.GetKeyDown(KeyCode.M))
         {
@@ -1131,6 +1136,7 @@ public class Map : MonoBehaviour
     }
     public void SkillsInput(Player player_selected)
     {
+        //Chequea la entrada de teclado para las habilidades,se encarga de la comunicacion de la logica de las habilidades con la entrada del teclado
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -1139,6 +1145,7 @@ public class Map : MonoBehaviour
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             Vector3 fixedPosition = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -3f);
             PlayerTargetSelection(fixedPosition, player_selected);
+
             if (GhostMove(fixedPosition))
             {
                 CleanGhostMovements();
@@ -1243,6 +1250,7 @@ public class Map : MonoBehaviour
 
     public void PlayerTargetSelection(Vector3 Position, Player player_selected)
     {
+        //Se encarga de la logica de seleccion de un objetivo,al hacer click sobre un jugador enemigo se marcara como objetivo
 
         if (player_selected.role != "Iron Man" && player_selected.role != "Hawk Eye" && player_selected.role != "Hulk") return;
         int Scope = Players_db[PlayerOnTurn.role]["radius"];
@@ -1270,6 +1278,7 @@ public class Map : MonoBehaviour
     }
     public void DisplayArea()
     {
+        //Se encarga de la visualizacion de un area en pantalla,el area sera visualizada como una zona marcada en rojo
         int radius = Players_db[PlayerOnTurn.role]["radius"];
         if (PlayerOnTurn.AreaTarget.Count != 0) return;
         (float x, float y) CenterPosition = (PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y);
@@ -1291,6 +1300,7 @@ public class Map : MonoBehaviour
     }
     public void CleanArea()
     {
+        //Se encarga de eliminar la visualizacion de la zona de area
         List<GameObject> AreaCelds = PlayerOnTurn.AreaTarget;
         for (int i = 0; i < AreaCelds.Count; i++)
         {
@@ -1301,6 +1311,7 @@ public class Map : MonoBehaviour
 
     public List<(int x, int y)> GetPosibleMovements(Player player_selected_)
     {
+        //Se encarga de obtener los posibles movimientos que puede realizar el jugador
         List<(int x, int y)> possible_celds = new List<(int x, int y)>();
         int pases = player_selected_.speed;
         Vector3 player_actual_pos = player_selected_.GetActualPosition();
@@ -1334,8 +1345,7 @@ public class Map : MonoBehaviour
     }
     public void DisplayPosibleMovements(Player player_selected_)
     {
-
-        //if (!New_Turn) return;
+        //Se encarga de mostrar en pantalla los posibles movimientos del jugador actual
         if (Block_move)
         {
             CleanPossibleMovements(player_selected_);
@@ -1354,6 +1364,7 @@ public class Map : MonoBehaviour
 
     public void CleanPossibleMovements(Player player_selected_)
     {
+        //Se encarga de limpiar de la pantalla los posibles movimientos del jugador actual
 
         List<GameObject> posible_movements = player_selected_.posibles_movements;
         for (int i = 0; i < posible_movements.Count; i++)
@@ -1364,6 +1375,7 @@ public class Map : MonoBehaviour
     }
     public List<(int x, int y)> GetGhostMovements()
     {
+        //Se encarga de obtener los pisbles movimientos de Vision cuando esta en modo fantasma.O se se encarga de ver las paredes que puede atravesar
         Player player_selected_ = PlayerOnTurn;
         List<(int x, int y)> possible_celds = new List<(int x, int y)>();
         Vector3 player_actual_pos = player_selected_.GetActualPosition();
@@ -1385,6 +1397,7 @@ public class Map : MonoBehaviour
 
     public void DisplayGhostMovements()
     {
+        //Se encarga de mostrar en pantalla los posibles movimientos de Vision
 
         Player player_selected_ = PlayerOnTurn;
         List<(int, int)> possible_celds = GetGhostMovements();
@@ -1400,6 +1413,7 @@ public class Map : MonoBehaviour
 
     public void CleanGhostMovements()
     {
+        //Se encarga de eliminar de pantalla los posibles movimientos de Vision
         Player player_selected_ = PlayerOnTurn;
         List<GameObject> posible_movements = player_selected_.ghost_movements;
         for (int i = 0; i < posible_movements.Count; i++)
@@ -1410,22 +1424,18 @@ public class Map : MonoBehaviour
     }
 
 
-    public void ChangePlayerVision(Player player_selected_,float speed=2f)
+    public void ChangePlayerVision(Player player_selected_, float speed = 2f)
     {
-
+        //Se encarga de enfocar en camara al jugador en turno
 
         Vector3 player_pos = player_selected_.GetActualPosition();
         player_pos.z = -10f;
-        // Mueve la cámara a la posición central
-        
-        //mainCamera.transform.position = Vector2.Lerp(mainCamera.transform.position, player_pos, 1f);
-        // Ajusta la cámara para que el laberinto se vea completo
-        // Si estás usando una cámara ortográfica, ajusta el tamaño
+
         if (mainCamera.orthographic && n > 9)
         {
-            //float orthographic_size = n / 5;
+
             float orthographic_size = 4f;
-            mainCamera.orthographicSize = orthographic_size; // Ajusta el tamaño según el tamaño del laberinto
+            mainCamera.orthographicSize = orthographic_size;
         }
         if (PlayerOnTurn.OnTurnIndicatorInstance != null) Destroy(PlayerOnTurn.OnTurnIndicatorInstance);
         PlayerOnTurn.OnTurnIndicatorInstance = Instantiate(OnTurnIndicatorTexture, new Vector3(PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y, -2), Quaternion.identity);
@@ -1435,30 +1445,32 @@ public class Map : MonoBehaviour
 
 
     }
-    IEnumerator FluidCamera(float speed=1f)
+    IEnumerator FluidCamera(float speed = 1f)
     {
-        OnCameraMov=true;
-        
-        
+        //Permite el desplazamiento fluido de la camara,el efecto de que la camaraa se mueva hacia el jugador
+        OnCameraMov = true;
 
-        float epsilon=speed/10;
+
+
+        float epsilon = speed / 10;
         while (Math.Abs(mainCamera.transform.position.y - PlayerOnTurn.GetActualPosition().y) > epsilon || Math.Abs(mainCamera.transform.position.x - PlayerOnTurn.GetActualPosition().x) > epsilon)
         {
 
-            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(PlayerOnTurn.GetActualPosition().x,PlayerOnTurn.GetActualPosition().y,-10), speed*Time.deltaTime);
+            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y, -10), speed * Time.deltaTime);
 
             yield return new WaitForSeconds(0.00005f);
         }
 
 
 
-        mainCamera.transform.position = new Vector3(PlayerOnTurn.GetActualPosition().x,PlayerOnTurn.GetActualPosition().y,-10);
-        OnCameraMov=false;
+        mainCamera.transform.position = new Vector3(PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y, -10);
+        OnCameraMov = false;
     }
 
 
     public void DisplayPlayerPanel(Player player_selected_)
     {
+        //Se encarga de la actualizacion de los datos del panel de jugador
         Title.text = $"{player_selected_.name}(P-{player_selected_.id})";
 
         Role.text = player_selected_.role;
@@ -1497,6 +1509,7 @@ public class Map : MonoBehaviour
     }
     public void CheckNextTrun()
     {
+        //Verifica si el jugador actual paso de turno
         if (Input.GetKeyDown(KeyCode.N))
         {
 
@@ -1506,6 +1519,7 @@ public class Map : MonoBehaviour
     }
     public void NextTurn()
     {
+        //Se encarga de la logica de cambio de turno
         Block_move = false;
         New_Turn = true;
         total_turns++;
@@ -1530,6 +1544,7 @@ public class Map : MonoBehaviour
     }
     public void Init_Players()
     {
+        //Se encarga de la inicializacion de lo jugadores
 
         for (int i = 0; i < number_players; i++)
         {
@@ -1548,6 +1563,7 @@ public class Map : MonoBehaviour
     }
     public void Check_Move(Player player)
     {
+        //Chequea si se intento realizar un movimiento ,en caso de que el movimiento sea valido lo ejecutara
         Vector3 player_pos = player.instance.transform.position;
         Vector3 movement;
         if (Input.GetMouseButtonDown(0))
@@ -1561,7 +1577,7 @@ public class Map : MonoBehaviour
 
             if (Move(movement, player))
             {
-                //total_turns++;
+
                 Block_move = true;
                 CleanPossibleMovements(player);
                 ChangePlayerVision(player);
@@ -1581,14 +1597,8 @@ public class Map : MonoBehaviour
 
     public bool Move(Vector3 target, Player player)
     {
-        /*Calcula la nueva posición
-        if (laberinto[Mathf.RoundToInt(target.x - 0.5f), Mathf.RoundToInt(target.y - 0.5f)] == "path")
-        {
-            player.instance.transform.position = target;
-            return true;
-        }
-        
-        */
+        //Realiza el movimiento de un jugador especifico a la posicion indicada
+
         bool finded = false;
         List<(int x, int y)> possible_movements = GetPosibleMovements(player);
         for (int i = 0; i < possible_movements.Count; i++)
@@ -1598,48 +1608,16 @@ public class Map : MonoBehaviour
         if (finded)
         {
             player.instance.transform.position = target;
-            //StartCoroutine(FluidMovement(target));
+
             return true;
         }
         return false;
 
     }
 
-
-
-    IEnumerator FluidMovement(Vector3 FinalTarget)
-    {
-
-        float speed = 0.5f;
-        List<(int x, int y)> MovementRoute = BFS_Whit_Route(PlayerOnTurn.GetPlayerLabCord().x, PlayerOnTurn.GetPlayerLabCord().y)[(int)FinalTarget.x, (int)FinalTarget.y];
-        foreach (var Labtarget in MovementRoute)
-        {
-            (float x, float y) target = (Labtarget.x + 0.5f, Labtarget.y + 0.5f);
-            while (Math.Abs(target.y - PlayerOnTurn.GetActualPosition().y) > speed || Math.Abs(target.x - PlayerOnTurn.GetActualPosition().x) > speed)
-            {
-                // PlayerOnTurn.instance.transform.position+=new Vector3(speed,0,0);
-                /*if (Math.Abs(target.x - PlayerOnTurn.GetActualPosition().x) > speed)
-                {
-                    PlayerOnTurn.instance.transform.position += new Vector3(speed, 0, 0);
-                    yield return new WaitForSeconds(0.1f);
-                    continue;
-                }
-
-                PlayerOnTurn.instance.transform.position += new Vector3(0, speed, 0);
-                */
-                PlayerOnTurn.instance.transform.position = Vector2.MoveTowards(PlayerOnTurn.instance.transform.position, new Vector2(target.x, target.y), speed);
-
-                yield return new WaitForSeconds(0.1f);
-            }
-
-        }
-
-        PlayerOnTurn.instance.transform.position = FinalTarget;
-    }
-
-
     public bool GhostMove(Vector3 target)
     {
+        //Se encrga de realizar los movimientos de Vision cuando usa su habilidad
         Player player = PlayerOnTurn;
         if (!player.IsActiveSkill()) return false;
         if (player.role != "Vision") return false;
@@ -1665,6 +1643,7 @@ public class Map : MonoBehaviour
     }
     public int[,] BFS(int x, int y)
     {
+        //Este algoritmo BFS ,recibe una posicion inicial y calcula la distancia de esa posicion hasta todas las posiciones del tablero
         bool[,] mask = new bool[n, n];
         int[,] Distance_matrix = new int[n, n];
         Queue<(int, int)> queue = new Queue<(int, int)>();
@@ -1693,6 +1672,7 @@ public class Map : MonoBehaviour
     }
     public List<(int, int y)>[,] BFS_Whit_Route(int x, int y)
     {
+        //Este algoritmo BFS ,recibe una posicion inicial y guarda la ruta hasata todas las casillas del tablero
         bool[,] mask = new bool[n, n];
         List<(int, int y)>[,] RoutesMatrix = new List<(int, int y)>[n, n];
         Queue<(int, int)> queue = new Queue<(int, int)>();
@@ -1729,75 +1709,11 @@ public class Map : MonoBehaviour
         return RoutesMatrix;
 
     }
-
-    public void Add_CheckpointsNew()
-    {
-        (int dist, (int x, int y)) min_of_max_dist = Distances.GetMaxDistance(Players[0]);
-        int min_of_max_dist_pla = 0;
-        for (int p = 0; p < number_players; p++)
-        {
-            (int dist, (int x, int y)) max_dist_player = Distances.GetMaxDistance(Players[p]);
-            if (max_dist_player.dist < min_of_max_dist.dist)
-            {
-                min_of_max_dist = max_dist_player;
-                min_of_max_dist_pla = p;
-            }
-        }
-        Players[min_of_max_dist_pla].checkpoint = min_of_max_dist.Item2;
-        //laberinto[min_of_max_dist.Item2.x, min_of_max_dist.Item2.y] = -1;
-        for (int p = 0; p < number_players; p++)
-        {
-            if (p == min_of_max_dist_pla) continue;
-
-            List<(int dist, (int x, int y))> possibles_checkpoint = Distances.GetDistancesbyvalue(Players[p], min_of_max_dist.dist);
-            (int dist, (int x, int y)) pl_checkpoint = possibles_checkpoint[0];
-
-            for (int i = 0; i < possibles_checkpoint.Count; i++)
-            {
-                bool stop = true;
-                for (int pl = 0; pl < p; pl++)
-                {
-                    if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y)
-                    {
-                        bool exist = false;
-                        foreach (var player in Players)
-                        {
-                            if (player.Value.id >= p) break;
-                            if (possibles_checkpoint[i].Item2.x == player.Value.checkpoint.x && possibles_checkpoint[i].Item2.y == player.Value.checkpoint.y)
-                            {
-                                exist = true;
-                            }
-                        }
-
-                        if (!exist) stop = false;
-
-
-                    }
-
-                }
-                if (stop)
-                {
-                    pl_checkpoint = possibles_checkpoint[i];
-                    break;
-                }
-
-
-            }
-
-            Players[p].checkpoint = pl_checkpoint.Item2;
-            //laberinto[pl_checkpoint.Item2.x, pl_checkpoint.Item2.y] = -1;
-        }
-        for (int p = 0; p < number_players; p++)
-        {
-
-            Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
-            laberinto[Players[p].checkpoint.x, Players[p].checkpoint.y] = $"CHP_{Players[p].role}";
-        }
-
-    }
-
     public void Add_Checkpoints()
     {
+        //Se encarga de la logica de los puntos de control,o sea de las casillas a la que tiene que llegar cada jugador para ganar
+
+
         (int dist, (int x, int y)) min_of_max_dist = Distances.GetMaxDistance(Players[0]);
         int min_of_max_dist_pla = 0;
         for (int p = 0; p < number_players; p++)
