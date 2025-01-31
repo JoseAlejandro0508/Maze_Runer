@@ -15,7 +15,7 @@ public class ConfigMenuController : MonoBehaviour
     public TMP_Dropdown MapSizeDrop;
     public TMP_Dropdown PlayersNumDrop;
 
-    int[] MapSizes = { 15, 23, 31, 35 };
+    int[] MapSizes = { 15, 23, 31, 35,7 };
 
     void Start()
     {

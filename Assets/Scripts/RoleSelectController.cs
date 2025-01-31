@@ -84,7 +84,7 @@ public class RoleSelectController : MonoBehaviour
         // Obtener la opci�n seleccionada
         string selected = dropdown.options[index].text;
         Debug.Log($"PlayerRole_{Player_ID}" + selected);
-        DisplayBackground();
+        if (Player_ID <NumberofPlayers)DisplayBackground();
 
       
     }
@@ -109,6 +109,7 @@ public class RoleSelectController : MonoBehaviour
         {
 
             SceneManager.LoadScene("Map1");
+            return;
 
         }
         dropdown.value=0;

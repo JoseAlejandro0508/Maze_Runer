@@ -28,8 +28,8 @@ public class Player
     public (int x, int y) checkpoint = (-1, -1);
     public int[,] distances;
     public string role;
-    public GameObject texture;
 
+    public GameObject texture;
 
     public GameObject texturePreviewSkill;
     public GameObject instance;
@@ -50,7 +50,7 @@ public class Player
     public Dictionary<string, Dictionary<string, int>> Players_DB;
     public Dictionary<string, int> Status = new Dictionary<string, int>();
     public Dictionary<string, (bool is_active, bool confirm_use, int turn_off)> SkillsState = new Dictionary<string, (bool is_active, bool confirm_use, int turn_off)>();
-    public List<int> SkillTurns = new List<int> { 0 };
+    public List<int> SkillTurns = new List<int> { 1 };
 
     public Player((int, int) seed_, int id_ = -1, string name_ = null, GameObject instance_ = null, int[,] distances_ = null, string role_ = null)
     {
@@ -65,6 +65,7 @@ public class Player
     }
     public void GenerateStistics(Dictionary<string, Dictionary<string, int>> Players_DB_)
     {
+        //Initializes the player's stats from the contributed database
         health = Players_DB_[role]["health"];
         damage = Players_DB_[role]["damage"];
         speed = Players_DB_[role]["speed"];
@@ -74,81 +75,18 @@ public class Player
     }
     public Vector3 GetActualPosition()
     {
+        //Returns the player's on-screen coordinates
         Vector3 actual_position = instance.transform.position;
         return actual_position;
     }
-    public void CA_Skill()
+    public (int x, int y) GetPlayerLabCord()
     {
-        if (!SkillRefresh().is_avaliable) return;
-        SkillsState[role] = (true, true, total_turns + 1);
-        Status["Protected"] = total_turns + 1;
-        SkillTurns.Add(total_turns);
-
+        //Return the player's coordinates in the maze matrix
+        return ((int)GetActualPosition().x, (int)GetActualPosition().y);
     }
-    public void IM_Skill(Player target)
-    {
-        if (!SkillRefresh().is_avaliable) return;
-        SkillsState[role] = (true, true, total_turns);
-        if (target.total_turns < total_turns)
-        {
-            target.Status["Paralized"] = total_turns + 1;
-            SkillTurns.Add(total_turns);
-            return;
-        }
-        target.Status["Paralized"] = total_turns + 2;
-
-        SkillTurns.Add(total_turns);
-
-    }
-    public void HE_Skill(Player target)
-    {
-        if (!SkillRefresh().is_avaliable) return;
-        SkillsState[role] = (true, true, total_turns);
-        target.TakeDamage(damage);
-        SkillTurns.Add(total_turns);
-
-    }
-    public void Thor_Skill(Dictionary<int, Player> Players)
-    {
-
-        if (!SkillRefresh().is_avaliable) return;
-        SkillsState[role] = (true, true, total_turns);
-        int radius = Players_DB[role]["radius"];
-        (float x, float y) ThorPosition = (GetActualPosition().x, GetActualPosition().y);
-        foreach (var target in Players)
-        {
-            (float x, float y) TargetPosition = (target.Value.GetActualPosition().x, target.Value.GetActualPosition().y);
-            if (target.Key == id) continue;
-            if (Math.Abs(TargetPosition.x - ThorPosition.x) <= radius && Math.Abs(TargetPosition.y - ThorPosition.y) <= radius)
-            {
-                target.Value.TakeDamage(damage);
-            }
-
-
-        }
-
-        SkillTurns.Add(total_turns);
-
-    }
-    public void Hulk_Skill(Player target)
-    {
-        if (!SkillRefresh().is_avaliable) return;
-        SkillsState[role] = (true, true, total_turns);
-        target.TakeDamage(damage);
-        SkillTurns.Add(total_turns);
-
-    }
-    public void Vision_Skill()
-    {
-        if (!SkillRefresh().is_avaliable) return;
-        SkillsState[role] = (true, false, total_turns);
-        SkillTurns.Add(total_turns);
-
-    }
-
-
     public (bool is_avaliable, int time_remaing) SkillRefresh()
     {
+        //Returns the current state of the skill and the time remaining to make it available again
         if (!SkillsState[role].confirm_use && SkillsState[role].is_active && SkillTurns[SkillTurns.Count - 1] == SkillsState[role].turn_off)
         {
             return (true, 0);
@@ -161,7 +99,7 @@ public class Player
     }
     public bool IsActiveSkill()
     {
-
+        //It returns if the skill is active, also in case its activation time has already passed ...
         if (!SkillsState.ContainsKey(role))
         {
             SkillsState[role] = (false, false, -1);
@@ -179,6 +117,8 @@ public class Player
     }
     public void RefreshStatistics(List<string> StatsRemoved)
     {
+        //It is responsible for reversing alterations made by states in player statistics
+
 
         foreach (string stat in StatsRemoved)
         {
@@ -186,15 +126,20 @@ public class Player
             {
                 case "LessVision":
                     vision = Players_DB[role]["vision"];
+                    if (Status.ContainsKey("MoreVision")) vision += 2;
                     break;
                 case "MoreVision":
                     vision = Players_DB[role]["vision"];
+                    if (Status.ContainsKey("LessVision")) vision -= 2;
                     break;
                 case "LimitedSpeed":
                     speed = Players_DB[role]["speed"];
+                    if (Status.ContainsKey("IncrementedSpeed")) speed += 3;
                     break;
                 case "IncrementedSpeed":
                     speed = Players_DB[role]["speed"];
+                    if (Status.ContainsKey("LimitedSpeed")) speed -= 2;
+                    if (speed < 1) speed = 1;
                     break;
 
             }
@@ -205,6 +150,7 @@ public class Player
     }
     public void RefreshStatus()
     {
+        //Updates the player's status list by removing effects that have already expired
         List<string> StatsRemoved = new List<string>();
         bool removed = true;
         while (removed)
@@ -231,6 +177,7 @@ public class Player
     public bool TakeDamage(int damage)
     {
 
+        //It deducts the amount of health indicated to the player in case the life has run out, returns them to their starting position and resets their stats
         if (role == "Capitan America" && IsActiveSkill()) return true;
         health -= damage;
         if (health <= 0)
@@ -238,14 +185,15 @@ public class Player
             instance.transform.position = new Vector3(seed.x + 0.5f, seed.y + 0.5f, -3);
             GenerateStistics(Players_DB);
             Status.Clear();
-            return false;//Murio
+            return false;//Dead
         }
 
-        return true;//Sigue con vida
+        return true;//Still alive
 
     }
     public void AddHealth(int health_)
     {
+        //It adds the amount of health indicated to the player
 
 
         int player_maxhealth = Players_DB[role]["health"];
@@ -264,15 +212,14 @@ public class Player
 
 
     }
-    public (int x, int y) GetPlayerLabCord()
-    {
-        return ((int)GetActualPosition().x, (int)GetActualPosition().y);
-    }
+
 
     public void InitPlayerFog(int LabDim)
     {
+
+        //Initializes the fog state matrix, marks each fog box and the player's starting position without fog
         NotFog = new (bool IsOff, int radius)[LabDim, LabDim];
-        vision = LabDim / 10;
+        //vision = LabDim / 10;
         vision = 4;
         Players_DB[role]["vision"] = vision;
         for (int i = 0; i < NotFog.GetLength(0); i++)
@@ -287,9 +234,91 @@ public class Player
     }
     public void UpdatePlayerFog()
     {
+        //Updates the player's fog status, removing the fog in the current position
         NotFog[GetPlayerLabCord().x, GetPlayerLabCord().y] = (true, vision);
 
     }
+
+
+    //Player's Skills
+
+    public void CA_Skill()
+    {
+        //Controls Captain America's ability, ads Protected status to Status dictionary
+        if (!SkillRefresh().is_avaliable) return;
+        SkillsState[role] = (true, true, total_turns + 1);
+        Status["Protected"] = total_turns + 1;
+        SkillTurns.Add(total_turns);
+
+    }
+    public void IM_Skill(Player target)
+    {
+        //Control Iron Man's ability, receive the reference to a player's instance, which would be the target, and add the state of Paralized to it
+        if (!SkillRefresh().is_avaliable) return;
+        SkillsState[role] = (true, true, total_turns);
+        if (target.total_turns < total_turns)
+        {
+            target.Status["Paralized"] = total_turns + 1;
+            SkillTurns.Add(total_turns);
+            return;
+        }
+        target.Status["Paralized"] = total_turns + 2;
+
+        SkillTurns.Add(total_turns);
+
+    }
+    public void HE_Skill(Player target)
+    {
+        //Control Hawk Eyes's ability, receive the reference to the instance of a player, who would be the target, and deduct life from him
+
+        if (!SkillRefresh().is_avaliable) return;
+        SkillsState[role] = (true, true, total_turns);
+        target.TakeDamage(damage);
+        SkillTurns.Add(total_turns);
+
+    }
+    public void Thor_Skill(Dictionary<int, Player> Players)
+    {
+        //Control Thor's ability, receive reference to all players' instances, and deduct health from everyone in close proximity
+
+        if (!SkillRefresh().is_avaliable) return;
+        SkillsState[role] = (true, true, total_turns);
+        int radius = Players_DB[role]["radius"];
+        (float x, float y) ThorPosition = (GetActualPosition().x, GetActualPosition().y);
+        foreach (var target in Players)
+        {
+            (float x, float y) TargetPosition = (target.Value.GetActualPosition().x, target.Value.GetActualPosition().y);
+            if (target.Key == id) continue;
+            if (Math.Abs(TargetPosition.x - ThorPosition.x) <= radius && Math.Abs(TargetPosition.y - ThorPosition.y) <= radius)
+            {
+                target.Value.TakeDamage(damage);
+            }
+
+
+        }
+
+        SkillTurns.Add(total_turns);
+
+    }
+    public void Hulk_Skill(Player target)
+    {
+        //Control Hulk's ability, receive the reference to the instance of a player, who would be the target, and deduct life from him
+        if (!SkillRefresh().is_avaliable) return;
+        SkillsState[role] = (true, true, total_turns);
+        target.TakeDamage(damage);
+        SkillTurns.Add(total_turns);
+
+    }
+    public void Vision_Skill()
+    {
+        //Controls Vision's ability, sets the status of his ability to true but leaves his confirmation false
+        if (!SkillRefresh().is_avaliable) return;
+        if(IsActiveSkill())return;
+        SkillsState[role] = (true, false, total_turns);
+        SkillTurns.Add(total_turns);
+
+    }
+
 
 
 
@@ -298,8 +327,10 @@ public class Player
 
 public class TrapsClass
 {
+
     public static void Controller(string TrapName, Player Target)
     {
+        //It receives the instance of a player and the trap that will be applied to him and from the name of the trap, the method of the corresponding trap
         string Trap = TrapName.Replace("Trap_", "");
         switch (Trap)
         {
@@ -325,6 +356,7 @@ public class TrapsClass
 
     public static void LessVision(Player Target)
     {
+        //Receives the instance of a player and reduces its vision and adds that status to the player's Statuses
         if (Target.Status.ContainsKey("LessVision"))
         {
             Target.Status["LessVision"] += 4;
@@ -336,25 +368,30 @@ public class TrapsClass
 
     public static void LowDamage(Player Target)
     {
+        //Receives the instance of a player and reduces 2 health units
         Target.TakeDamage(2);
     }
     public static void HightDamage(Player Target)
     {
+        //Receives the instance of a player and reduces 6 health units
         Target.TakeDamage(6);
     }
     public static void LimitedSpeed(Player Target)
     {
+        //Receives the instance of a player and reduces its speed and adds that status to the player's Statuses
         if (Target.Status.ContainsKey("LimitedSpeed"))
         {
             Target.Status["LimitedSpeed"] += 3;
             return;
         }
         Target.Status["LimitedSpeed"] = Target.total_turns + 3;
-        Target.speed = 1;
+        Target.speed -= 2;
+        if (Target.speed < 1) Target.speed = 1;
     }
 
     public static void Returned(Player Target)
     {
+        //Receives the instance of a player and reinforces it to its initial state and position at the start of the game
         Target.TakeDamage(100);
     }
 
@@ -364,6 +401,7 @@ public class RewardsClass
 {
     public static void Controller(string RewardName, Player Target)
     {
+        //It receives the instance of a player and the reward that will be applied to him and from the name of the reward, the method of the corresponding reward
         string Reward = RewardName.Replace("Reward_", "");
         switch (Reward)
         {
@@ -386,6 +424,7 @@ public class RewardsClass
 
     public static void MoreVision(Player Target)
     {
+        //Receives the instance of a player and increments its vision and adds that status to the player's Statuses
         if (Target.Status.ContainsKey("MoreVision"))
         {
             Target.Status["MoreVision"] += 4;
@@ -397,11 +436,13 @@ public class RewardsClass
 
     public static void MoreLife(Player Target)
     {
+        //Receives the instance of a player and increments its health in 2 units
         Target.health += 3;
     }
 
     public static void MoreSpeed(Player Target)
     {
+        //Receives the instance of a player and increments its speed in 2 units
         if (Target.Status.ContainsKey("IncrementedSpeed"))
         {
             Target.Status["IncrementedSpeed"] += 3;
@@ -412,6 +453,7 @@ public class RewardsClass
     }
     public static void RestoreHealth(Player Target)
     {
+        //It receives the instance of a player and restores its life to the maximum and removes the effects of cheating from the state dictionary
         Target.AddHealth(10);
         if (Target.Status.ContainsKey("LimitedSpeed"))
         {
@@ -432,12 +474,14 @@ public class RewardsClass
 
 public class Distances
 {
+    //This class contains methods related to the distances of the from one square on the board to others
     public static (int dist, (int x, int y)) GetMaxDistance(Player obj)
     {
+        //Cycle through the player's distance matrix and select the greatest distance
         if (obj.distances == null) throw new Exception("Distances's matrix is null");
 
 
-        (int dist, (int x, int y)) max_distance = (0, (obj.seed.x, 0));
+        (int dist, (int x, int y)) max_distance = (0, (obj.seed.x, obj.seed.y));
         for (int i = 0; i < obj.distances.GetLength(0); i++)
         {
             for (int j = 0; j < obj.distances.GetLength(0); j++)
@@ -452,6 +496,7 @@ public class Distances
     }
     public static List<(int dist, (int x, int y))> GetDistancesbyvalue(Player obj, int value)
     {
+        //Cycle through the player's distance matrix and select the distances that correspond to the value variable, returning the coordinates of the squares that match that distance
         if (obj.distances == null) throw new Exception("Distances's matrix is null");
 
 
@@ -587,7 +632,7 @@ public class Map : MonoBehaviour
 
         if (n % 2 == 0)
         {
-            Debug.LogError("Las dimensiones deben ser impares.");
+            //Debug.LogError("Las dimensiones deben ser impares.");
             return;
         }
         Init_Map();
@@ -805,86 +850,147 @@ public class Map : MonoBehaviour
             }
         }
     }
-    public void CheckWinner()
+    public int[,] BFS(int x, int y)
     {
-        //Check if any player meets the condition of winner
-        (int x, int y) PlayerLabCords = PlayerOnTurn.GetPlayerLabCord();
-        string CeldInfo = laberinto[PlayerLabCords.x, PlayerLabCords.y];
-        if ($"CHP_{PlayerOnTurn.role}" != CeldInfo)
+        //This BFS algorithm receives an initial position and calculates the distance from that position to all the positions on the board
+        bool[,] mask = new bool[n, n];
+        int[,] Distance_matrix = new int[n, n];
+        Queue<(int, int)> queue = new Queue<(int, int)>();
+        int[] mov_horizontal = { 1, -1, 0, 0 };
+        int[] mov_vertical = { 0, 0, 1, -1 };
+        queue.Enqueue((x, y));
+        while (queue.Count > 0)
         {
-            return;
-        }
-        PlayerPrefs.SetInt($"Winner", PlayerOnTurn.id);
-        SceneManager.LoadScene("WinnerScene");
-
-    }
-    public void Init_Map()
-    {
-        //Start the maze map
-
-        Map_Fill();
-        Generarate();
-
-        Init_Players();
-
-
-        CentrarCamara();
-
-        for (int i = 0; i < number_players; i++)
-        {
-            var seed_player = Players_Seed[i];
-            int x = seed_player.Item1;
-            int y = seed_player.Item2;
-            Players[i].instance = Instantiate(Players[i].texture, new Vector3(x + 0.5f, y + 0.5f, -3), Quaternion.identity);
-            Players[i].InitPlayerFog(n);
-            Players[i].UpdatePlayerFog();
-
-
-
-
-        }
-        Add_Checkpoints();
-        GenerateTraps();
-        GenerateRewards();
-        Imprimir();
-
-
-
-    }
-    public void UpdateFogState(Player player)
-    {
-        //It simulates the darkness of the labyrinth, illuminating those areas already visited by the player and leaving the others dark
-
-        PlayerOnTurn.UpdatePlayerFog();
-        for (int i = 0; i < MapFog.GetLength(0); i++)
-        {
-            for (int j = 0; j < MapFog.GetLength(0); j++)
+            var cord = queue.Dequeue();
+            if (!mask[cord.Item1, cord.Item2])
             {
+                mask[cord.Item1, cord.Item2] = true;
+                for (int i = 0; i < mov_horizontal.Length; i++)
+                {
+                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] != "wall")
+                    {
+                        queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
+                        Distance_matrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] = Distance_matrix[cord.Item1, cord.Item2] + 1;
 
-                if (laberinto[i, j] == "wall") continue;
-                Walls_Paths[i, j].GetComponent<Light2D>().enabled = player.NotFog[i, j].IsOff;
-                Walls_Paths[i, j].GetComponent<Light2D>().pointLightOuterRadius = player.NotFog[i, j].Radius;
+                    }
+                }
+            }
+        }
+        return Distance_matrix;
+
+    }
+    public List<(int, int y)>[,] BFS_Whit_Route(int x, int y)
+    {
+        //This BFS algorithm receives a starting position and saves the path to all the squares on the board
+        bool[,] mask = new bool[n, n];
+        List<(int, int y)>[,] RoutesMatrix = new List<(int, int y)>[n, n];
+        Queue<(int, int)> queue = new Queue<(int, int)>();
+        int[] mov_horizontal = { 1, -1, 0, 0 };
+        int[] mov_vertical = { 0, 0, 1, -1 };
+        queue.Enqueue((x, y));
+        RoutesMatrix[x, y] = new List<(int, int y)>();
+        RoutesMatrix[x, y].Add((x, y));
+        while (queue.Count > 0)
+        {
+            var cord = queue.Dequeue();
+            if (!mask[cord.Item1, cord.Item2])
+            {
+                mask[cord.Item1, cord.Item2] = true;
+                for (int i = 0; i < mov_horizontal.Length; i++)
+                {
+                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] != "wall")
+                    {
+                        queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
+
+                        List<(int, int y)> NewRoute = new List<(int, int y)>();
+                        foreach (var item in RoutesMatrix[cord.Item1, cord.Item2])
+                        {
+                            NewRoute.Add(item);
+                        }
+                        NewRoute.Add((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
+
+                        RoutesMatrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] = NewRoute;
+
+                    }
+                }
+            }
+        }
+        return RoutesMatrix;
+
+    }
+    public void Add_Checkpoints()
+    {
+        //It is in charge of the logic of the control points, that is, the squares that each player has to reach to win.
+
+
+        (int dist, (int x, int y)) min_of_max_dist = Distances.GetMaxDistance(Players[0]);
+
+        for (int p = 0; p < number_players; p++)
+        {
+            (int dist, (int x, int y)) max_dist_player = Distances.GetMaxDistance(Players[p]);
+            if (max_dist_player.dist < min_of_max_dist.dist)
+            {
+                min_of_max_dist = max_dist_player;
+
+            }
+        }
+
+
+        for (int p = 0; p < number_players; p++)
+        {
+
+            bool ValidCheckpoint = false;
+            int CHPDistance = min_of_max_dist.dist;
+            while (!ValidCheckpoint)
+            //Run until you find valid CHP
+            {
+                List<(int dist, (int x, int y))> possibles_checkpoint = Distances.GetDistancesbyvalue(Players[p], CHPDistance);
+                for (int i = 0; i < possibles_checkpoint.Count; i++)
+                //Checking every possible CHP
+                {
+                    bool correct = true;
+
+                    for (int pl = 0; pl < number_players; pl++)
+                    //Checking if the CHP is in any other player's seed or matches their CHP
+                    {
+
+                        if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y)
+                        {
+
+                            correct = false;
+                        }
+                        if (Players[pl].checkpoint.x == possibles_checkpoint[i].Item2.x && Players[pl].checkpoint.y == possibles_checkpoint[i].Item2.y)
+                        {
+
+                            correct = false;
+                        }
+
+                    }
+                    if (correct)
+                    {
+                        //A valid CHP was found that did not match or even in a seed
+                        Players[p].checkpoint = possibles_checkpoint[i].Item2;
+                        ValidCheckpoint = true;
+                        break;
+                    }
+
+
+
+                }
+                CHPDistance--;
+
+
             }
 
         }
-    }
-    public void SwitchPlayerPreview(int id)
-    {
-        //Run the current player preview in the player panel
-
-        GameObject PlayerTexture = Players[id].texture;
-        SpriteRenderer spritePlayerRenderer = PlayerTexture.GetComponent<SpriteRenderer>();
-        GameObject SkillTexture = Players[id].texturePreviewSkill;
-        SpriteRenderer spriteSkillRenderer = SkillTexture.GetComponent<SpriteRenderer>();
-
-        if (spritePlayerRenderer != null)
+        for (int p = 0; p < number_players; p++)
         {
-            PlayerPreview.sprite = spritePlayerRenderer.sprite;
-            SkillPreview.sprite = spriteSkillRenderer.sprite;
+
+            Checkpoints[Players[p].checkpoint.x, Players[p].checkpoint.y] = Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
+            laberinto[Players[p].checkpoint.x, Players[p].checkpoint.y] = $"CHP_{Players[p].role}";
         }
+
     }
-
-
 
     public void Generarate()
     {
@@ -947,7 +1053,7 @@ public class Map : MonoBehaviour
                 }
                 if (laberinto[i, j] == "wall")
                 {
-                    Debug.Log("instantied");
+                    //Debug.Log("instantied");
                     Walls_Paths[i, j] = Instantiate(wallPrefab, new Vector3(i + 0.5f, j + 0.5f, 2), Quaternion.identity);
                 }
                 if (laberinto[i, j] != "wall")
@@ -980,6 +1086,96 @@ public class Map : MonoBehaviour
             mainCamera.orthographicSize = orthographic_size;
         }
     }
+
+    public void Init_Players()
+    {
+        //Takes care of the initialization of the players
+
+        for (int i = 0; i < number_players; i++)
+        {
+            string player_role = PlayerPrefs.GetString($"PlayerRole_{i}");
+            string player_name = PlayerPrefs.GetString($"PlayerName_{i}");
+
+            (int, int) seed_player = Players_Seed[i];
+            Players[i] = new Player(id_: i, seed_: seed_player, name_: player_name, distances_: BFS(seed_player.Item1, seed_player.Item2), role_: player_role);
+            Players[i].texture = Textures[player_role]["Player"];
+            Players[i].checkpoint_texture = Textures[player_role]["CHP"];
+            Players[i].texturePreviewSkill = Textures[player_role]["SkillPrev"];
+            Players[i].GenerateStistics(Players_db);
+
+
+        }
+    }
+
+    public void Init_Map()
+    {
+        //Start the maze map
+
+        Map_Fill();
+        Generarate();
+
+        Init_Players();
+
+
+        CentrarCamara();
+
+        for (int i = 0; i < number_players; i++)
+        {
+            var seed_player = Players_Seed[i];
+            int x = seed_player.Item1;
+            int y = seed_player.Item2;
+            Players[i].instance = Instantiate(Players[i].texture, new Vector3(x + 0.5f, y + 0.5f, -4), Quaternion.identity);
+            Players[i].InitPlayerFog(n);
+            Players[i].UpdatePlayerFog();
+
+
+
+
+        }
+        Add_Checkpoints();
+        GenerateTraps();
+        GenerateRewards();
+        Imprimir();
+
+
+
+    }
+
+    public void UpdateFogState(Player player)
+    {
+        //It simulates the darkness of the labyrinth, illuminating those areas already visited by the player and leaving the others dark
+
+        PlayerOnTurn.UpdatePlayerFog();
+        for (int i = 0; i < MapFog.GetLength(0); i++)
+        {
+            for (int j = 0; j < MapFog.GetLength(0); j++)
+            {
+
+                if (laberinto[i, j] == "wall") continue;
+                Walls_Paths[i, j].GetComponent<Light2D>().enabled = player.NotFog[i, j].IsOff;
+                Walls_Paths[i, j].GetComponent<Light2D>().pointLightOuterRadius = player.NotFog[i, j].Radius;
+            }
+
+        }
+    }
+    public void SwitchPlayerPreview(int id)
+    {
+        //Run the current player preview in the player panel
+
+        GameObject PlayerTexture = Players[id].texture;
+        SpriteRenderer spritePlayerRenderer = PlayerTexture.GetComponent<SpriteRenderer>();
+        GameObject SkillTexture = Players[id].texturePreviewSkill;
+        SpriteRenderer spriteSkillRenderer = SkillTexture.GetComponent<SpriteRenderer>();
+
+        if (spritePlayerRenderer != null)
+        {
+            PlayerPreview.sprite = spritePlayerRenderer.sprite;
+            SkillPreview.sprite = spriteSkillRenderer.sprite;
+        }
+    }
+
+
+
     public void Update()
     {
         PlayerMenu();
@@ -1039,7 +1235,7 @@ public class Map : MonoBehaviour
         string CeldInfo = laberinto[PlayerLabCords.x, PlayerLabCords.y];
         if (CeldInfo.Contains("Trap_"))
         {
-            Debug.Log($"Trap finded {CeldInfo}");
+            //Debug.Log($"Trap finded {CeldInfo}");
             TrapsClass.Controller(CeldInfo, PlayerOnTurn);
             DisplayPlayerPanel(PlayerOnTurn);
             ChangePlayerVision(PlayerOnTurn);
@@ -1051,7 +1247,7 @@ public class Map : MonoBehaviour
         if (CeldInfo.Contains("Reward_"))
         {
 
-            Debug.Log($"Reward finded {CeldInfo}");
+            //Debug.Log($"Reward finded {CeldInfo}");
             RewardsClass.Controller(CeldInfo, PlayerOnTurn);
             DisplayPlayerPanel(PlayerOnTurn);
             ChangePlayerVision(PlayerOnTurn);
@@ -1062,6 +1258,20 @@ public class Map : MonoBehaviour
         }
 
     }
+    public void CheckWinner()
+    {
+        //Check if any player meets the condition of winner
+        (int x, int y) PlayerLabCords = PlayerOnTurn.GetPlayerLabCord();
+        string CeldInfo = laberinto[PlayerLabCords.x, PlayerLabCords.y];
+        if ($"CHP_{PlayerOnTurn.role}" != CeldInfo)
+        {
+            return;
+        }
+        PlayerPrefs.SetInt($"Winner", PlayerOnTurn.id);
+        SceneManager.LoadScene("WinnerScene");
+
+    }
+
     public void DisplaySkillRefresh(Player player_selected)
     {
         //It is responsible for reflecting the availability of the skill in the player panel
@@ -1136,11 +1346,11 @@ public class Map : MonoBehaviour
     }
     public void SkillsInput(Player player_selected)
     {
-        //Chequea la entrada de teclado para las habilidades,se encarga de la comunicacion de la logica de las habilidades con la entrada del teclado
+        //Checks keyboard input for skills, handles communication of skill logic with keyboard input
 
         if (Input.GetMouseButtonDown(0))
         {
-            // Obtener la posición del mouse en la pantalla
+            // Get the Mouse Position on the Screen
             Vector3 mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             Vector3 fixedPosition = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -3f);
@@ -1250,20 +1460,20 @@ public class Map : MonoBehaviour
 
     public void PlayerTargetSelection(Vector3 Position, Player player_selected)
     {
-        //Se encarga de la logica de seleccion de un objetivo,al hacer click sobre un jugador enemigo se marcara como objetivo
+        //It takes care of the logic of selecting a target, clicking on an enemy player will mark them as a target.
 
         if (player_selected.role != "Iron Man" && player_selected.role != "Hawk Eye" && player_selected.role != "Hulk") return;
         int Scope = Players_db[PlayerOnTurn.role]["radius"];
         if (Scope == -1) Scope = int.MaxValue;
         (float x, float y) PlayerPosition = (PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y);
-        Debug.Log("Buscando target");
+        //Debug.Log("Buscando target");
         foreach (var player in Players)
         {
             if (player_selected.id == player.Key) continue;
             if (player.Value.GetActualPosition().x == Position.x && player.Value.GetActualPosition().y == Position.y && Math.Abs(player.Value.GetActualPosition().y - PlayerPosition.y) <= Scope && Math.Abs(player.Value.GetActualPosition().x - PlayerPosition.x) <= Scope)
             {
                 IDPlayerTarget = player.Key;
-                Debug.Log("Target " + player.Key);
+                //Debug.Log("Target " + player.Key);
                 if (PlayerOnTurn.TargetIndicatorInstance != null) Destroy(PlayerOnTurn.TargetIndicatorInstance);
                 PlayerOnTurn.TargetIndicatorInstance = Instantiate(TargetIndicatorTexture, new Vector3(Position.x, Position.y, -2), Quaternion.identity);
                 break;
@@ -1278,7 +1488,7 @@ public class Map : MonoBehaviour
     }
     public void DisplayArea()
     {
-        //Se encarga de la visualizacion de un area en pantalla,el area sera visualizada como una zona marcada en rojo
+        //It is responsible for the display of an area on the screen, the area will be displayed as an area marked in red
         int radius = Players_db[PlayerOnTurn.role]["radius"];
         if (PlayerOnTurn.AreaTarget.Count != 0) return;
         (float x, float y) CenterPosition = (PlayerOnTurn.GetActualPosition().x, PlayerOnTurn.GetActualPosition().y);
@@ -1300,7 +1510,7 @@ public class Map : MonoBehaviour
     }
     public void CleanArea()
     {
-        //Se encarga de eliminar la visualizacion de la zona de area
+        //Removes area display
         List<GameObject> AreaCelds = PlayerOnTurn.AreaTarget;
         for (int i = 0; i < AreaCelds.Count; i++)
         {
@@ -1309,124 +1519,10 @@ public class Map : MonoBehaviour
         PlayerOnTurn.AreaTarget.Clear();
     }
 
-    public List<(int x, int y)> GetPosibleMovements(Player player_selected_)
-    {
-        //Se encarga de obtener los posibles movimientos que puede realizar el jugador
-        List<(int x, int y)> possible_celds = new List<(int x, int y)>();
-        int pases = player_selected_.speed;
-        Vector3 player_actual_pos = player_selected_.GetActualPosition();
-
-        int[,] player_distances = BFS(Mathf.RoundToInt(player_actual_pos.x - 0.5f), Mathf.RoundToInt(player_actual_pos.y - 0.5f));
-        for (int i = 0; i < player_distances.GetLength(0); i++)
-        {
-            for (int j = 0; j < player_distances.GetLength(1); j++)
-            {
-                if (player_distances[i, j] <= pases && player_distances[i, j] > 0 && laberinto[i, j] != "wall")
-                {
-                    bool PlayerOnCeld = false;
-                    foreach (var player in Players)
-                    {
-                        if (player.Value.id == PlayerOnTurn.id) continue;
-                        if (player.Value.GetPlayerLabCord() == (i, j))
-                        {
-                            PlayerOnCeld = true;
-                            break;
-                        }
-
-
-                    }
-
-                    if (!PlayerOnCeld) possible_celds.Add((i, j));
-                }
-
-            }
-        }
-        return possible_celds;
-    }
-    public void DisplayPosibleMovements(Player player_selected_)
-    {
-        //Se encarga de mostrar en pantalla los posibles movimientos del jugador actual
-        if (Block_move)
-        {
-            CleanPossibleMovements(player_selected_);
-            return;
-        }
-        List<(int, int)> possible_celds = GetPosibleMovements(player_selected_);
-        for (int i = 0; i < possible_celds.Count; i++)
-        {
-            (int x, int y) cord = possible_celds[i];
-            GameObject instance_mov = Instantiate(Posible_Mov, new Vector3(cord.x + 0.5f, cord.y + 0.5f, -2), Quaternion.identity);
-            Players[player_selected_.id].posibles_movements.Add(instance_mov);
-
-        }
-        New_Turn = false;
-    }
-
-    public void CleanPossibleMovements(Player player_selected_)
-    {
-        //Se encarga de limpiar de la pantalla los posibles movimientos del jugador actual
-
-        List<GameObject> posible_movements = player_selected_.posibles_movements;
-        for (int i = 0; i < posible_movements.Count; i++)
-        {
-            Destroy(posible_movements[i]);
-        }
-        player_selected_.posibles_movements.Clear();
-    }
-    public List<(int x, int y)> GetGhostMovements()
-    {
-        //Se encarga de obtener los pisbles movimientos de Vision cuando esta en modo fantasma.O se se encarga de ver las paredes que puede atravesar
-        Player player_selected_ = PlayerOnTurn;
-        List<(int x, int y)> possible_celds = new List<(int x, int y)>();
-        Vector3 player_actual_pos = player_selected_.GetActualPosition();
-        (int x, int y)[] Movements = { (1, 0), (-1, 0), (0, -1), (0, 1) };
-        (float x, float y) GhostPos = (player_selected_.GetActualPosition().x, player_selected_.GetActualPosition().y);
-        for (int i = 0; i < Movements.Length; i++)
-        {
-            (int x, int y) FixedFinalPos = ((int)GhostPos.x + 2 * (Movements[i].x), (int)GhostPos.y + 2 * (Movements[i].y));
-            (int x, int y) FixedMiddlePos = ((int)GhostPos.x + (Movements[i].x), (int)GhostPos.y + (Movements[i].y));
-            if (FixedFinalPos.x > 0 && FixedFinalPos.y > 0 && FixedFinalPos.x < n && FixedFinalPos.y < n && laberinto[FixedMiddlePos.x, FixedMiddlePos.y] == "wall")
-            {
-                if (laberinto[FixedFinalPos.x, FixedFinalPos.y] == "wall") continue;
-                possible_celds.Add(FixedFinalPos);
-            }
-
-        }
-        return possible_celds;
-    }
-
-    public void DisplayGhostMovements()
-    {
-        //Se encarga de mostrar en pantalla los posibles movimientos de Vision
-
-        Player player_selected_ = PlayerOnTurn;
-        List<(int, int)> possible_celds = GetGhostMovements();
-        for (int i = 0; i < possible_celds.Count; i++)
-        {
-            (int x, int y) cord = possible_celds[i];
-            GameObject instance_mov = Instantiate(Posible_Mov, new Vector3(cord.x + 0.5f, cord.y + 0.5f, -2), Quaternion.identity);
-            Players[player_selected_.id].ghost_movements.Add(instance_mov);
-
-        }
-
-    }
-
-    public void CleanGhostMovements()
-    {
-        //Se encarga de eliminar de pantalla los posibles movimientos de Vision
-        Player player_selected_ = PlayerOnTurn;
-        List<GameObject> posible_movements = player_selected_.ghost_movements;
-        for (int i = 0; i < posible_movements.Count; i++)
-        {
-            Destroy(posible_movements[i]);
-        }
-        player_selected_.ghost_movements.Clear();
-    }
-
 
     public void ChangePlayerVision(Player player_selected_, float speed = 2f)
     {
-        //Se encarga de enfocar en camara al jugador en turno
+        //It is responsible for focusing on the camera on the player in turn
 
         Vector3 player_pos = player_selected_.GetActualPosition();
         player_pos.z = -10f;
@@ -1447,7 +1543,7 @@ public class Map : MonoBehaviour
     }
     IEnumerator FluidCamera(float speed = 1f)
     {
-        //Permite el desplazamiento fluido de la camara,el efecto de que la camaraa se mueva hacia el jugador
+        //Allows fluid movement of the camera, the effect of the camera moving towards the player
         OnCameraMov = true;
 
 
@@ -1470,7 +1566,7 @@ public class Map : MonoBehaviour
 
     public void DisplayPlayerPanel(Player player_selected_)
     {
-        //Se encarga de la actualizacion de los datos del panel de jugador
+        //Takes care of updating player panel data
         Title.text = $"{player_selected_.name}(P-{player_selected_.id})";
 
         Role.text = player_selected_.role;
@@ -1509,7 +1605,7 @@ public class Map : MonoBehaviour
     }
     public void CheckNextTrun()
     {
-        //Verifica si el jugador actual paso de turno
+        //Check if the current player has taken turns
         if (Input.GetKeyDown(KeyCode.N))
         {
 
@@ -1519,7 +1615,7 @@ public class Map : MonoBehaviour
     }
     public void NextTurn()
     {
-        //Se encarga de la logica de cambio de turno
+        //Handles shift change logic
         Block_move = false;
         New_Turn = true;
         total_turns++;
@@ -1532,7 +1628,7 @@ public class Map : MonoBehaviour
         CleanArea();
         if (!PlayerOnTurn.SkillsState[PlayerOnTurn.role].confirm_use && PlayerOnTurn.SkillsState[PlayerOnTurn.role].is_active)
         {
-            PlayerOnTurn.SkillTurns.Remove(PlayerOnTurn.SkillTurns.Count - 1);
+            PlayerOnTurn.SkillTurns.RemoveAt(PlayerOnTurn.SkillTurns.Count - 1);
             PlayerOnTurn.SkillsState[PlayerOnTurn.role] = (false, false, -1);
         }
 
@@ -1542,28 +1638,10 @@ public class Map : MonoBehaviour
         Checkpoints[PlayerOnTurn.checkpoint.x, PlayerOnTurn.checkpoint.y].GetComponent<ParpadeoLuz>().Active = false;
 
     }
-    public void Init_Players()
-    {
-        //Se encarga de la inicializacion de lo jugadores
 
-        for (int i = 0; i < number_players; i++)
-        {
-            string player_role = PlayerPrefs.GetString($"PlayerRole_{i}");
-            string player_name = PlayerPrefs.GetString($"PlayerName_{i}");
-
-            (int, int) seed_player = Players_Seed[i];
-            Players[i] = new Player(id_: i, seed_: seed_player, name_: player_name, distances_: BFS(seed_player.Item1, seed_player.Item2), role_: player_role);
-            Players[i].texture = Textures[player_role]["Player"];
-            Players[i].checkpoint_texture = Textures[player_role]["CHP"];
-            Players[i].texturePreviewSkill = Textures[player_role]["SkillPrev"];
-            Players[i].GenerateStistics(Players_db);
-
-
-        }
-    }
     public void Check_Move(Player player)
     {
-        //Chequea si se intento realizar un movimiento ,en caso de que el movimiento sea valido lo ejecutara
+        //Check if an attempt was made to make a move, in case the move is valid it will execute it
         Vector3 player_pos = player.instance.transform.position;
         Vector3 movement;
         if (Input.GetMouseButtonDown(0))
@@ -1573,16 +1651,17 @@ public class Map : MonoBehaviour
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             movement = new Vector3((float)Math.Floor(mousePosition.x) + 0.5f, (float)Math.Floor(mousePosition.y) + 0.5f, -3f);
 
-            Debug.Log("Clic en: " + Math.Floor(mousePosition.x) + " " + Math.Floor(mousePosition.y) + " =>" + laberinto[(int)Math.Floor(mousePosition.x), (int)Math.Floor(mousePosition.y)]);
+            //Debug.Log("Clic en: " + Math.Floor(mousePosition.x) + " " + Math.Floor(mousePosition.y) + " =>" + laberinto[(int)Math.Floor(mousePosition.x), (int)Math.Floor(mousePosition.y)]);
 
             if (Move(movement, player))
             {
 
                 Block_move = true;
                 CleanPossibleMovements(player);
+                CleanGhostMovements();
                 ChangePlayerVision(player);
                 CleanArea();
-                Debug.Log(PlayerOnTurn.GetPlayerLabCord());
+                //Debug.Log(PlayerOnTurn.GetPlayerLabCord());
 
                 return;
             }
@@ -1597,7 +1676,7 @@ public class Map : MonoBehaviour
 
     public bool Move(Vector3 target, Player player)
     {
-        //Realiza el movimiento de un jugador especifico a la posicion indicada
+        //Performs a specific player's movement to the indicated position
 
         bool finded = false;
         List<(int x, int y)> possible_movements = GetPosibleMovements(player);
@@ -1617,7 +1696,7 @@ public class Map : MonoBehaviour
 
     public bool GhostMove(Vector3 target)
     {
-        //Se encrga de realizar los movimientos de Vision cuando usa su habilidad
+        //He takes care to perform Vision's moves when he uses his ability
         Player player = PlayerOnTurn;
         if (!player.IsActiveSkill()) return false;
         if (player.role != "Vision") return false;
@@ -1641,150 +1720,121 @@ public class Map : MonoBehaviour
 
 
     }
-    public int[,] BFS(int x, int y)
+
+        public List<(int x, int y)> GetPosibleMovements(Player player_selected_)
     {
-        //Este algoritmo BFS ,recibe una posicion inicial y calcula la distancia de esa posicion hasta todas las posiciones del tablero
-        bool[,] mask = new bool[n, n];
-        int[,] Distance_matrix = new int[n, n];
-        Queue<(int, int)> queue = new Queue<(int, int)>();
-        int[] mov_horizontal = { 1, -1, 0, 0 };
-        int[] mov_vertical = { 0, 0, 1, -1 };
-        queue.Enqueue((x, y));
-        while (queue.Count > 0)
+        //It is responsible for obtaining the possible moves that the player can make
+        List<(int x, int y)> possible_celds = new List<(int x, int y)>();
+        int pases = player_selected_.speed;
+        Vector3 player_actual_pos = player_selected_.GetActualPosition();
+
+        int[,] player_distances = BFS(Mathf.RoundToInt(player_actual_pos.x - 0.5f), Mathf.RoundToInt(player_actual_pos.y - 0.5f));
+        for (int i = 0; i < player_distances.GetLength(0); i++)
         {
-            var cord = queue.Dequeue();
-            if (!mask[cord.Item1, cord.Item2])
+            for (int j = 0; j < player_distances.GetLength(1); j++)
             {
-                mask[cord.Item1, cord.Item2] = true;
-                for (int i = 0; i < mov_horizontal.Length; i++)
+                if (player_distances[i, j] <= pases && player_distances[i, j] > 0 && laberinto[i, j] != "wall")
                 {
-                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] != "wall")
+                    bool PlayerOnCeld = false;
+                    foreach (var player in Players)
                     {
-                        queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
-                        Distance_matrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] = Distance_matrix[cord.Item1, cord.Item2] + 1;
+                        if (player.Value.id == PlayerOnTurn.id) continue;
+                        if (player.Value.GetPlayerLabCord() == (i, j))
+                        {
+                            PlayerOnCeld = true;
+                            break;
+                        }
+
 
                     }
+
+                    if (!PlayerOnCeld) possible_celds.Add((i, j));
                 }
+
             }
         }
-        return Distance_matrix;
-
+        return possible_celds;
     }
-    public List<(int, int y)>[,] BFS_Whit_Route(int x, int y)
+    public void DisplayPosibleMovements(Player player_selected_)
     {
-        //Este algoritmo BFS ,recibe una posicion inicial y guarda la ruta hasata todas las casillas del tablero
-        bool[,] mask = new bool[n, n];
-        List<(int, int y)>[,] RoutesMatrix = new List<(int, int y)>[n, n];
-        Queue<(int, int)> queue = new Queue<(int, int)>();
-        int[] mov_horizontal = { 1, -1, 0, 0 };
-        int[] mov_vertical = { 0, 0, 1, -1 };
-        queue.Enqueue((x, y));
-        RoutesMatrix[x, y] = new List<(int, int y)>();
-        RoutesMatrix[x, y].Add((x, y));
-        while (queue.Count > 0)
+        //It is responsible for showing on the screen the possible movements of the current player
+        if (Block_move)
         {
-            var cord = queue.Dequeue();
-            if (!mask[cord.Item1, cord.Item2])
-            {
-                mask[cord.Item1, cord.Item2] = true;
-                for (int i = 0; i < mov_horizontal.Length; i++)
-                {
-                    if (cord.Item1 + mov_horizontal[i] >= 0 && cord.Item1 + mov_horizontal[i] < n && cord.Item2 + mov_vertical[i] >= 0 && cord.Item2 + mov_vertical[i] < n && !mask[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] && laberinto[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] != "wall")
-                    {
-                        queue.Enqueue((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
-
-                        List<(int, int y)> NewRoute = new List<(int, int y)>();
-                        foreach (var item in RoutesMatrix[cord.Item1, cord.Item2])
-                        {
-                            NewRoute.Add(item);
-                        }
-                        NewRoute.Add((cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]));
-
-                        RoutesMatrix[cord.Item1 + mov_horizontal[i], cord.Item2 + mov_vertical[i]] = NewRoute;
-
-                    }
-                }
-            }
+            CleanPossibleMovements(player_selected_);
+            return;
         }
-        return RoutesMatrix;
+        List<(int, int)> possible_celds = GetPosibleMovements(player_selected_);
+        for (int i = 0; i < possible_celds.Count; i++)
+        {
+            (int x, int y) cord = possible_celds[i];
+            GameObject instance_mov = Instantiate(Posible_Mov, new Vector3(cord.x + 0.5f, cord.y + 0.5f, -3), Quaternion.identity);
+            Players[player_selected_.id].posibles_movements.Add(instance_mov);
 
+        }
+        New_Turn = false;
     }
-    public void Add_Checkpoints()
+
+    public void CleanPossibleMovements(Player player_selected_)
     {
-        //Se encarga de la logica de los puntos de control,o sea de las casillas a la que tiene que llegar cada jugador para ganar
+        //It is responsible for cleaning the possible movements of the current player from the screen
 
-
-        (int dist, (int x, int y)) min_of_max_dist = Distances.GetMaxDistance(Players[0]);
-        int min_of_max_dist_pla = 0;
-        for (int p = 0; p < number_players; p++)
+        List<GameObject> posible_movements = player_selected_.posibles_movements;
+        for (int i = 0; i < posible_movements.Count; i++)
         {
-            (int dist, (int x, int y)) max_dist_player = Distances.GetMaxDistance(Players[p]);
-            if (max_dist_player.dist < min_of_max_dist.dist)
-            {
-                min_of_max_dist = max_dist_player;
-                min_of_max_dist_pla = p;
-            }
+            Destroy(posible_movements[i]);
         }
-        //Players[min_of_max_dist_pla].checkpoint = min_of_max_dist.Item2;
-
-        for (int p = 0; p < number_players; p++)
+        player_selected_.posibles_movements.Clear();
+    }
+    public List<(int x, int y)> GetGhostMovements()
+    {
+        //It is responsible for obtaining Vision's smooth moves when it is in ghost mode. Or it takes care to see the walls it can pass through
+        Player player_selected_ = PlayerOnTurn;
+        List<(int x, int y)> possible_celds = new List<(int x, int y)>();
+        Vector3 player_actual_pos = player_selected_.GetActualPosition();
+        (int x, int y)[] Movements = { (1, 0), (-1, 0), (0, -1), (0, 1) };
+        (float x, float y) GhostPos = (player_selected_.GetActualPosition().x, player_selected_.GetActualPosition().y);
+        for (int i = 0; i < Movements.Length; i++)
         {
-            //if (p == min_of_max_dist_pla) continue;
-
-
-            bool ValidCheckpoint = false;
-            int CHPDistance = min_of_max_dist.dist;
-            while (!ValidCheckpoint)
-            //Ejecutar hasta encontrar CHP valido
+            (int x, int y) FixedFinalPos = ((int)GhostPos.x + 2 * (Movements[i].x), (int)GhostPos.y + 2 * (Movements[i].y));
+            (int x, int y) FixedMiddlePos = ((int)GhostPos.x + (Movements[i].x), (int)GhostPos.y + (Movements[i].y));
+            if (FixedFinalPos.x > 0 && FixedFinalPos.y > 0 && FixedFinalPos.x < n && FixedFinalPos.y < n && laberinto[FixedMiddlePos.x, FixedMiddlePos.y] == "wall")
             {
-                List<(int dist, (int x, int y))> possibles_checkpoint = Distances.GetDistancesbyvalue(Players[p], CHPDistance);
-                for (int i = 0; i < possibles_checkpoint.Count; i++)
-                //Chequeando cada posible CHP
-                {
-                    bool correct = true;
-
-                    for (int pl = 0; pl < number_players; pl++)
-                    //Chequeando si el CHP está en la semilla de algún otro jugador o coincide con su CHP
-                    {
-
-                        if (possibles_checkpoint[i].Item2.x == Players[pl].seed.x && possibles_checkpoint[i].Item2.y == Players[pl].seed.y)
-                        {
-
-                            correct = false;
-                        }
-                        if (Players[pl].checkpoint.x == possibles_checkpoint[i].Item2.x && Players[pl].checkpoint.y == possibles_checkpoint[i].Item2.y)
-                        {
-
-                            correct = false;
-                        }
-
-                    }
-                    if (correct)
-                    {
-                        //Se enontro un CHP valido no coincidente ni enciam de un seed
-                        Players[p].checkpoint = possibles_checkpoint[i].Item2;
-                        ValidCheckpoint = true;
-                        break;
-                    }
-
-
-
-                }
-                CHPDistance--;
-
-
+                if (laberinto[FixedFinalPos.x, FixedFinalPos.y] == "wall") continue;
+                possible_celds.Add(FixedFinalPos);
             }
 
         }
-        for (int p = 0; p < number_players; p++)
-        {
+        return possible_celds;
+    }
 
-            Checkpoints[Players[p].checkpoint.x, Players[p].checkpoint.y] = Instantiate(Players[p].checkpoint_texture, new Vector3(Players[p].checkpoint.x + 0.5f, Players[p].checkpoint.y + 0.5f, -1), Quaternion.identity);
-            laberinto[Players[p].checkpoint.x, Players[p].checkpoint.y] = $"CHP_{Players[p].role}";
+    public void DisplayGhostMovements()
+    {
+        //It is responsible for showing Vision's possible movements on the screen
+       
+        Player player_selected_ = PlayerOnTurn;
+        if(Players[player_selected_.id].ghost_movements.Count>0)return;
+        List<(int, int)> possible_celds = GetGhostMovements();
+        for (int i = 0; i < possible_celds.Count; i++)
+        {
+            (int x, int y) cord = possible_celds[i];
+            GameObject instance_mov = Instantiate(Posible_Mov, new Vector3(cord.x + 0.5f, cord.y + 0.5f, -3), Quaternion.identity);
+            Players[player_selected_.id].ghost_movements.Add(instance_mov);
+
         }
 
     }
 
+    public void CleanGhostMovements()
+    {
+        //It is responsible for removing possible Vision movements from the screen
+        Player player_selected_ = PlayerOnTurn;
+        List<GameObject> posible_movements = player_selected_.ghost_movements;
+        for (int i = 0; i < posible_movements.Count; i++)
+        {
+            Destroy(posible_movements[i]);
+        }
+        player_selected_.ghost_movements.Clear();
+    }
 
 
 

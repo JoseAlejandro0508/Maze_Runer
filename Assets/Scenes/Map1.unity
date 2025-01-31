@@ -3160,8 +3160,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Esta trampa aplicara una penalizacion de disminucion de la vision en 2
     unidades.Su efecto es solo temporal no te asustes!!Si se cae en otra trampa del
-    mismo tipo antes de que se acabe el efecto de la primera solo se restablecera
-    el tiempo de penalizacion,no se descontara mas vision.
+    mismo tipo antes de que se acabe el efecto de la primera solo se aumentara el
+    tiempo de penalizacion,no se descontara mas vision.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12909,7 +12909,7 @@ MonoBehaviour:
   m_text: Disminuye en 3 unidades la velocidad actual  del jugador.Este efecto se
     vera reflejado en el panel del jugador y durara solo una cierta cantidad de rondas.Si
     se cae en otra del mismo tipo antes de que se acabe el efecto de la primera solo
-    restaurara el tiempo de duracion.
+    se aumentara el tiempo de duracion.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13199,7 +13199,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Incrementa en 2 unidades la vision actual durante una cierta cantidad de
-    turnos.Si coge otra recompensa como esta antes que se acabe su efecto.Se restablecera
+    turnos.Si coge otra recompensa como esta antes que se acabe su efecto.Se aumentara
     la cantidad de turnos de duracion,pero sin embargo no se incrementara en 2 unidades
     mas la vision.El estado de vision incrementada se vera reflejado en el anel del
     jugador.
@@ -23211,8 +23211,8 @@ MonoBehaviour:
   m_text: Incrementa en 3 unidades la velocidad actual  del jugador.Permitiendo superar
     la capacidad maxima de velocidad.Este efecto se vera reflejado en el panel del
     jugador y durara solo una cierta cantidad de ronda.La obtencion de otra recompensa
-    del mismo tipo antes de que se acabe el efecto de la primera solo restaurara
-    el tiempo de duracion.
+    del mismo tipo antes de que se acabe el efecto de la primera solo aumentara el
+    tiempo de duracion.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
